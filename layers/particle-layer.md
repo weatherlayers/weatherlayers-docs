@@ -2,7 +2,7 @@
 
 Vector variable rendered as animated particle simulation layer.
 
-```text
+```javascript
 import { Deck } from '@deck.gl/core';
 import { ParticleLayer } from 'deck.gl-particle';
 

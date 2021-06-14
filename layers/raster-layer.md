@@ -4,7 +4,7 @@ Variables rendered as an overlay, colored by a colormap.
 
 Scalar variables are rendered as-is. Vector variables need to be converted to their length.
 
-```text
+```javascript
 import { COORDINATE_SYSTEM, Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
 import GL from '@luma.gl/constants';

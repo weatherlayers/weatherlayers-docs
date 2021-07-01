@@ -5,7 +5,7 @@
 * [Layers](layers/README.md)
   * [Particle layer](layers/particle-layer.md)
   * [Raster layer](layers/raster-layer.md)
-* [Demo](examples.md)
+* [Demo](demo.md)
 * [Roadmap](roadmap.md)
 * [Contact](contact.md)
 

@@ -1,4 +1,4 @@
-# Examples
+# Demo
 
 * [Map](https://demo.weatherlayers.com/map.html)
 * [Map + ArcGIS](https://demo.weatherlayers.com/map-arcgis.html) WIP

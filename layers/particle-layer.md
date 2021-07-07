@@ -4,15 +4,18 @@ Vector variable rendered as animated particle simulation layer.
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ParticleLayer } from 'deck.gl-particle';
+import { ParticleLayer } from 'deck.gl-weatherlayers';
 
-const particleUrl = ...; // string
+const dataUrl = ...; // string
+const dataUrl2 = ...; // string
 
 const deckgl = new Deck({
   layers: [
     new ParticleLayer({
       id: 'particle',
-      image: particleUrl,
+      image: dataUrl,
+      image2: dataUrl2,
+      imageWeight: ..., // number
       numParticles: ..., // number
       maxAge: ..., // number
       speedFactor: ..., // number

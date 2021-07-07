@@ -8,59 +8,22 @@ Scalar variables are rendered as-is. Vector variables need to be converted to th
 import { COORDINATE_SYSTEM, Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
 import GL from '@luma.gl/constants';
+import { IMAGE_TYPE, RasterLayer } from 'deck.gl-weatherlayers';
 
-// build latest https://github.com/kylebarron/deck.gl-raster
-import { RasterLayer, linearRescale, vectorLength, colormap, maskImage } from './deck.gl-raster';
-
-const rasterUrl = ...; // string
-const colormapUrl = ...; // string
+const dataUrl = ...; // string
+const dataUrl2 = ...; // string
 const vector = ...; // boolean
+const colormapUrl = ...; // string
 
 const deckgl = new Deck({
   layers: [
     new RasterLayer({
       id: 'raster',
-      images: {
-        imageRgba: {
-          data: rasterUrl,
-          format: GL.RGB,
-          parameters: {
-            [GL.TEXTURE_MIN_FILTER]: GL.LINEAR,
-            [GL.TEXTURE_MAG_FILTER]: GL.LINEAR,
-          },
-        },
-        imageColormap: {
-          data: colormapUrl,
-          format: GL.RGBA,
-          parameters: {
-            [GL.TEXTURE_MIN_FILTER]: GL.LINEAR,
-            [GL.TEXTURE_MAG_FILTER]: GL.LINEAR,
-          },
-        },
-        imageMask: {
-          data: rasterUrl,
-          format: GL.ALPHA,
-          parameters: {
-            [GL.TEXTURE_MIN_FILTER]: GL.LINEAR,
-            [GL.TEXTURE_MAG_FILTER]: GL.LINEAR,
-          },
-        },
-      },
-      modules: [
-        rgbaImage,
-        ...(vector ? [
-          linearRescale,
-          vectorLength,
-        ] : []),
-        colormap,
-        maskImage,
-      ],
-      moduleProps: {
-        linearRescaleScaler: 2,
-        linearRescaleOffset: -1,
-        colormapScaler: 1,
-        colormapOffset: 0,
-      },
+      image: dataUrl,
+      image2: dataUrl2,
+      imageWeight: ..., // number
+      imageType: vector ? IMAGE_TYPE.VECTOR : IMAGE_TYPE.SCALAR,
+      colormapImage: colormapUrl,
       opacity: ..., // number
       bounds: [-180, -90, 180, 90],
       _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,

@@ -28,3 +28,5 @@ const deckgl = new Deck({
 });
 ```
 
+Requires [WebGL 2](https://caniuse.com/webgl2) \(Chrome, Firefox, Edge, Safari 15\)
+

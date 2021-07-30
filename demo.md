@@ -9,5 +9,5 @@
 * [Globe](https://demo.weatherlayers.com/globe.html)
 * [Globe + ArcGIS renderer](https://demo.weatherlayers.com/globe-arcgis-renderer.html) WIP
 
-Particle layer requires [WebGL 2](https://caniuse.com/webgl2) \(Chrome, Firefox, Edge, Safari 15\)
+Requires [WebGL 2](https://caniuse.com/webgl2) \(Chrome, Firefox, Edge, Safari 15\)
 

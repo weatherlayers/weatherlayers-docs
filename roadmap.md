@@ -1,9 +1,8 @@
 # Roadmap
 
-* STAC Catalog
-* additional data sources, datasets, forecasts
-* high-resolution tiled data sources
+* map library integration improvements
+* additional models, parameters, forecasts
+* high-resolution tiled models
 * contour layer - scalar variable rendered as contours \(isolines\)
 * symbol layer - vector variable rendered as symbols \(arrows, wind barbs\)
-* advanced API
 

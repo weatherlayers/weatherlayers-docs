@@ -1,21 +1,17 @@
 # Particle layer
 
-Vector variable rendered as animated particle simulation layer.
+Vector variable rendered as animated particle simulation layer
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ParticleLayer } from 'deck.gl-weatherlayers';
-
-const dataUrl = ...; // string
-const dataUrl2 = ...; // string
+import { ParticleLayer } from 'weatherlayers';
 
 const deckgl = new Deck({
   layers: [
     new ParticleLayer({
       id: 'particle',
-      image: dataUrl,
-      image2: dataUrl2,
-      imageWeight: ..., // number
+      dataset: ..., // string (STAC Collection id)
+      datetime: ..., // string (STAC Item id)
       numParticles: ..., // number
       maxAge: ..., // number
       speedFactor: ..., // number
@@ -25,6 +21,17 @@ const deckgl = new Deck({
     });
   ],
   _animate: true,
+});
+```
+
+Linear interpolation between two subsequent datetimes
+
+```javascript
+new ParticleLayer({
+  ...
+  datetime: ..., // string (STAC Item id)
+  datetime2: ..., // string (STAC Item id)
+  datetimeWeight: ..., // number
 });
 ```
 

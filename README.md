@@ -3,6 +3,7 @@
 * [Data](data.md)
 * [Layers](layers/)
   * [Raster layer](layers/raster-layer.md)
+  * [Contour layer](layers/contour-layer.md)
   * [Particle layer](layers/particle-layer.md)
 * [Controls](controls/)
   * [Legend control](controls/legend-control.md)

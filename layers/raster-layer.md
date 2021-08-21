@@ -1,6 +1,6 @@
 # Raster layer
 
-Variables rendered as an overlay, colored by a colormap
+Variable rendered as a color overlay
 
 ```javascript
 import { COORDINATE_SYSTEM, Deck } from '@deck.gl/core';

@@ -1,6 +1,6 @@
-# Contour layer
+# Hilo layer
 
-Variable rendered as contours
+Variable rendered as highs/lows
 
 ```javascript
 import { Deck } from '@deck.gl/core';

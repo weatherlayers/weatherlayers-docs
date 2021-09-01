@@ -11,7 +11,7 @@ const deckgl = new Deck({
     new ParticleLayer({
       id: 'particle',
       dataset: ..., // string (STAC Collection id)
-      datetime: ..., // string (STAC Item id)
+      datetime: ..., // string (ISO 8601 datetime)
       numParticles: ..., // number
       maxAge: ..., // number
       speedFactor: ..., // number

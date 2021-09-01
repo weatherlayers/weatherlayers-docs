@@ -11,7 +11,7 @@ const deckgl = new Deck({
     new HiloLayer({
       id: 'hilo',
       dataset: ..., // string (STAC Collection id)
-      datetime: ..., // string (STAC Item id)
+      datetime: ..., // string (ISO 8601 datetime)
       radius: ..., // number
       delta: ..., // number
       color: ..., // [number, number, number]

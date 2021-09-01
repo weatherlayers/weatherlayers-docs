@@ -11,7 +11,7 @@ const deckgl = new Deck({
     new ContourLayer({
       id: 'contour',
       dataset: ..., // string (STAC Collection id)
-      datetime: ..., // string (STAC Item id)
+      datetime: ..., // string (ISO 8601 datetime)
       delta: ..., // number
       color: ..., // [number, number, number]
       width: ..., // number

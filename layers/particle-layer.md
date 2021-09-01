@@ -24,14 +24,3 @@ const deckgl = new Deck({
 });
 ```
 
-Linear interpolation between two subsequent datetimes
-
-```javascript
-new ParticleLayer({
-  ...
-  datetime: ..., // string (STAC Item id)
-  datetime2: ..., // string (STAC Item id)
-  datetimeWeight: ..., // number
-});
-```
-

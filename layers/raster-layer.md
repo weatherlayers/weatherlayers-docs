@@ -12,6 +12,7 @@ const deckgl = new Deck({
       id: 'raster',
       dataset: ..., // string (STAC Collection id)
       datetime: ..., // string (ISO 8601 datetime)
+      datetimeInterpolate: ..., // boolean
       colormapBreaks: ..., // [number, [number, number, number]][]
       opacity: ..., // number
     }),

@@ -12,8 +12,8 @@ const deckgl = new Deck({
       id: 'hilo',
       dataset: ..., // string (STAC Collection id)
       datetime: ..., // string (ISO 8601 datetime)
+      datetimeInterpolate: ..., // boolean
       radius: ..., // number
-      delta: ..., // number
       color: ..., // [number, number, number]
       outlineColor: // [number, number, number]
       opacity: ..., // number

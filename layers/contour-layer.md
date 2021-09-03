@@ -12,6 +12,7 @@ const deckgl = new Deck({
       id: 'contour',
       dataset: ..., // string (STAC Collection id)
       datetime: ..., // string (ISO 8601 datetime)
+      datetimeInterpolate: ..., // boolean
       delta: ..., // number
       color: ..., // [number, number, number]
       width: ..., // number

@@ -8,6 +8,7 @@ import { TimelineControl } from 'weatherlayers';
 const timelineControl = new TimelineControl({
   dataset: ..., // string (STAC Collection id)
   datetime: ..., // string (ISO 8601 datetime)
+  datetimeInterpolate: ..., // boolean
   width: ..., // number
   onUpdate: event => {
     console.log(event.datetime); // string (ISO 8601 datetime)

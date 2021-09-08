@@ -6,7 +6,7 @@
 * [Map + Mapbox](https://demo.weatherlayers.com/map-mapbox.html)
 * [Map + MapLibre](https://demo.weatherlayers.com/map-maplibre.html)
 * [Map + ArcGIS](https://demo.weatherlayers.com/map-arcgis.html) \(in development\)
-* [Map + ArcGIS renderer](https://demo.weatherlayers.com/map-arcgis-renderer.html) \(in development\)
+* [Map + ArcGIS renderer](https://demo.weatherlayers.com/map-arcgis-renderer.html)
 * [Globe](https://demo.weatherlayers.com/globe.html)
 * [Globe + ArcGIS renderer](https://demo.weatherlayers.com/globe-arcgis-renderer.html) \(in development\)
 

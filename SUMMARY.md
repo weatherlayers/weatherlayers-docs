@@ -5,7 +5,7 @@
 * [Layers](layers/README.md)
   * [Raster layer](layers/raster-layer.md)
   * [Contour layer](layers/contour-layer.md)
-  * [Hilo layer](layers/hilo-layer.md)
+  * [HighLow layer](layers/high-low-layer.md)
   * [Particle layer](layers/particle-layer.md)
 * [Controls](controls/README.md)
   * [Legend control](controls/legend-control.md)

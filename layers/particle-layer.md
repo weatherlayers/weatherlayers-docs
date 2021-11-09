@@ -16,11 +16,10 @@ const deckgl = new Deck({
       numParticles: ..., // number
       maxAge: ..., // number
       speedFactor: ..., // number
-      color: ..., // [number, number, number]
+      color: ..., // [number, number, number, number?]
       width: ..., // number
       opacity: ..., // number
     });
   ],
 });
 ```
-

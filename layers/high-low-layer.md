@@ -14,11 +14,11 @@ const deckgl = new Deck({
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean
       radius: ..., // number
-      color: ..., // [number, number, number]
-      outlineColor: // [number, number, number]
+      textColor: ..., // [number, number, number, number?]
+      textOutlineColor: ..., // [number, number, number, number?]
+      textSize: ..., // number
       opacity: ..., // number
     }),
   ],
 });
 ```
-

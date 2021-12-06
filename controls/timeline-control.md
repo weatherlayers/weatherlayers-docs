@@ -6,7 +6,7 @@ Timeline control allows playing datetimes as animation with linear interpolation
 import { TimelineControl } from 'weatherlayers';
 
 const timelineControl = new TimelineControl({
-  dataset: ..., // string (STAC Collection id)
+  dataset: ..., // string (STAC Collection ID)
   datetime: ..., // string (ISO 8601 datetime)
   datetimeInterpolate: ..., // boolean
   width: ..., // number
@@ -17,4 +17,3 @@ const timelineControl = new TimelineControl({
 ```
 
 ![](../.gitbook/assets/timeline-control.png)
-

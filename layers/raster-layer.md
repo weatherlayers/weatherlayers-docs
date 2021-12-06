@@ -10,7 +10,7 @@ const deckgl = new Deck({
   layers: [
     new RasterLayer({
       id: 'raster',
-      dataset: ..., // string (STAC Collection id)
+      dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean
       colormapBreaks: ..., // [number, [number, number, number, number?]][]

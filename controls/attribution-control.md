@@ -6,9 +6,8 @@ Attribution control shows the attribution for the data producer
 import { AttributionControl } from 'weatherlayers';
 
 const attributionControl = new AttributionControl({
-  dataset: ..., // string (STAC Collection id)
+  dataset: ..., // string (STAC Collection ID)
 });
 ```
 
 ![](../.gitbook/assets/attribution-control.png)
-

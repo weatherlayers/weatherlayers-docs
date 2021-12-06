@@ -1,7 +1,15 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Data](data.md)
+* [Datasets](datasets/README.md)
+  * [GFS](datasets/gfs.md)
+  * [GFS Wave](datasets/gfs-wave.md)
+  * [CAMS](datasets/cams.md)
+  * [CMEMS SST](datasets/cmems-sst.md)
+  * [CMEMS ANOM](datasets/cmems-anom.md)
+  * [CMEMS CUR](datasets/cmems-cur.md)
+  * [C3S](datasets/c3s.md)
+* [Formats](formats.md)
 * [Layers](layers/README.md)
   * [Raster layer](layers/raster-layer.md)
   * [Contour layer](layers/contour-layer.md)
@@ -15,4 +23,3 @@
 * [Demo](demo.md)
 * [Roadmap](roadmap.md)
 * [Contact](contact.md)
-

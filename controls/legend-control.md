@@ -6,11 +6,10 @@ Legend control shows the color legend for the raster layer
 import { LegendControl } from 'weatherlayers';
 
 const legendControl = new LegendControl({
-  dataset: ..., // string (STAC Collection id)
+  dataset: ..., // string (STAC Collection ID)
   width: ..., // number
   ticksCount: ..., // number
 });
 ```
 
 ![](../.gitbook/assets/legend-control.png)
-

@@ -5,7 +5,6 @@
   * [GFS Wave](datasets/gfs-wave.md)
   * [CAMS](datasets/cams.md)
   * [CMEMS SST](datasets/cmems-sst.md)
-  * [CMEMS ANOM](datasets/cmems-anom.md)
   * [CMEMS PHY](datasets/cmems-phy.md)
 * [Formats](formats.md)
 * [Layers](layers/)

@@ -7,7 +7,6 @@
   * [CMEMS SST](datasets/cmems-sst.md)
   * [CMEMS ANOM](datasets/cmems-anom.md)
   * [CMEMS CUR](datasets/cmems-cur.md)
-  * [C3S](datasets/c3s.md)
 * [Formats](formats.md)
 * [Layers](layers/)
   * [Raster layer](layers/raster-layer.md)

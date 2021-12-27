@@ -4,7 +4,7 @@ STAC Collection ID: cmems\_cur
 
 Provider: Copernicus / CMEMS
 
-URL: [https://resources.marine.copernicus.eu/?option=com\_csw\&view=details\&product\_id=GLOBAL\_ANALYSIS\_FORECAST\_PHY\_001\_024](https://resources.marine.copernicus.eu/?option=com\_csw\&view=details\&product\_id=GLOBAL\_ANALYSIS\_FORECAST\_PHY\_001\_024)
+URL: [https://resources.marine.copernicus.eu/product-detail/GLOBAL\_ANALYSIS\_FORECAST\_PHY\_001\_024](https://resources.marine.copernicus.eu/product-detail/GLOBAL\_ANALYSIS\_FORECAST\_PHY\_001\_024)
 
 Update frequency: daily (12 UTC)
 

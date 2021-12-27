@@ -1,6 +1,6 @@
-# CMEMS CUR
+# CMEMS PHY
 
-STAC Collection ID: cmems\_cur
+STAC Collection ID: cmems\_phy
 
 Provider: Copernicus / CMEMS
 

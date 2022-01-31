@@ -1,11 +1,6 @@
 # Overview
 
-* [Datasets](datasets/)
-  * [GFS](datasets/gfs.md)
-  * [GFS Wave](datasets/gfs-wave.md)
-  * [CAMS](datasets/cams.md)
-  * [CMEMS SST](datasets/cmems-sst.md)
-  * [CMEMS PHY](datasets/cmems-phy.md)
+* [Datasets](datasets.md)
 * [Formats](formats.md)
 * [Layers](layers/)
   * [Raster layer](layers/raster-layer.md)

@@ -1,12 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Datasets](datasets/README.md)
-  * [GFS](datasets/gfs.md)
-  * [GFS Wave](datasets/gfs-wave.md)
-  * [CAMS](datasets/cams.md)
-  * [CMEMS SST](datasets/cmems-sst.md)
-  * [CMEMS PHY](datasets/cmems-phy.md)
+* [Datasets](datasets.md)
 * [Formats](formats.md)
 * [Layers](layers/README.md)
   * [Raster layer](layers/raster-layer.md)

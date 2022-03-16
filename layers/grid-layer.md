@@ -6,8 +6,8 @@ import { GridLayer } from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
-    new HighLowLayer({
-      id: 'high-low',
+    new GridLayer({
+      id: 'grid',
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean

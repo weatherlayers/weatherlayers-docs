@@ -1,10 +1,8 @@
-# HighLow layer
+# Grid layer
 
-Variable rendered as highs/lows
-
-```javascript
+```
 import { Deck } from '@deck.gl/core';
-import { HighLowLayer } from '@weatherlayers/weatherlayers-gl';
+import { GridLayer } from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
@@ -13,12 +11,14 @@ const deckgl = new Deck({
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean
-      radius: ..., // number
+      style: ..., // string (VALUE, WIND_BARB, ARROW)
       textFontFamily: ..., // string
       textSize: ..., // number
       textColor: ..., // [number, number, number, number?]
       textOutlineWodth: ..., // number
       textOutlineColor: ..., // [number, number, number, number?]
+      iconSize: ..., // number
+      iconColor: ..., // [number, number, number, number?]
       opacity: ..., // number
     }),
   ],

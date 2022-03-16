@@ -1,8 +1,6 @@
 # Roadmap
 
+* contour layer - GPU rendering to enable animated interpolation support
+* controls in standalone bundle (currently in cloud bundle only)
 * map library integration improvements
-* additional models, parameters, forecasts
 * high-resolution tiled models
-* contour layer - scalar variable rendered as contours \(isolines\)
-* symbol layer - vector variable rendered as symbols \(arrows, wind barbs\)
-

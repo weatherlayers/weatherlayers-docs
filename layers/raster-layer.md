@@ -4,7 +4,7 @@ Variable rendered as a color overlay
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { RasterLayer } from 'weatherlayers';
+import { RasterLayer } from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [

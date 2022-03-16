@@ -4,7 +4,7 @@ Variable rendered as contours
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ContourLayer } from 'weatherlayers';
+import { ContourLayer } from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
@@ -16,9 +16,11 @@ const deckgl = new Deck({
       delta: ..., // number
       color: ..., // [number, number, number, number?]
       width: ..., // number
-      textColor: ..., // [number, number, number, number?]
-      textOutlineColor: ..., // [number, number, number, number?]
+      textFontFamily: ..., // string
       textSize: ..., // number
+      textColor: ..., // [number, number, number, number?]
+      textOutlineWodth: ..., // number
+      textOutlineColor: ..., // [number, number, number, number?]
       opacity: ..., // number
     }),
   ],

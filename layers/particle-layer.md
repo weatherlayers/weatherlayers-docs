@@ -4,7 +4,7 @@ Vector variable rendered as animated particle simulation layer
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ParticleLayer } from 'weatherlayers';
+import { ParticleLayer } from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [

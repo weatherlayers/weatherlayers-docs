@@ -3,9 +3,13 @@
 Legend control shows the color legend for the raster layer
 
 ```javascript
-import { LegendControl } from 'weatherlayers';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-const legendControl = new LegendControl({
+WeatherLayers.setClientConfig({
+  accessToken: 'xxx',
+});
+
+const legendControl = new WeatherLayers.LegendControl({
   dataset: ..., // string (STAC Collection ID)
   width: ..., // number
   ticksCount: ..., // number

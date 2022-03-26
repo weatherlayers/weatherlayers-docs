@@ -1,6 +1,10 @@
 # WeatherLayers GL
 
-WeatherLayers GL is a frontend visualization library which can be integrated with common map libraries. Standalone bundle can be used with custom self-hosted data, the license is perpetual with one-time payment and optional yearly maintenance and support subscription. Cloud bundle can be used with cloud data provided by [WeatherLayers Cloud](../weatherlayers-cloud/), the license is included in the cloud subscription.
+WeatherLayers GL is a frontend visualization library which can be integrated with common map libraries.
+
+Standalone bundle can be used with custom self-hosted data, the license is perpetual with one-time payment and optional yearly maintenance and support subscription.
+
+Cloud bundle can be used with cloud data provided by [WeatherLayers Cloud](../weatherlayers-cloud/), the license is included in the cloud subscription.
 
 Requirements:
 

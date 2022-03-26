@@ -6,6 +6,10 @@ Variable rendered as highs/lows
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
+WeatherLayers.setClientConfig({
+  accessToken: 'xxx',
+});
+
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.HighLowLayer({

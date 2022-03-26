@@ -3,9 +3,13 @@
 Attribution control shows the attribution for the data producer
 
 ```javascript
-import { AttributionControl } from 'weatherlayers';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-const attributionControl = new AttributionControl({
+WeatherLayers.setClientConfig({
+  accessToken: 'xxx',
+});
+
+const attributionControl = new WeatherLayers.AttributionControl({
   dataset: ..., // string (STAC Collection ID)
 });
 ```

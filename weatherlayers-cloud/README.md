@@ -5,5 +5,5 @@ WeatherLayers Cloud is a cloud service providing pre-processed data for visualiz
 Subscription plans:
 
 * Trial (free) - Testing purpose only, may not be used in production
-* Basic (25€ / month) - Integrate with a non-commercial application
-* Pro (125€ / month) - Integrate with a commercial application
+* Basic (25 EUR / month) - Integrate with a non-commercial application
+* Pro (125 EUR / month) - Integrate with a commercial application

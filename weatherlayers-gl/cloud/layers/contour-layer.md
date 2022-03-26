@@ -4,11 +4,11 @@ Variable rendered as contours
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ContourLayer } from '@weatherlayers/weatherlayers-gl';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
-    new ContourLayer({
+    new WeatherLayers.ContourLayer({
       id: 'contour',
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)

@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
+  * [Client](weatherlayers-cloud/client.md)
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Formats](weatherlayers-cloud/formats.md)
 * [WeatherLayers GL](weatherlayers-gl/README.md)

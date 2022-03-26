@@ -2,13 +2,13 @@
 
 Variable rendered as grid of values or symbols (wind barbs, arrows)
 
-```
+```javascript
 import { Deck } from '@deck.gl/core';
-import { GridLayer } from '@weatherlayers/weatherlayers-gl';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
-    new GridLayer({
+    new WeatherLayers.GridLayer({
       id: 'grid',
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)

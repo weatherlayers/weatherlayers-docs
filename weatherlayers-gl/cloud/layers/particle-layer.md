@@ -4,11 +4,11 @@ Vector variable rendered as animated particle simulation layer
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import { ParticleLayer } from '@weatherlayers/weatherlayers-gl';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const deckgl = new Deck({
   layers: [
-    new ParticleLayer({
+    new WeatherLayers.ParticleLayer({
       id: 'particle',
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)

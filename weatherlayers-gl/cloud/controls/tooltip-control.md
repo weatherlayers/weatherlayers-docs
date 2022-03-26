@@ -11,4 +11,4 @@ const tooltipControl = new TooltipControl({
 });
 ```
 
-![](../.gitbook/assets/tooltip-control.png)
+![](../../../.gitbook/assets/tooltip-control.png)

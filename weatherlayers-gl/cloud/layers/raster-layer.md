@@ -15,7 +15,9 @@ const deckgl = new Deck({
       datetimeInterpolate: ..., // boolean
       colormapBreaks: ..., // [number, [number, number, number, number?]][]
       opacity: ..., // number
+      pickable: ..., // boolean
     }),
   ],
+  onHover: event => console.log(event.raster),
 });
 ```

@@ -16,4 +16,4 @@ const timelineControl = new TimelineControl({
 });
 ```
 
-![](../.gitbook/assets/timeline-control.png)
+![](../../../.gitbook/assets/timeline-control.png)

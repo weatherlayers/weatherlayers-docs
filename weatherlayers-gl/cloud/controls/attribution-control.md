@@ -10,4 +10,4 @@ const attributionControl = new AttributionControl({
 });
 ```
 
-![](../.gitbook/assets/attribution-control.png)
+![](../../../.gitbook/assets/attribution-control.png)

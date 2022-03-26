@@ -12,4 +12,4 @@ const legendControl = new LegendControl({
 });
 ```
 
-![](../.gitbook/assets/legend-control.png)
+![](../../../.gitbook/assets/legend-control.png)

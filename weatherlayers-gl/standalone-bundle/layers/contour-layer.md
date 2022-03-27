@@ -26,7 +26,7 @@ const deckgl = new Deck({
 
 ### Style properties
 
-#### `delta`
+#### `step`
 
 Type: number, required
 

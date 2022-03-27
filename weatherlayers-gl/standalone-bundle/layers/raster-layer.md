@@ -15,12 +15,8 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
       image: image,
-      
-      // picking is supported
-      pickable: ..., // boolean
     }),
   ],
-  onHover: event => console.log(event.raster),
 });
 ```
 

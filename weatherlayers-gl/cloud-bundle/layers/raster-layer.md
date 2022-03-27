@@ -56,4 +56,4 @@ const deckgl = new Deck({
 
 ### Picking info
 
-Picking info is the same as in the standalone bundle.
+[Picking info](../../standalone-bundle/layers/raster-layer.md) is the same as in the standalone bundle.

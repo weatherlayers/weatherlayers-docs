@@ -66,7 +66,7 @@ Type: number, optional
 
 Default: `1`
 
-The opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).
+Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).
 
 ### Picking info
 

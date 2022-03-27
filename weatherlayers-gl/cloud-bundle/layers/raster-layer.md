@@ -2,10 +2,13 @@
 
 Variable rendered as a color overlay
 
+### Example
+
 ```javascript
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
+// configure WeatherLayers Cloud client
 WeatherLayers.setClientConfig({
   accessToken: 'xxx',
 });
@@ -13,16 +16,9 @@ WeatherLayers.setClientConfig({
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
-      id: 'raster',
+      dataset: 'gfs/wind_10m_above_ground',
+      datetime: '2022-01-01T00:00:00Z',
 
-      // data properties
-      dataset: ..., // string (STAC Collection ID)
-      datetime: ..., // string (ISO 8601 datetime)
-      datetimeInterpolate: ..., // boolean
-      imageInterpolate: ..., // boolean
-
-      // style properties are the same as in the standalone bundle
-      
       // picking is supported
       pickable: ..., // boolean
     }),
@@ -30,3 +26,11 @@ const deckgl = new Deck({
   onHover: event => console.log(event.raster), // { value: number, direction?: number }
 });
 ```
+
+### Data properties
+
+[Data properties](../data.md) are common for all layers in the cloud bundle.
+
+### Style properties
+
+[Style properties](../../standalone-bundle/layers/raster-layer.md) are the same as in the standalone bundle.

@@ -2,26 +2,19 @@
 
 Variable rendered as a color overlay
 
+### Example
+
 ```javascript
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
+// load custom self-hosted data
+const image = { data: new Float32Array(...), width: ..., height: ... };
+
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
-      id: 'raster',
-      
-      // data properties
-      image: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
-      image2: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
-      imageInterpolate: ..., // boolean
-      imageWeight: ..., // number (0-1)
-      imageType: ..., // ImageType (SCALAR, VECTOR)
-      imageUnscale: ..., // [number, number] (unscale Uint8Array)
-      
-      // style properties
-      colormapBreaks: ..., // [number, [number, number, number, number?]][]
-      opacity: ..., // number
+      image: image,
       
       // picking is supported
       pickable: ..., // boolean
@@ -30,3 +23,23 @@ const deckgl = new Deck({
   onHover: event => console.log(event.raster), // { value: number, direction?: number }
 });
 ```
+
+### Data properties
+
+[Data properties](../data.md) are common for all layers in the standalone bundle.
+
+### Style properties
+
+#### `colormapBreaks`
+
+Type: array of tuples of value and color `[number, [number, number, number, number?]][]`, required
+
+Colormap breaks used to interpolate the colormap between values and colors.
+
+#### `opacity`
+
+Type: number, optional
+
+Default: `1`
+
+The opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).

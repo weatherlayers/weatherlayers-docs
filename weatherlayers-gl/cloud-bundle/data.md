@@ -43,7 +43,7 @@ Type: boolean, optional
 
 Default: `true`
 
-If on and the cloud data are missing for `datetime`, the data are interpolated using the nearest available datetimes.
+If on and the cloud data are unavailable for `datetime`, the data are interpolated using the nearest available datetimes.
 
 #### `imageInterpolate`
 

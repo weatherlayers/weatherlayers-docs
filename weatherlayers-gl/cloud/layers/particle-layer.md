@@ -17,6 +17,7 @@ const deckgl = new Deck({
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean
+      imageInterpolate: ..., // boolean
       numParticles: ..., // number
       maxAge: ..., // number
       speedFactor: ..., // number

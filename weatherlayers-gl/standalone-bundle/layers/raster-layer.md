@@ -15,6 +15,10 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
       image: image,
+      colormapBreaks: [
+        [0, [0, 0, 0]],
+        [100, [255, 255, 255]],
+      ],
     }),
   ],
 });

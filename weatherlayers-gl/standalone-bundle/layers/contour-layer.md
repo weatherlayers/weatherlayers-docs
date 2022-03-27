@@ -15,6 +15,7 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.ContourLayer({
       image: image,
+      step: 100,
     }),
   ],
 });

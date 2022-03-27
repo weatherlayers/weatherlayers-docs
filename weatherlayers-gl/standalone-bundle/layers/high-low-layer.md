@@ -15,6 +15,7 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.HighLowLayer({
       image: image,
+      radius: 1000,
     }),
   ],
 });

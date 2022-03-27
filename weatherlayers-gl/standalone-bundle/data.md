@@ -31,17 +31,17 @@ async function loadGeotiff(url) {
   const geotiff = await GeoTIFF.fromUrl(url, { allowFullFile: true });
   const geotiffImage = await geotiff.getImage(0);
 
-  const sourceData = await geotiffImage.readRasters({ interleave: true });
+  const data = await geotiffImage.readRasters({ interleave: true });
   const nodata = geotiffImage.getGDALNoData();
-  const data = nodata != undefined ?
-    new sourceData.constructor(Array.from(sourceData).map(value => value !== nodata ? value : NaN)) :
-    sourceData;
+  const maskedData = nodata != undefined ?
+    new data.constructor(Array.from(data).map(value => value !== nodata ? value : NaN)) :
+    data;
 
   const width = geotiffImage.getWidth();
   const height = geotiffImage.getHeight();
 
-  const textureData = { data, width, height };
-  return textureData;
+  const image = { data: maskedData, width, height };
+  return image;
 }
 
 // load custom self-hosted data

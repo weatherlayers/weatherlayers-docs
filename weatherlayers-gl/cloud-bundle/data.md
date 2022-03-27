@@ -35,7 +35,7 @@ See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of a
 
 Type: string (ISO 8601 datetime), required
 
-See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available datasets.
+See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available datasets and their datetimes.
 
 #### `datetimeInterpolate`
 

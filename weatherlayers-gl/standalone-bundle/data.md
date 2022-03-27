@@ -34,7 +34,7 @@ async function loadGeotiff(url) {
   const sourceData = await geotiffImage.readRasters({ interleave: true });
   const nodata = geotiffImage.getGDALNoData();
   const data = nodata != undefined ?
-    new data.constructor(Array.from(data).map(value => value !== nodata ? value : NaN)) :
+    new sourceData.constructor(Array.from(sourceData).map(value => value !== nodata ? value : NaN)) :
     sourceData;
 
   const width = geotiffImage.getWidth();

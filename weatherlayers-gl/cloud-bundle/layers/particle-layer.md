@@ -25,8 +25,8 @@ const deckgl = new Deck({
 
 ### Data properties
 
-[Data properties](../data.md) are common for all layers in the cloud bundle.
+[Data properties](../data.md#data-properties) are common for all layers in the cloud bundle.
 
 ### Style properties
 
-[Style properties](../../standalone-bundle/layers/particle-layer.md) are the same as in the standalone bundle.
+[Style properties](../../standalone-bundle/layers/raster-layer.md#style-properties) are the same as in the standalone bundle.

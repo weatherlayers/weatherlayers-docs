@@ -29,13 +29,13 @@ const deckgl = new Deck({
 
 Type: string (STAC Collection ID), required
 
-See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available datasets.
+See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available cloud data.
 
 #### `datetime`
 
 Type: string (ISO 8601 datetime), required
 
-See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available datasets and their datetimes.
+See [WeatherLayers Browser](https://browser.weatherlayers.com) for the list of available cloud data.
 
 #### `datetimeInterpolate`
 

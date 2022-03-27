@@ -10,12 +10,16 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.ContourLayer({
       id: 'contour',
+      
+      // data properties
       image: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
       image2: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
       imageInterpolate: ..., // boolean
       imageWeight: ..., // number (0-1)
       imageType: ..., // ImageType (SCALAR, VECTOR)
       imageUnscale: ..., // [number, number] (unscale Uint8Array)
+      
+      // style properties
       delta: ..., // number
       color: ..., // [number, number, number, number?]
       width: ..., // number

@@ -14,19 +14,14 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.GridLayer({
       id: 'grid',
+      
+      // data properties
       dataset: ..., // string (STAC Collection ID)
       datetime: ..., // string (ISO 8601 datetime)
       datetimeInterpolate: ..., // boolean
       imageInterpolate: ..., // boolean
-      style: ..., // GridStyle (VALUE, WIND_BARB, ARROW)
-      textFontFamily: ..., // string
-      textSize: ..., // number
-      textColor: ..., // [number, number, number, number?]
-      textOutlineWodth: ..., // number
-      textOutlineColor: ..., // [number, number, number, number?]
-      iconSize: ..., // number
-      iconColor: ..., // [number, number, number, number?]
-      opacity: ..., // number
+
+      // style properties are the same as in the standalone bundle
     }),
   ],
 });

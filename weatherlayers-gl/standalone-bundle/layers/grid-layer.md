@@ -10,12 +10,16 @@ const deckgl = new Deck({
   layers: [
     new WeatherLayers.GridLayer({
       id: 'grid',
+      
+      // data properties
       image: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
       image2: ..., // { data: Uint8Array | Float32Array, width: number, height: number }
       imageInterpolate: ..., // boolean
       imageWeight: ..., // number (0-1)
       imageType: ..., // ImageType (SCALAR, VECTOR)
       imageUnscale: ..., // [number, number] (unscale Uint8Array)
+      
+      // style properties
       style: ..., // GridStyle (VALUE, WIND_BARB, ARROW)
       textFontFamily: ..., // string
       textSize: ..., // number

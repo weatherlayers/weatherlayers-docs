@@ -28,7 +28,7 @@ Free
 
 Project license allows hosting your project from a single production domain and all corresponding subdomains.
 
-The bundle is restricted to a single domain.
+The bundle is bound to a single domain.
 
 8000 EUR one-time payment, 3000 EUR / year optional support subscription
 

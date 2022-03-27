@@ -31,7 +31,7 @@ const deckgl = new Deck({
 
 Type: number, required
 
-Radius in pixels to filter nearby values. The greater radius, the less values are detected.
+Radius in km to filter nearby values. The greater radius, the less values are detected.
 
 #### `textFunction`
 

@@ -19,7 +19,7 @@ const deckgl = new Deck({
       bounds: [-180, -90, 180, 90],
       
       // style properties
-      step: 100,
+      step: 200,
     }),
   ],
 });

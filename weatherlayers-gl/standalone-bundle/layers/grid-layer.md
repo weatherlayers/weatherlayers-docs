@@ -66,7 +66,7 @@ const deckgl = new Deck({
       
       // style properties
       style: WeatherLayers.GridStyle.WIND_BARB,
-      iconBounds: [0, 51.444], // 100 kts to m/s
+      iconBounds: [0, 100 * 0.51444], // 100 kts to m/s
     }),
   ],
 });

@@ -16,6 +16,7 @@ WeatherLayers.setClientConfig({
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
+      // data properties
       dataset: 'gfs/wind_10m_above_ground',
       datetime: '2022-01-01T00:00:00Z',
     }),
@@ -37,8 +38,10 @@ WeatherLayers.setClientConfig({
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
+      // data properties
       dataset: 'gfs/wind_10m_above_ground',
       datetime: '2022-01-01T00:00:00Z',
+
       picking: true,
     }),
   ],

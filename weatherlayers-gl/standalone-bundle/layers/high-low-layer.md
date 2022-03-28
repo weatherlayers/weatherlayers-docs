@@ -19,7 +19,7 @@ const deckgl = new Deck({
       bounds: [-180, -90, 180, 90],
       
       // style properties
-      radius: 1000,
+      radius: 1000, // km
     }),
   ],
 });

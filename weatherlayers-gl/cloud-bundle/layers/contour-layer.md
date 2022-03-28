@@ -16,8 +16,12 @@ WeatherLayers.setClientConfig({
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.ContourLayer({
+      // data properties
       dataset: 'gfs/pressure_mean_sea_level',
       datetime: '2022-01-01T00:00:00Z',
+      
+      // style properties
+      step: 200,
     }),
   ],
 });

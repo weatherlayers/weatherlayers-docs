@@ -24,7 +24,7 @@ const deckgl = new Deck({
 });
 ```
 
-### Example: picking
+### Example: Picking
 
 ```javascript
 import { Deck } from '@deck.gl/core';

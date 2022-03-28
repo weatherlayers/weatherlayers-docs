@@ -18,7 +18,6 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
-      _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,
       extensions: [new ClipExtension()],
       clipBounds: [-181, -85.051129, 181, 85.051129],
     }),
@@ -29,14 +28,6 @@ const deckgl = new Deck({
 ### Data properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
-
-#### `_imageCoordinateSystem`
-
-Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
-
-Default: `CARTESIAN`
-
-Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection. See [BitmapLayer.\_imageCoordinateSystem](https://deck.gl/docs/api-reference/layers/bitmap-layer#\_imagecoordinatesystem).
 
 #### `extensions`
 

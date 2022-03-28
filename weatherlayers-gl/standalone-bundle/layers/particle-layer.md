@@ -5,7 +5,7 @@ Vector variable rendered as animated particle simulation layer
 ### Example
 
 ```javascript
-import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
+import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
@@ -17,6 +17,7 @@ const deckgl = new Deck({
     new WeatherLayers.ParticleLayer({
       // data properties
       image: image,
+      imageType: WeatherLayers.ImageType.VECTOR,
       bounds: [-180, -90, 180, 90],
       extensions: [new ClipExtension()],
       clipBounds: [-181, -85.051129, 181, 85.051129],

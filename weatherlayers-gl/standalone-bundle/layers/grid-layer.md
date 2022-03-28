@@ -20,6 +20,48 @@ const deckgl = new Deck({
 });
 ```
 
+### Example: Arrows
+
+```javascript
+import { Deck } from '@deck.gl/core';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+
+// load custom self-hosted data
+const image = { data: new Float32Array(...), width: ..., height: ... };
+
+const deckgl = new Deck({
+  layers: [
+    new WeatherLayers.GridLayer({
+      image: image,
+      imageType: WeatherLayers.ImageType.VECTOR,
+      style: WeatherLayers.GridStyle.ARROW,
+      iconBounds: [0, 100],
+    }),
+  ],
+});
+```
+
+### Example: Wind Barbs
+
+```javascript
+import { Deck } from '@deck.gl/core';
+import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+
+// load custom self-hosted data
+const image = { data: new Float32Array(...), width: ..., height: ... };
+
+const deckgl = new Deck({
+  layers: [
+    new WeatherLayers.GridLayer({
+      image: image,
+      imageType: WeatherLayers.ImageType.VECTOR,
+      style: WeatherLayers.GridStyle.WIND_BARB,
+      iconBounds: [0, 51.444], // 100 kts to m/s
+    }),
+  ],
+});
+```
+
 ### Data properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
@@ -32,7 +74,9 @@ Type: enum `WeatherLayers.GridStyle`, values: `VALUE`, `ARROW`, `WIND_BARB`, opt
 
 Default: `VALUE`
 
-Style of the grid points, values or symbols (arrows, wind barbs).
+Style of the grid points, values or symbols.
+
+If `style` is `ARROW` or `WIND_BARB`, `imageType` must be `VECTOR`.
 
 #### `textFunction`
 
@@ -81,6 +125,14 @@ Type: color `[number, number, number, number?]`, optional
 Default: `[13, 13, 13, 255]`
 
 Color of outline around the text. See [TextLayer outlineColor](https://deck.gl/docs/api-reference/layers/text-layer#outlinecolor).
+
+#### `iconBounds`
+
+Type: tuple of lower and upper bound `[number, number]`, required if `style` is `ARROW` or `WIND_BARB`
+
+Bounds of the icon. The lower bound is usually 0, the upper bound is the largest value in the data units that matches the largest value of the icons.
+
+If `style` is `WIND_BARB`, the upper bound must match 100 kts in the data units.
 
 #### `iconSize`
 

@@ -120,4 +120,4 @@ Supported if the data type is Uint8.
 
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
 
-The original data bounding box. Suggested value is `[-180, -90, 180, 90]` for a global image.
+The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for a global image.

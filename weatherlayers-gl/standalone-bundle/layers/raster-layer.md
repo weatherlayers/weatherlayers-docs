@@ -25,7 +25,7 @@ const deckgl = new Deck({
       // style properties
       colormapBreaks: [
         [0, [0, 0, 0]],
-        [100, [255, 255, 255]],
+        [20, [255, 255, 255]],
       ],
     }),
   ],
@@ -55,7 +55,7 @@ const deckgl = new Deck({
       // style properties
       colormapBreaks: [
         [0, [0, 0, 0]],
-        [100, [255, 255, 255]],
+        [20, [255, 255, 255]],
       ],
 
       pickable: true,

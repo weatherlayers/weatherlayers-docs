@@ -19,6 +19,12 @@ const deckgl = new Deck({
       // data properties
       dataset: 'gfs/wind_10m_above_ground',
       datetime: '2022-01-01T00:00:00Z',
+      
+      // style properties
+      colormapBreaks: [
+        [0, [0, 0, 0]],
+        [20, [255, 255, 255]],
+      ],
     }),
   ],
 });
@@ -41,6 +47,12 @@ const deckgl = new Deck({
       // data properties
       dataset: 'gfs/wind_10m_above_ground',
       datetime: '2022-01-01T00:00:00Z',
+      
+      // style properties
+      colormapBreaks: [
+        [0, [0, 0, 0]],
+        [20, [255, 255, 255]],
+      ],
 
       picking: true,
     }),

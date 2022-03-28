@@ -106,6 +106,32 @@ Default: `SCALAR` (for layers that support both scalar and vector data), `VECTOR
 
 Type: tuple of lower and upper bound `[number, number]`, optional
 
-The original data bounds, used to unscale the data if the original data are scaled (quantized).
+The original data value bounds, used to unscale the data if the original data are scaled (quantized).
 
 Supported if the data type is Uint8.
+
+#### `bounds`
+
+Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
+
+The original data bounding box. Use `[-180, -90, 180, 90]` for a global image in an equirectangular projection.
+
+#### `_imageCoordinateSystem`
+
+Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
+
+Default: `CARTESIAN`
+
+Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection.
+
+#### `extensions`
+
+Type: array of extensions
+
+Use `[new ClipExtension()]` for a global image in an equirectangular projection on a Mercator basemap (2D MapView), to clip the areas of the image beyond a valid Mercator bounding box.
+
+#### `clipBounds`
+
+Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required for `ClipExtension`
+
+Use `[-181, -85.051129, 181, 85.051129]` for a global image in an equirectangular projection on a Mercator basemap (2D MapView), to clip the areas of the image beyond a valid Mercator bounding box. There is `181` instead of `180` to avoid a pixel gap at the antimeridian.

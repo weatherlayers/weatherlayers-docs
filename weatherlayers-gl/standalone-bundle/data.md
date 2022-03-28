@@ -68,7 +68,9 @@ Data length must be `width * height * bandsCount`.
 
 Supported bands count is `1` (scalar) or `2` (vector). See `imageType`.
 
-If there are multiple data bands (e.g. vector u, v), the pixel values must be interleaved (e.g. \[u1, v1, u2, v2, ...]).
+For multi-band data, the expected format is that the band values are interleaved by pixel. For example, for vector data with `u`, `v` values, the expected format is `[u1, v1, u2, v2, u3, v3, ...]`.
+
+![Band interleaved by pixel (Source: ArcGIS Documentation)](../../.gitbook/assets/band-interleaved-by-pixel.gif)
 
 #### `image2`
 

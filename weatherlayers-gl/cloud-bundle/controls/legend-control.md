@@ -16,4 +16,4 @@ const legendControl = new WeatherLayers.LegendControl({
 });
 ```
 
-![](../../../.gitbook/assets/legend-control.png)
+![](<../../../.gitbook/assets/legend-control (1).png>)

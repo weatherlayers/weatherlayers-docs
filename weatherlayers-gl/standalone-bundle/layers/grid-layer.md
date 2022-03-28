@@ -76,7 +76,7 @@ Default: `VALUE`
 
 Style of the grid points, values or symbols.
 
-If `style` is `ARROW` or `WIND_BARB`, `imageType` must be `VECTOR`.
+If `style: ARROW` or `style: WIND_BARB`, `imageType` must be `VECTOR`.
 
 #### `textFunction`
 
@@ -132,7 +132,7 @@ Type: tuple of lower and upper bound `[number, number]`, required if `style` is 
 
 Bounds of the icon. The lower bound is usually 0, the upper bound is the largest value in the data units that matches the largest value of the icons.
 
-If `style` is `WIND_BARB`, the upper bound must match 100 kts in the data units.
+If `style: WIND_BARB`, the upper bound must match 100 kts in the data units.
 
 #### `iconSize`
 

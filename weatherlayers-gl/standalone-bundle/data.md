@@ -68,7 +68,7 @@ Data length must be `width * height * bandsCount`.
 
 Supported bands count is `1` (scalar) or `2` (vector). See `imageType`.
 
-For multi-band data, the expected format is that the band values are interleaved by pixel. For example, for vector data with `u`, `v` values, the expected format is `[u1, v1, u2, v2, u3, v3, ...]`.
+For multi-band data, the expected format is that the band values are interleaved by pixel. For example, for vector data with `u`, `v` values, the expected format is `[u1, v1, u2, v2, u3, v3, ...]`. This is known as [BIP file format](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/bip-format-example.htm).
 
 ![Band interleaved by pixel (Source: ArcGIS Documentation)](../../.gitbook/assets/band-interleaved-by-pixel.gif)
 

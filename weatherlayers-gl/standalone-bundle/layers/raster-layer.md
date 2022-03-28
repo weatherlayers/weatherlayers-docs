@@ -75,7 +75,7 @@ const deckgl = new Deck({
 });
 ```
 
-### Data properties
+### Data Properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
 
@@ -99,7 +99,7 @@ Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`,
 
 Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in an equirectangular projection on a [WebMercatorViewport](https://deck.gl/docs/api-reference/core/web-mercator-viewport), to clip the areas of the image beyond a valid Mercator bounding box. There is `181` instead of `180` to avoid a pixel gap at the antimeridian. See [ClipExtension.clipBounds](https://deck.gl/docs/api-reference/extensions/clip-extension#clipbounds).
 
-### Style properties
+### Style Properties
 
 #### `colormapBreaks`
 
@@ -115,7 +115,7 @@ Default: `1`
 
 Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).
 
-### Picking info
+### Picking Info
 
 If `pickable: true`, the picking info passed to callbacks (`onHover`, `onClick`, etc.) provides information on which pixel was picked. It contains an additional `raster` field.
 

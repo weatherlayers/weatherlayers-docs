@@ -1,8 +1,10 @@
-# HighLow layer
+# HighLow Layer
 
 Variable rendered as highs/lows
 
 ### Example
+
+![HighLow Layer](../../../.gitbook/assets/high-low-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -27,10 +29,10 @@ const deckgl = new Deck({
 });
 ```
 
-### Data properties
+### Data Properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the cloud bundle.
 
-### Style properties
+### Style Properties
 
 [Style properties](../../standalone-bundle/layers/raster-layer.md#style-properties) are the same as in the standalone bundle.

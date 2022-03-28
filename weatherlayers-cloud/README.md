@@ -8,21 +8,21 @@ Access token is required to access the data. Create your access token in [Weathe
 
 Monthly subscription plans. A production subscription includes a license to [WeatherLayers GL cloud bundle](../weatherlayers-gl/cloud-bundle/) to visualize the cloud data.
 
-### Subscription plans
+### Subscriptions
 
-#### Trial
+#### Trial Subscription
 
 Testing purpose only, may not be used in production
 
 Free
 
-#### Basic
+#### Basic Subscription
 
 Integrate with a non-commercial application
 
 25 EUR / month
 
-#### Pro
+#### Pro Subscription
 
 Integrate with a commercial application
 

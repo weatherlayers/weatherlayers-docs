@@ -27,11 +27,11 @@ const deckgl = new Deck({
 });
 ```
 
-### Data properties
+### Data Properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
 
-### Style properties
+### Style Properties
 
 #### `radius`
 

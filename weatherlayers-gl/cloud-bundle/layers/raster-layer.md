@@ -4,6 +4,8 @@ Variable rendered as a color overlay
 
 ### Example
 
+![Raster Layer](../../../.gitbook/assets/raster-layer.png)
+
 ```javascript
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
@@ -69,14 +71,14 @@ const deckgl = new Deck({
 });
 ```
 
-### Data properties
+### Data Properties
 
 [Data properties](../data.md) are common for all layers in the cloud bundle.
 
-### Style properties
+### Style Properties
 
 [Style properties](../../standalone-bundle/layers/raster-layer.md) are the same as in the standalone bundle.
 
-### Picking info
+### Picking Info
 
 [Picking info](../../standalone-bundle/layers/raster-layer.md) is the same as in the standalone bundle.

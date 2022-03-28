@@ -140,7 +140,7 @@ Color of outline around the text. See [TextLayer outlineColor](https://deck.gl/d
 
 Type: tuple of lower and upper bound `[number, number]`, required if `style` is `ARROW` or `WIND_BARB`
 
-Bounds of the icon. The lower bound is usually 0, the upper bound is the largest value in the data units that matches the largest value of the icons.
+Bounds of the icon in the data units. The lower bound is usually 0, the upper bound is the largest value in the data units that matches the largest value of the icons.
 
 If `style: WIND_BARB`, the upper bound must match 100 kts in the data units.
 

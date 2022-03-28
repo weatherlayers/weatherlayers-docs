@@ -35,7 +35,7 @@ const deckgl = new Deck({
 
 Type: number, required
 
-Step between contour lines. The greater step, the less contour lines are detected.
+Step between contour lines in the data units. The greater step, the less contour lines are detected.
 
 #### `width`
 

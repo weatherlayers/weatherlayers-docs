@@ -14,7 +14,9 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.GridLayer({
+      // data properties
       image: image,
+      bounds: [-180, -90, 180, 90],
     }),
   ],
 });
@@ -32,8 +34,12 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.GridLayer({
+      // data properties
       image: image,
       imageType: WeatherLayers.ImageType.VECTOR,
+      bounds: [-180, -90, 180, 90],
+      
+      // style properties
       style: WeatherLayers.GridStyle.ARROW,
       iconBounds: [0, 100],
     }),
@@ -53,8 +59,12 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.GridLayer({
+      // data properties
       image: image,
       imageType: WeatherLayers.ImageType.VECTOR,
+      bounds: [-180, -90, 180, 90],
+      
+      // style properties
       style: WeatherLayers.GridStyle.WIND_BARB,
       iconBounds: [0, 51.444], // 100 kts to m/s
     }),

@@ -14,7 +14,11 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.ContourLayer({
+      // data properties
       image: image,
+      bounds: [-180, -90, 180, 90],
+      
+      // style properties
       step: 100,
     }),
   ],

@@ -5,7 +5,8 @@ Data properties are common for all layers in the standalone bundle.
 ### Example
 
 ```javascript
-import { Deck } from '@deck.gl/core';
+import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
+import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load custom self-hosted data
@@ -14,7 +15,9 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.XxxLayer({
+      // data properties
       image: image,
+      bounds: [-180, -90, 180, 90],
     }),
   ],
 });
@@ -23,8 +26,9 @@ const deckgl = new Deck({
 ### Example: GeoTIFF
 
 ```javascript
+import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
+import { ClipExtension } from '@deck.gl/extensions';
 import * as GeoTIFF from 'geotiff';
-import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 async function loadGeotiff(url) {
@@ -50,7 +54,9 @@ const image = await loadGeoTiff(url);
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.XxxLayer({
+      // data properties
       image: image,
+      bounds: [-180, -90, 180, 90],
     }),
   ],
 });
@@ -114,24 +120,4 @@ Supported if the data type is Uint8.
 
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
 
-The original data bounding box. Use `[-180, -90, 180, 90]` for a global image in an equirectangular projection.
-
-#### `_imageCoordinateSystem`
-
-Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
-
-Default: `CARTESIAN`
-
-Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection.
-
-#### `extensions`
-
-Type: array of extensions
-
-Use `[new ClipExtension()]` for a global image in an equirectangular projection on a Mercator basemap (2D MapView), to clip the areas of the image beyond a valid Mercator bounding box.
-
-#### `clipBounds`
-
-Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required for `ClipExtension`
-
-Use `[-181, -85.051129, 181, 85.051129]` for a global image in an equirectangular projection on a Mercator basemap (2D MapView), to clip the areas of the image beyond a valid Mercator bounding box. There is `181` instead of `180` to avoid a pixel gap at the antimeridian.
+The original data bounding box. Use `[-180, -90, 180, 90]` for a global image.

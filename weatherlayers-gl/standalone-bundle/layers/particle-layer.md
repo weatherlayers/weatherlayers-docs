@@ -5,7 +5,8 @@ Vector variable rendered as animated particle simulation layer
 ### Example
 
 ```javascript
-import { Deck } from '@deck.gl/core';
+import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
+import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load custom self-hosted data
@@ -14,7 +15,12 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.ParticleLayer({
+      // data properties
       image: image,
+      bounds: [-180, -90, 180, 90],
+      _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,
+      extensions: [new ClipExtension()],
+      clipBounds: [-181, -85.051129, 181, 85.051129],
     }),
   ],
 });
@@ -23,6 +29,26 @@ const deckgl = new Deck({
 ### Data properties
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
+
+#### `_imageCoordinateSystem`
+
+Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
+
+Default: `CARTESIAN`
+
+Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection. See [BitmapLayer.\_imageCoordinateSystem](https://deck.gl/docs/api-reference/layers/bitmap-layer#\_imagecoordinatesystem).
+
+#### `extensions`
+
+Type: array of extensions
+
+Use `[new ClipExtension()]` for a global image in an equirectangular projection on a [WebMercatorViewport](https://deck.gl/docs/api-reference/core/web-mercator-viewport), to clip the areas of the image beyond a valid Mercator bounding box. See [ClipExtension](https://deck.gl/docs/api-reference/extensions/clip-extension).
+
+#### `clipBounds`
+
+Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required for `ClipExtension`
+
+Use `[-181, -85.051129, 181, 85.051129]` for a global image in an equirectangular projection on a [WebMercatorViewport](https://deck.gl/docs/api-reference/core/web-mercator-viewport), to clip the areas of the image beyond a valid Mercator bounding box. There is `181` instead of `180` to avoid a pixel gap at the antimeridian. See [ClipExtension.clipBounds](https://deck.gl/docs/api-reference/extensions/clip-extension#clipbounds).
 
 ### Style properties
 

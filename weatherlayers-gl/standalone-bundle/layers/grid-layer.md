@@ -1,8 +1,10 @@
-# Grid layer
+# Grid Layer
 
 Variable rendered as grid of values or symbols (arrows, wind barbs)
 
 ### Example
+
+![Grid Layer](../../../.gitbook/assets/grid-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -23,6 +25,8 @@ const deckgl = new Deck({
 ```
 
 ### Example: Arrows
+
+![Grid Layer: Arrows](../../../.gitbook/assets/grid-layer-arrows.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -48,6 +52,8 @@ const deckgl = new Deck({
 ```
 
 ### Example: Wind Barbs
+
+![Grid Layer: Wind Barbs](../../../.gitbook/assets/grid-layer-wind-barbs.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';

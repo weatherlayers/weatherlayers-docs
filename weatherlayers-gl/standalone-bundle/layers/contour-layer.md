@@ -1,8 +1,10 @@
-# Contour layer
+# Contour Layer
 
 Variable rendered as contours
 
 ### Example
+
+![Contour Layer](../../../.gitbook/assets/contour-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';

@@ -1,8 +1,10 @@
-# HighLow layer
+# HighLow Layer
 
 Variable rendered as highs/lows
 
 ### Example
+
+![HighLow Layer](../../../.gitbook/assets/high-low-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';

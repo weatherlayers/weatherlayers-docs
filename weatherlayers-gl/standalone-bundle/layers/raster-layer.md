@@ -1,8 +1,10 @@
-# Raster layer
+# Raster Layer
 
 Variable rendered as a color overlay
 
 ### Example
+
+![Raster Layer](../../../.gitbook/assets/raster-layer.png)
 
 ```javascript
 import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
@@ -24,8 +26,12 @@ const deckgl = new Deck({
       
       // style properties
       colormapBreaks: [
-        [0, [0, 0, 0]],
-        [20, [255, 255, 255]],
+        [0, [255, 255, 255]],
+        [5, [127, 255, 255]],
+        [10, [127, 255, 127]],
+        [15, [255, 255, 127]],
+        [20, [255, 127, 127]],
+        [25, [127, 0, 0]],
       ],
     }),
   ],
@@ -54,8 +60,12 @@ const deckgl = new Deck({
       
       // style properties
       colormapBreaks: [
-        [0, [0, 0, 0]],
-        [20, [255, 255, 255]],
+        [0, [255, 255, 255]],
+        [5, [127, 255, 255]],
+        [10, [127, 255, 127]],
+        [15, [255, 255, 127]],
+        [20, [255, 127, 127]],
+        [25, [127, 0, 0]],
       ],
 
       pickable: true,

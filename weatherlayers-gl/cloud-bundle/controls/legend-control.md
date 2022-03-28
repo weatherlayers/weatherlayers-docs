@@ -1,10 +1,15 @@
-# Legend control
+# Legend Control
 
 Legend control shows the color legend for the raster layer
+
+### Example
+
+![Legend Control](<../../../.gitbook/assets/legend-control (1).png>)
 
 ```javascript
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
+// configure WeatherLayers Cloud client
 WeatherLayers.setClientConfig({
   accessToken: 'xxx',
 });
@@ -15,5 +20,3 @@ const legendControl = new WeatherLayers.LegendControl({
   ticksCount: ..., // number
 });
 ```
-
-![](<../../../.gitbook/assets/legend-control (1).png>)

@@ -12,9 +12,9 @@
 * [Globe](https://demo.weatherlayers.com/globe.html)
 * [Globe + ArcGIS renderer](https://demo.weatherlayers.com/globe-arcgis-renderer.html) (in development)
 
+Requires [WebGL 2](https://caniuse.com/webgl2) (Chrome, Firefox, Edge, Safari 15)
+
 ### Other
 
-* [Globe + ArcGIS](https://demo.weatherlayers.com/arcgis-globe.html) (raster only)
-* [Globe + Cesium](https://demo.weatherlayers.com/cesium-globe.html) (raster only)
-
-Requires [WebGL 2](https://caniuse.com/webgl2) (Chrome, Firefox, Edge, Safari 15)
+* [Globe + ArcGIS](https://demo.weatherlayers.com/arcgis-globe.html)
+* [Globe + Cesium](https://demo.weatherlayers.com/cesium-globe.html)

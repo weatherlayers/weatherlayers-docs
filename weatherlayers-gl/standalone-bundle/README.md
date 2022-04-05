@@ -1,4 +1,4 @@
-# Standalone bundle
+# Standalone Bundle
 
 WeatherLayers GL is a frontend visualization library which can be integrated with common map libraries.
 
@@ -8,7 +8,7 @@ Source code is provided by [support e-mail](https://weatherlayers.com) as CJS, E
 
 Requirements:
 
-* [deck.gl](https://deck.gl) >= 8.7.0
+* [deck.gl](https://deck.gl) >= 8.7.4
 
 ### Pricing
 

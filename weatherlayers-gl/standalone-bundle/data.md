@@ -92,7 +92,9 @@ Type: boolean, optional
 
 Default: `true`
 
-If on, the data are interpolated using the nearest available pixels.
+If on, the data for a particular lng/lat location are read from the four nearest available pixels using bilinear interpolation (`GL.LINEAR`).
+
+If off, the data for a particular lng/lat location are read from the nearest available pixel (`GL.NEAREST`).
 
 #### `imageWeight`
 

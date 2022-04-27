@@ -4,6 +4,10 @@ WeatherLayers Cloud is a cloud service providing pre-processed data for visualiz
 
 Access token is required to access the data. Create your access token in [WeatherLayers Account](https://account.weatherlayers.com).
 
+### Versioning
+
+WeatherLayers Cloud uses [Calendar Versioning](https://calver.org) schema `YYYY.MM.MICRO`, e.g. `2022.4.0`.
+
 ### Pricing
 
 Monthly subscription plans. A production subscription includes a license to [WeatherLayers GL cloud bundle](../weatherlayers-gl/cloud-bundle/) to visualize the cloud data.

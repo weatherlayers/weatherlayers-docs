@@ -15,8 +15,7 @@ Bug fixes:
   [https://github.com/visgl/deck.gl/pull/6804](https://github.com/visgl/deck.gl/pull/6804)
 * Fix raster layer disappearing in deck.gl auto-offset mode at zoom >= 12\
   [https://github.com/visgl/deck.gl/issues/6798](https://github.com/visgl/deck.gl/issues/6798)\
-  [https://github.com/visgl/deck.gl/pull/6801](https://github.com/visgl/deck.gl/pull/6801)\
-
+  [https://github.com/visgl/deck.gl/pull/6801](https://github.com/visgl/deck.gl/pull/6801)
 
 ### 2022.3.0
 

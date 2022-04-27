@@ -12,17 +12,17 @@ Trial license allows evaluating the library for a limited time.
 
 Free
 
-#### Perpetual Project License
+#### Project License
 
-Perpetual Project License allows hosting your project from a single production domain and all corresponding subdomains.
+Project License allows hosting your project from a single production domain and all corresponding subdomains.
 
 The bundle is bound to a single production domain.
 
 8000 EUR one-time payment, 3000 EUR / year optional support subscription
 
-#### Perpetual OEM License
+#### OEM License
 
-Perpetual OEM License allows distribution or hosting your project from unknown/changing domains or IP addresses.
+OEM License allows distribution or hosting your project from unknown/changing domains or IP addresses.
 
 The bundle is without a domain restriction.
 

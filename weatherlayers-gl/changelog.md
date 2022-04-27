@@ -5,6 +5,8 @@
 Changes:
 
 * Update deck.gl dependency to 8.7.5
+* Add standalone demos without deck.gl (experimental)\
+  Mapbox, MapLibre, Mapbox Globe, ArcGIS Globe, Cesium Globe
 
 Bug fixes:
 

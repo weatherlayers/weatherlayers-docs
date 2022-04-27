@@ -7,4 +7,4 @@ WeatherLayers GL is a frontend visualization library which can be integrated wit
 
 ### Versioning
 
-WeatherLayers GL uses [Calendar Versioning](https://calver.org) in the form of `year.short-month`, e.g. `2022.4`.
+WeatherLayers GL uses [Calendar Versioning](https://calver.org) schema `YYYY.MM.MICRO`, e.g. `2022.4.0`.

@@ -1,6 +1,6 @@
 # Changelog
 
-### 2022.4
+### 2022.4.0
 
 Bug fixes:
 
@@ -8,7 +8,7 @@ Bug fixes:
 * Fix raster layer opacity with Google Maps vector basemap, depends on deck.gl 8.7.5
 * Fix raster layer disappearing in deck.gl auto-offset mode at zoom >= 12, depends on deck.gl 8.7.4
 
-### 2022.3
+### 2022.3.0
 
 New features:
 

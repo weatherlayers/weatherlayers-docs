@@ -2,7 +2,7 @@
 
 ### 2022.4.0
 
-Breaking changes:
+Changes:
 
 * Update deck.gl dependency to 8.7.5
 

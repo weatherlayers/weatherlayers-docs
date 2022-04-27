@@ -27,6 +27,7 @@
       * [Timeline Control](weatherlayers-gl/cloud-bundle/controls/timeline-control.md)
       * [Tooltip Control](weatherlayers-gl/cloud-bundle/controls/tooltip-control.md)
       * [Attribution Control](weatherlayers-gl/cloud-bundle/controls/attribution-control.md)
+  * [Changelog](weatherlayers-gl/changelog.md)
 * [Knowledge Base](knowledge-base/README.md)
   * [Data Formats](knowledge-base/formats.md)
 * [Demo](demo.md)

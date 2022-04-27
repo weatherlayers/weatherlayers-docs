@@ -9,7 +9,3 @@ Source code is provided by [support e-mail](https://weatherlayers.com) as CJS, E
 Requirements:
 
 * [deck.gl](https://deck.gl) >= 8.7.5
-
-### Pricing
-
-See [WeatherLayers Cloud](../../weatherlayers-cloud/)

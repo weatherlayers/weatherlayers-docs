@@ -6,7 +6,7 @@ Changes:
 
 * Update deck.gl dependency to 8.7.5
 * Add standalone demos without deck.gl (experimental)\
-  Mapbox, MapLibre, Mapbox Globe, ArcGIS Globe, Cesium Globe
+  [Mapbox](https://demo.weatherlayers.com/mapbox.html), [MapLibre](https://demo.weatherlayers.com/maplibre.html), [Mapbox Globe](https://demo.weatherlayers.com/mapbox-globe.html), [ArcGIS Globe](https://demo.weatherlayers.com/arcgis-globe.html), [Cesium Globe](https://demo.weatherlayers.com/cesium-globe.html)
 
 Bug fixes:
 

@@ -4,6 +4,7 @@
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
   * [Client](weatherlayers-cloud/client.md)
   * [Datasets](weatherlayers-cloud/datasets.md)
+  * [Changelog](weatherlayers-cloud/changelog.md)
 * [WeatherLayers GL](weatherlayers-gl/README.md)
   * [Standalone Bundle](weatherlayers-gl/standalone-bundle/README.md)
     * [Data](weatherlayers-gl/standalone-bundle/data.md)

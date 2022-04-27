@@ -22,4 +22,4 @@ Bug fixes:
 
 New features:
 
-* Grid layer
+* [Grid layer](standalone-bundle/layers/grid-layer.md)

@@ -12,13 +12,13 @@ Requires [WebGL 2](https://caniuse.com/webgl2) (Chrome, Firefox, Edge, Safari 15
 
 ### Layers and Datasets
 
-| Layer             | Dataset                                                                                                                       |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| Raster            | all                                                                                                                           |
-| Contour           | gfs/pressure\_mean\_sea\_level                                                                                                |
-| HighLow           | gfs/pressure\_mean\_sea\_level                                                                                                |
-| Particle          | <p>gfs/wind_10m_above_ground</p><p>cmems_phy/currents</p>                                                                     |
-| Particle (waves)  | gfswave/waves                                                                                                                 |
-| Grid (values)     | <p>gfs/temperature_2m_above_ground</p><p>gfs/apparent_temperature_2m_above_ground</p><p>cmems_sst/sea_surface_temperature</p> |
-| Grid (arrows)     | cmems\_phy/currents                                                                                                           |
-| Grid (wind barbs) | gfs/wind\_10m\_above\_ground                                                                                                  |
+| Layer             | Dataset                                                                                                                |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Raster            | all                                                                                                                    |
+| Contour           | gfs/pressure\_mean\_sea\_level                                                                                         |
+| HighLow           | gfs/pressure\_mean\_sea\_level                                                                                         |
+| Particle          | gfs/wind\_10m\_above\_ground, cmems\_phy/currents                                                                      |
+| Particle (waves)  | gfswave/waves                                                                                                          |
+| Grid (values)     | gfs/temperature\_2m\_above\_ground, gfs/apparent\_temperature\_2m\_above\_ground, cmems\_sst/sea\_surface\_temperature |
+| Grid (arrows)     | cmems\_phy/currents                                                                                                    |
+| Grid (wind barbs) | gfs/wind\_10m\_above\_ground                                                                                           |

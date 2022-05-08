@@ -23,7 +23,7 @@ const deckgl = new Deck({
       datetime: '2022-01-01T00:00:00Z',
       
       // style properties
-      colormapBreaks: [
+      palette: [
         [0, [255, 255, 255]],
         [5, [127, 255, 255]],
         [10, [127, 255, 127]],
@@ -55,7 +55,7 @@ const deckgl = new Deck({
       datetime: '2022-01-01T00:00:00Z',
       
       // style properties
-      colormapBreaks: [
+      palette: [
         [0, [255, 255, 255]],
         [5, [127, 255, 255]],
         [10, [127, 255, 127]],

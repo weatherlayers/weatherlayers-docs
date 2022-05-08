@@ -25,7 +25,7 @@ const deckgl = new Deck({
       clipBounds: [-181, -85.051129, 181, 85.051129],
       
       // style properties
-      colormapBreaks: [
+      palette: [
         [0, [255, 255, 255]],
         [5, [127, 255, 255]],
         [10, [127, 255, 127]],
@@ -59,7 +59,7 @@ const deckgl = new Deck({
       clipBounds: [-181, -85.051129, 181, 85.051129],
       
       // style properties
-      colormapBreaks: [
+      palette: [
         [0, [255, 255, 255]],
         [5, [127, 255, 255]],
         [10, [127, 255, 127]],
@@ -101,11 +101,13 @@ Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in 
 
 ### Style Properties
 
-#### `colormapBreaks`
+#### `palette`
+
+Previous name: `colormapBreaks`
 
 Type: array of tuples of value and color `[number, [number, number, number, number?]][]`, required
 
-Colormap breaks used to interpolate the colormap between values and colors.
+Palette used to interpolate values to colors.
 
 #### `opacity`
 

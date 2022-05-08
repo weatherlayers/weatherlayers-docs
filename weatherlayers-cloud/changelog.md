@@ -5,7 +5,8 @@
 Changes:
 
 * Raster layer - Use [cpt2js](https://github.com/weatherlayers/cpt2js) to parse color palettes\
-  palette published as a separate asset with role `palette`
+  palette published as a separate asset with role `palette`\
+  ``[https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)
 
 ### 2022.2.0
 

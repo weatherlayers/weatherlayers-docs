@@ -124,11 +124,13 @@ Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/cor
 
 ~~Deprecated since 2022.5.0, use `palette` instead~~
 
-~~Type: array of tuples of value and color `[number, Color][]`, required~~
+~~Type: color palette array `[number, Color][]`, required~~
 
 ~~Palette used to interpolate values to colors.~~
 
-~~`Color` is `[number, number, number, number?]`.~~
+~~Format:~~
+
+* array - ~~`Color` is `[number, number, number, number?]`~~
 
 ### Picking Info
 

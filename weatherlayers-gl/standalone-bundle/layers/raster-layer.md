@@ -103,11 +103,11 @@ Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in 
 
 #### `palette`
 
-Previous name: `colormapBreaks`
+Type: color palette text or array `[number, Color][]`, required
 
-Type: array of tuples of value and color `[number, [number, number, number, number?]][]`, required
+Palette used to interpolate values to colors. See [cpt2js](https://github.com/weatherlayers/cpt2js) for details about the text format.
 
-Palette used to interpolate values to colors.
+`Color` is any string/array/object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma).
 
 #### `opacity`
 
@@ -116,6 +116,16 @@ Type: number, optional
 Default: `1`
 
 Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).
+
+#### ~~`colormapBreaks`~~
+
+~~Deprecated since 2022.5.0, use `palette` instead~~
+
+~~Type: array of tuples of value and color `[number, Color][]`, required~~
+
+~~Palette used to interpolate values to colors.~~
+
+~~`Color` is `[number, number, number, number?]`.~~
 
 ### Picking Info
 

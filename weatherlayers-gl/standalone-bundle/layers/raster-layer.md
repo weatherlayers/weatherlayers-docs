@@ -105,9 +105,12 @@ Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in 
 
 Type: color palette text or array `[number, Color][]`, required
 
-Palette used to interpolate values to colors. See [cpt2js](https://github.com/weatherlayers/cpt2js) for details about the text format.
+Palette used to interpolate values to colors.
 
-`Color` is any string/array/object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma).
+Formats:
+
+* text - see [cpt2js](https://github.com/weatherlayers/cpt2js) for details about the text format
+* array - `Color` is any string/array/object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
 
 #### `opacity`
 

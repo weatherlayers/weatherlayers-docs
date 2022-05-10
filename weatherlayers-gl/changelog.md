@@ -5,7 +5,7 @@
 New features:
 
 * Add support for color palette text format\
-  RasterLayer `colormapBreaks` property deprecated, use `palette` instead\
+  Deprecated raster layer `colormapBreaks` style property, use `palette` instead\
   [https://github.com/weatherlayers/cpt2js](https://github.com/weatherlayers/cpt2js)[\
   https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)\
   [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)

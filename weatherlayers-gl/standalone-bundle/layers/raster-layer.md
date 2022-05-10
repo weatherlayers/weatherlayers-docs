@@ -25,14 +25,14 @@ const deckgl = new Deck({
       clipBounds: [-181, -85.051129, 181, 85.051129],
       
       // style properties
-      palette: [
-        [0, [255, 255, 255]],
-        [5, [127, 255, 255]],
-        [10, [127, 255, 127]],
-        [15, [255, 255, 127]],
-        [20, [255, 127, 127]],
-        [25, [127, 0, 0]],
-      ],
+      palette: `
+0  255 255 255
+5  127 255 255
+10 127 255 127
+15 255 255 127
+20 255 127 127
+25 127 0   0
+      `,
     }),
   ],
 });
@@ -103,14 +103,14 @@ Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in 
 
 #### `palette`
 
-Type: color palette text or array `[number, Color][]`, required
+Type: color palette text or array, required
 
 Palette used to interpolate values to colors.
 
 Formats:
 
-* text - see [cpt2js](https://github.com/weatherlayers/cpt2js) for details about the text format
-* array - `Color` is any string/array/object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
+* text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
+* array (`[number, ColorLiteral][]`) - `ColorLiteral` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
 
 #### `opacity`
 
@@ -130,7 +130,7 @@ Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/cor
 
 ~~Format:~~
 
-* array - ~~`Color` is `[number, number, number, number?]`~~
+* ~~array - `Color` is `[number, number, number, number?]`~~
 
 ### Picking Info
 

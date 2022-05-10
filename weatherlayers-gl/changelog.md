@@ -2,11 +2,13 @@
 
 ### 2022.5.0
 
-Changes:
+New features:
 
-* Raster layer - Use [cpt2js](https://github.com/weatherlayers/cpt2js) to parse color palettes\
-  `colormapBreaks` prop renamed to `palette`\
-  ``[https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)
+* Add support for color palette text format\
+  RasterLayer `colormapBreaks` property deprecated, use `palette` instead\
+  [https://github.com/weatherlayers/cpt2js](https://github.com/weatherlayers/cpt2js)[\
+  https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)\
+  [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)
 
 ### 2022.4.0
 

@@ -9,8 +9,6 @@ New features:
   [https://github.com/weatherlayers/cpt2js](https://github.com/weatherlayers/cpt2js)[\
   https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)\
   [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)
-* Add standalone demos without deck.gl (experimental)\
-  [Mapbox Globe](https://demo.weatherlayers.com/mapbox-globe.html)
 
 ### 2022.4.0
 
@@ -18,7 +16,7 @@ Changes:
 
 * Update deck.gl dependency to 8.7.5
 * Add standalone demos without deck.gl (experimental)\
-  [Mapbox](https://demo.weatherlayers.com/mapbox.html), [MapLibre](https://demo.weatherlayers.com/maplibre.html), [ArcGIS Globe](https://demo.weatherlayers.com/arcgis-globe.html), [Cesium Globe](https://demo.weatherlayers.com/cesium-globe.html)
+  [Mapbox](https://demo.weatherlayers.com/mapbox.html), [MapLibre](https://demo.weatherlayers.com/maplibre.html), [Mapbox Globe](https://demo.weatherlayers.com/mapbox-globe.html), [ArcGIS Globe](https://demo.weatherlayers.com/arcgis-globe.html), [Cesium Globe](https://demo.weatherlayers.com/cesium-globe.html)
 
 Bug fixes:
 

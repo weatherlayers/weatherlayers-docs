@@ -33,11 +33,19 @@ const deckgl = new Deck({
 
 ### Style Properties
 
-#### `step`
+#### `interval`
 
 Type: number, required
 
-Step between contour lines in the data units. The greater step, the less contour lines are detected.
+Interval between contour lines in the data units. The greater interval, the less contour lines are rendered.
+
+#### ~~`step`~~
+
+~~Deprecated since 2022.6.0, use `interval` instead~~
+
+~~Type: number, required~~
+
+~~Step between contour lines in the data units. The greater interval, the less contour lines are rendered.~~
 
 #### `width`
 

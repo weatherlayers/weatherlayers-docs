@@ -23,7 +23,7 @@ const deckgl = new Deck({
       datetime: '2022-01-01T00:00:00Z',
       
       // style properties
-      step: 200,
+      interval: 200,
     }),
   ],
 });

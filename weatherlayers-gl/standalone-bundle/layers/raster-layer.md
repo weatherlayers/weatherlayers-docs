@@ -110,19 +110,7 @@ Palette used to interpolate values to colors.
 Formats:
 
 * text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
-* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
-
-#### ~~`colormapBreaks`~~
-
-~~Deprecated since 2022.5.0, use `palette` instead~~
-
-~~Type: color palette array `[number, Color][]`, required~~
-
-~~Palette used to interpolate values to colors.~~
-
-~~Format:~~
-
-* ~~array - `Color` is `[number, number, number, number?]`~~
+* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)~~~~
 
 #### `opacity`
 

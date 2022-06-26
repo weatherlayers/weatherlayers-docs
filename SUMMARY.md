@@ -34,6 +34,6 @@
   * [Changelog](weatherlayers-gl/changelog.md)
 * [Knowledge Base](knowledge-base/README.md)
   * [Data Formats](knowledge-base/formats.md)
-* [Demo](demo.md)
+* [Demo](https://demo.weatherlayers.com/)
 * [Roadmap](roadmap.md)
 * [Contact](contact.md)

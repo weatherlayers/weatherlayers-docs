@@ -13,4 +13,4 @@ New features:
 
 New features:
 
-* [STAC Browser](http://browser.weatherlayers.com)
+* [STAC Browser](http://browser.weatherlayers.com/)

@@ -4,7 +4,7 @@ Legend control shows the color legend for the raster layer
 
 ### Example
 
-![Legend Control](<../../../.gitbook/assets/legend-control (1).png>)
+![Legend Control](<../../../.gitbook/assets/legend-control.png>)
 
 ```javascript
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';

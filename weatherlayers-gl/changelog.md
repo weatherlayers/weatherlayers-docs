@@ -4,7 +4,8 @@
 
 New features:
 
-* [Contour layer](standalone-bundle/layers/contour-layer.md) GPU rendering, includes animation support
+* Add [Contour layer](standalone-bundle/layers/contour-layer.md) computed on GPU for animation support\
+  Replace previous Contour layer computed on CPU
 
 Bug fixes:
 
@@ -20,7 +21,7 @@ Minor changes:
 New features:
 
 * Add support for color palette text format\
-  Deprecated raster layer `colormapBreaks` style property, use `palette` instead\
+  Deprecate raster layer `colormapBreaks` style property, use `palette` instead\
   [https://github.com/weatherlayers/cpt2js](https://github.com/weatherlayers/cpt2js)[\
   https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)\
   [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)
@@ -47,4 +48,4 @@ Minor changes:
 
 New features:
 
-* [Grid layer](standalone-bundle/layers/grid-layer.md)
+* Add [Grid layer](standalone-bundle/layers/grid-layer.md)

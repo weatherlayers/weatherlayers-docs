@@ -45,7 +45,9 @@ Type: `number`, optional
 
 Default: `1`
 
-Width of the line. See [LineLayer getWidth](https://deck.gl/docs/api-reference/layers/line-layer#getwidth).
+Width of the major contour line (every fifth contour). See [LineLayer getWidth](https://deck.gl/docs/api-reference/layers/line-layer#getwidth).
+
+Minor contour lines are rendered with half width.
 
 #### `color`
 
@@ -53,7 +55,9 @@ Type: color `[number, number, number, number?]`, optional
 
 Default: `[255, 255, 255, 51]`
 
-Color of the line. See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
+Color of the major contour line (every fifth contour). See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
+
+Minor contour lines are rendered with half alpha channel.
 
 #### `opacity`
 

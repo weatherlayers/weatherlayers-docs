@@ -12,6 +12,7 @@ Bug fixes:
 
 Minor changes:
 
+* Remove deprecated raster layer `colormapBreaks` style property, use `palette` instead
 * [Demo](https://demo.weatherlayers.com/) - separate overlaid and interleaved demos
 
 ### 2022.5.0

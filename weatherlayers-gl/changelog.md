@@ -9,7 +9,7 @@ New features:
 
 Bug fixes:
 
-* Fix half-pixel misalignment between GPU and CPU image interpolation
+* Fix half-pixel data rendering misalignment
 
 Minor changes:
 

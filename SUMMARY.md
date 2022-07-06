@@ -33,6 +33,7 @@
     * [Pricing](weatherlayers-gl/cloud-bundle/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
 * [Knowledge Base](knowledge-base/README.md)
+  * [Data Types](knowledge-base/data-types.md)
   * [Data Formats](knowledge-base/formats.md)
 * [Demo](https://demo.weatherlayers.com/)
 * [Roadmap](roadmap.md)

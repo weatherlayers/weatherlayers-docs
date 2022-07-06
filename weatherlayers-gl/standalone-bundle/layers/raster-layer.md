@@ -124,6 +124,8 @@ Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/cor
 
 If `pickable: true`, the picking info passed to callbacks (`onHover`, `onClick`, etc.) provides information on which pixel was picked. It contains an additional `raster` field.
 
+Float32 data are recommended for the best precision.
+
 See [BitmapLayer Pixel Picking](https://deck.gl/docs/api-reference/layers/bitmap-layer#pixel-picking).
 
 #### `value`

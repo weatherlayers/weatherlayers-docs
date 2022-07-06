@@ -31,6 +31,8 @@ const deckgl = new Deck({
 
 [Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
 
+Float32 data are recommended for the best precision.
+
 ### Style Properties
 
 #### `interval`

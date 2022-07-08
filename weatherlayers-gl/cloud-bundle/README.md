@@ -8,4 +8,4 @@ Source code is provided by [support e-mail](https://weatherlayers.com/) as CJS, 
 
 Requirements:
 
-* [deck.gl](https://deck.gl) >= 8.7.5
+* [deck.gl](https://deck.gl) >= 8.8.2

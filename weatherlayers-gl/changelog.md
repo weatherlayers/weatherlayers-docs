@@ -1,5 +1,11 @@
 # Changelog
 
+### 2022.7.0 (upcoming)
+
+Minor changes:
+
+* Update deck.gl dependency to 8.8.4
+
 ### 2022.6.0
 
 New features:

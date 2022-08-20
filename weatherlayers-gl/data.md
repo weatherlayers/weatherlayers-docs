@@ -124,14 +124,6 @@ Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`,
 
 The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for a global image.
 
-#### `_imageCoordinateSystem`
-
-Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
-
-Default: `CARTESIAN`
-
-Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection. See [BitmapLayer.\_imageCoordinateSystem](https://deck.gl/docs/api-reference/layers/bitmap-layer#\_imagecoordinatesystem).
-
 #### `extensions`
 
 Type: array of extensions

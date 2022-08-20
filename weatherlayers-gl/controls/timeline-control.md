@@ -10,12 +10,12 @@ Timeline control allows playing datetimes as animation with linear interpolation
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const timelineControl = new WeatherLayers.TimelineControl({
-  dataset: ..., // string (STAC Collection ID)
-  datetime: ..., // string (ISO 8601 datetime)
-  datetimeInterpolate: ..., // boolean
   width: ..., // number
-  onUpdate: event => {
-    console.log(event.datetime); // string (ISO 8601 datetime)
-  },
+  datetimes: ..., // string[] (ISO 8601 datetime)
+  datetimeInterpolate: ..., // boolean
+  datetime: ..., // string (ISO 8601 datetime)
+  onStart: ..., // () => Promise<void>
+  onStop: ..., // () => void
+  onUpdate: ..., // ({datetime: string}) => void
 });
 ```

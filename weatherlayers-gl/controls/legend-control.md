@@ -10,8 +10,10 @@ Legend control shows the color legend for the raster layer
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const legendControl = new WeatherLayers.LegendControl({
-  dataset: ..., // string (STAC Collection ID)
   width: ..., // number
   ticksCount: ..., // number
+  title: ..., // string
+  unit: ..., // Unit
+  palette: ..., // Palette
 });
 ```

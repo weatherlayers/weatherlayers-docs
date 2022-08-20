@@ -10,6 +10,6 @@ Attribution control shows the attribution for the data producer
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const attributionControl = new WeatherLayers.AttributionControl({
-  dataset: ..., // string (STAC Collection ID)
+  attribution: ..., // string
 });
 ```

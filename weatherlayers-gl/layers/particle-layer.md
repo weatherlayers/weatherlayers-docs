@@ -32,7 +32,7 @@ See [Data properties](../data.md#data-properties) common for all layers.
 
 ### Style Properties
 
-See [Style properties](../style-properties.md) common for all layers.
+See [Style properties](style-properties.md) common for all layers.
 
 #### numParticles
 

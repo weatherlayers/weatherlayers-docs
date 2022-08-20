@@ -38,7 +38,7 @@ Float32 data are recommended for the best precision.
 
 ### Style Properties
 
-See [Style properties](../style-properties.md) common for all layers.
+See [Style properties](style-properties.md) common for all layers.
 
 #### `interval`
 

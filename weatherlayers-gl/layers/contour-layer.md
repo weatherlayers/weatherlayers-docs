@@ -21,10 +21,10 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
-      extensions: [new ClipExtension()],
-      clipBounds: [-181, -85.051129, 181, 85.051129],
       // style properties
       interval: 200,
+      extensions: [new ClipExtension()],
+      clipBounds: [-181, -85.051129, 181, 85.051129],
     }),
   ],
 });

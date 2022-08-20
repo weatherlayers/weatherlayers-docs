@@ -21,8 +21,6 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
-      extensions: [new ClipExtension()],
-      clipBounds: [-181, -85.051129, 181, 85.051129],
       // style properties
       palette: [
         [0, [255, 255, 255],
@@ -32,6 +30,8 @@ const deckgl = new Deck({
         [20, [255, 127, 127],
         [25, [127, 0, 0],
       ],
+      extensions: [new ClipExtension()],
+      clipBounds: [-181, -85.051129, 181, 85.051129],
     }),
   ],
 });

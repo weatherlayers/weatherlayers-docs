@@ -2,7 +2,9 @@
 
 * [Overview](README.md)
 * [WeatherLayers GL](weatherlayers-gl/README.md)
-  * [Data](weatherlayers-gl/data.md)
+  * [Data loading](weatherlayers-gl/data.md)
+  * [Data properties](weatherlayers-gl/data-properties.md)
+  * [Style](weatherlayers-gl/style.md)
   * [Layers](weatherlayers-gl/layers/README.md)
     * [Raster Layer](weatherlayers-gl/layers/raster-layer.md)
     * [Contour Layer](weatherlayers-gl/layers/contour-layer.md)

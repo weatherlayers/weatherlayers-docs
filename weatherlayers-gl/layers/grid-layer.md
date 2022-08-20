@@ -81,7 +81,7 @@ const deckgl = new Deck({
 
 ### Data Properties
 
-[Data properties](../data.md#data-properties) are common for all layers in the standalone bundle.
+See [Data properties](../data.md#data-properties) common for all layers.
 
 ### Style Properties
 

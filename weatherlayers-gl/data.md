@@ -1,6 +1,6 @@
 # Data
 
-Data properties are common for all layers in the standalone bundle.
+Data properties are common for all layers.
 
 ### Example
 

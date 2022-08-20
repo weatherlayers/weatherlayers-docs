@@ -123,3 +123,23 @@ Supported if the data type is Uint8.
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
 
 The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for a global image.
+
+#### `_imageCoordinateSystem`
+
+Type: enum `COORDINATE_SYSTEM`, values: `CARTESIAN`, `LNGLAT`, optional
+
+Default: `CARTESIAN`
+
+Use `COORDINATE_SYSTEM.LNGLAT` for an image in an equirectangular projection. See [BitmapLayer.\_imageCoordinateSystem](https://deck.gl/docs/api-reference/layers/bitmap-layer#\_imagecoordinatesystem).
+
+#### `extensions`
+
+Type: array of extensions
+
+Use `[new ClipExtension()]` for a global image in an equirectangular projection on a [WebMercatorViewport](https://deck.gl/docs/api-reference/core/web-mercator-viewport), to clip the areas of the image beyond a valid Mercator bounding box. See [ClipExtension](https://deck.gl/docs/api-reference/extensions/clip-extension).
+
+#### `clipBounds`
+
+Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required for `ClipExtension`
+
+Recommended value is `[-181, -85.051129, 181, 85.051129]` for a global image in an equirectangular projection on a [WebMercatorViewport](https://deck.gl/docs/api-reference/core/web-mercator-viewport), to clip the areas of the image beyond a valid Mercator bounding box. There is `181` instead of `180` to avoid a pixel gap at the antimeridian. See [ClipExtension.clipBounds](https://deck.gl/docs/api-reference/extensions/clip-extension#clipbounds).

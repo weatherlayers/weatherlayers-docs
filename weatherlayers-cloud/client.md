@@ -3,10 +3,10 @@
 Configure the client with your access token created in [WeatherLayers Account](https://account.weatherlayers.com/).
 
 ```javascript
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import * as WeatherLayersCloud from '@weatherlayers/weatherlayers-cloud';
 
 // configure WeatherLayers Cloud client
-WeatherLayers.setClientConfig({
+WeatherLayersCloud.setClientConfig({
   accessToken: 'xxx',
 });
 ```

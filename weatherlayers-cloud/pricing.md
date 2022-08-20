@@ -1,6 +1,6 @@
 # Pricing
 
-Monthly subscription plans. A production subscription includes a license to [WeatherLayers GL Cloud Bundle](../weatherlayers-gl/cloud-bundle/) to visualize the cloud data.
+Monthly subscription plans.
 
 ### Subscriptions
 

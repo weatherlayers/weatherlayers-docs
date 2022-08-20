@@ -10,7 +10,7 @@ Minor changes:
 
 New features:
 
-* Add [Contour layer](standalone-bundle/layers/contour-layer.md) computed on GPU for animation support\
+* Add [Contour layer](layers/contour-layer.md) computed on GPU for animation support\
   Replace previous Contour layer computed on CPU
 
 Bug fixes:
@@ -55,4 +55,4 @@ Minor changes:
 
 New features:
 
-* Add [Grid layer](standalone-bundle/layers/grid-layer.md)
+* Add [Grid layer](layers/grid-layer.md)

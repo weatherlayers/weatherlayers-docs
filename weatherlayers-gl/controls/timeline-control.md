@@ -4,15 +4,10 @@ Timeline control allows playing datetimes as animation with linear interpolation
 
 ### Example
 
-![Timeline Control](../../../.gitbook/assets/timeline-control.png)
+![Timeline Control](../../.gitbook/assets/timeline-control.png)
 
 ```javascript
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
-
-// configure WeatherLayers Cloud client
-WeatherLayers.setClientConfig({
-  accessToken: 'xxx',
-});
 
 const timelineControl = new WeatherLayers.TimelineControl({
   dataset: ..., // string (STAC Collection ID)

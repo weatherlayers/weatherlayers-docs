@@ -26,4 +26,4 @@ OEM License allows distribution or hosting your project from unknown/changing do
 
 The bundle is without a domain restriction.
 
-[Contact us](https://weatherlayers.com/)
+[Contact sales](https://weatherlayers.com/)

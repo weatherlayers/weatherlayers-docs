@@ -4,7 +4,7 @@ Variable rendered as highs/lows
 
 ### Example
 
-![HighLow Layer](../../../.gitbook/assets/high-low-layer.png)
+![HighLow Layer](../../.gitbook/assets/high-low-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -19,7 +19,6 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
-      
       // style properties
       radius: 1000, // km
     }),

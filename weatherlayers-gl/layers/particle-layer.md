@@ -4,7 +4,7 @@ Vector variable rendered as animated particle simulation layer
 
 ### Example
 
-![Particle Layer](../../../.gitbook/assets/particle-layer.png)
+![Particle Layer](../../.gitbook/assets/particle-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';

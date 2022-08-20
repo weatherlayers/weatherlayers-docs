@@ -4,7 +4,7 @@ Variable rendered as contours
 
 ### Example
 
-![Contour Layer](../../../.gitbook/assets/contour-layer.png)
+![Contour Layer](../../.gitbook/assets/contour-layer.png)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -19,7 +19,9 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
-      
+      _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,
+      extensions: [new ClipExtension()],
+      clipBounds: [-181, -85.051129, 181, 85.051129],
       // style properties
       interval: 200,
     }),

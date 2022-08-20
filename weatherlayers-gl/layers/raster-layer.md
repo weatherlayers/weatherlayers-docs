@@ -4,7 +4,7 @@ Variable rendered as a color overlay
 
 ### Example
 
-![Raster Layer](../../../.gitbook/assets/raster-layer.png)
+![Raster Layer](../../.gitbook/assets/raster-layer.png)
 
 ```javascript
 import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
@@ -23,7 +23,6 @@ const deckgl = new Deck({
       _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,
       extensions: [new ClipExtension()],
       clipBounds: [-181, -85.051129, 181, 85.051129],
-      
       // style properties
       palette: [
         [0, [255, 255, 255],
@@ -57,7 +56,6 @@ const deckgl = new Deck({
       _imageCoordinateSystem: COORDINATE_SYSTEM.LNGLAT,
       extensions: [new ClipExtension()],
       clipBounds: [-181, -85.051129, 181, 85.051129],
-      
       // style properties
       palette: [
         [0, [255, 255, 255],
@@ -67,7 +65,6 @@ const deckgl = new Deck({
         [20, [255, 127, 127],
         [25, [127, 0, 0],
       ],
-
       pickable: true,
     }),
   ],

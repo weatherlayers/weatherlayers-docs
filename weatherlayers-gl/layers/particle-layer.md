@@ -19,7 +19,6 @@ const deckgl = new Deck({
       id: 'particle',
       // data properties
       image: image,
-      imageType: WeatherLayers.ImageType.VECTOR,
       bounds: [-180, -90, 180, 90],
     }),
   ],

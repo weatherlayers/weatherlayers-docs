@@ -17,6 +17,7 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.ParticleLayer({
+      id: 'particle',
       // data properties
       image: image,
       imageType: WeatherLayers.ImageType.VECTOR,

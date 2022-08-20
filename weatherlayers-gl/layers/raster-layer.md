@@ -17,6 +17,7 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.RasterLayer({
+      id: 'raster',
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],

@@ -7,7 +7,8 @@ Variable rendered as contours
 ![Contour Layer](../../.gitbook/assets/contour-layer.png)
 
 ```javascript
-import { Deck } from '@deck.gl/core';
+import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
+import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load custom self-hosted data
@@ -16,6 +17,7 @@ const image = { data: new Float32Array(...), width: ..., height: ... };
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.ContourLayer({
+      id: 'contour',
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],

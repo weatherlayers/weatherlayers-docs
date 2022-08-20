@@ -1,6 +1,10 @@
 # Changelog
 
-### 2022.7.0 (upcoming)
+### 2022.8.0 (upcoming)
+
+New features:
+
+* [Controls](controls/)
 
 Minor changes:
 

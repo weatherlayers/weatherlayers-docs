@@ -10,7 +10,7 @@ Variable rendered as grid of values or symbols (arrows, wind barbs)
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load data
+// load custom self-hosted data
 const image = { data: new Float32Array(...), width: ..., height: ... };
 
 const deckgl = new Deck({

@@ -11,7 +11,7 @@ import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load data
+// load custom self-hosted data
 const image = { data: new Float32Array(...), width: ..., height: ... };
 
 const deckgl = new Deck({

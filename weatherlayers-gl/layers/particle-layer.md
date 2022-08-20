@@ -10,7 +10,7 @@ Vector variable rendered as animated particle simulation layer
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load data
+// load custom self-hosted data
 const image = { data: new Float32Array(...), width: ..., height: ... };
 
 const deckgl = new Deck({
@@ -19,6 +19,7 @@ const deckgl = new Deck({
       id: 'particle',
       // data properties
       image: image,
+      imageType: WeatherLayers.ImageType.VECTOR,
       bounds: [-180, -90, 180, 90],
     }),
   ],

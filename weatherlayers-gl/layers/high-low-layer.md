@@ -33,6 +33,8 @@ See [Data properties](../data.md#data-properties) common for all layers.
 
 ### Style Properties
 
+See [Style properties](../style-properties.md) common for all layers.
+
 #### `radius`
 
 Type: number, required
@@ -86,11 +88,3 @@ Type: color `[number, number, number, number?]`, optional
 Default: `[13, 13, 13, 255]`
 
 Color of outline around the text. See [TextLayer outlineColor](https://deck.gl/docs/api-reference/layers/text-layer#outlinecolor).
-
-#### `opacity`
-
-Type: number, optional
-
-Default: `1`
-
-Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).

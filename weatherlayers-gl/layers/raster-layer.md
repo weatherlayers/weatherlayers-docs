@@ -77,6 +77,8 @@ See [Data properties](../data.md#data-properties) common for all layers.
 
 ### Style Properties
 
+See [Style properties](../style-properties.md) common for all layers.
+
 #### `palette`
 
 Type: color palette text or array, required
@@ -87,14 +89,6 @@ Formats:
 
 * text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
 * array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)~~~~
-
-#### `opacity`
-
-Type: number, optional
-
-Default: `1`
-
-Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).
 
 ### Picking Info
 

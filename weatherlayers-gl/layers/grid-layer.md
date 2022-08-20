@@ -85,6 +85,8 @@ See [Data properties](../data.md#data-properties) common for all layers.
 
 ### Style Properties
 
+See [Style properties](../style-properties.md) common for all layers.
+
 #### `style`
 
 Type: enum `WeatherLayers.GridStyle`, values: `VALUE`, `ARROW`, `WIND_BARB`, optional
@@ -166,11 +168,3 @@ Type: color `[number, number, number, number?]`, optional
 Default: `[255, 255, 255, 102]`
 
 Color of the icon. See [IconLayer getColor](https://deck.gl/docs/api-reference/layers/icon-layer#getcolor).
-
-#### `opacity`
-
-Type: number, optional
-
-Default: `1`
-
-Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).

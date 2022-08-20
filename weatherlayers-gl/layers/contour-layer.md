@@ -38,6 +38,8 @@ Float32 data are recommended for the best precision.
 
 ### Style Properties
 
+See [Style properties](../style-properties.md) common for all layers.
+
 #### `interval`
 
 Type: number, required
@@ -63,11 +65,3 @@ Default: `[255, 255, 255, 51]`
 Color of the major contour line (every fifth contour). See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
 
 Minor contour lines are rendered with half alpha channel.
-
-#### `opacity`
-
-Type: number, optional
-
-Default: `1`
-
-Opacity of the layer. See [Layer opacity](https://deck.gl/docs/api-reference/core/layer#opacity).

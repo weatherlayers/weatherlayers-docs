@@ -31,7 +31,7 @@ const timelineControl = new WeatherLayers.TimelineControl({
 
 Type: number, optional
 
-Default: 280
+Default: 300
 
 Width of the control.
 

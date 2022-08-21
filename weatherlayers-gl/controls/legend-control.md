@@ -31,7 +31,7 @@ const legendControl = new WeatherLayers.LegendControl({
 
 Type: number, optional
 
-Default: 280
+Default: 300
 
 Width of the control.
 

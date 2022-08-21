@@ -16,10 +16,10 @@ const timelineControl = new WeatherLayers.TimelineControl({
     '2021-09-01T22:00:00Z',
   ],
   datetime: '2021-09-01T21:00:00Z',
-  onStart: async () => {
-    // preload available data
+  onPreload: datetimes => {
+    // preload requested data
   },,
-  onUpdate: ({datetime}) => {
+  onUpdate: datetime => {
     // update displayed data
   },
 });
@@ -57,7 +57,7 @@ Current datetime selected in the timeline.
 
 Type: `(datetimes: string[]) => Promise<void>`, optional
 
-Preload callback, use for preloading available data.
+Preload callback, use for preloading requested data.
 
 #### `onUpdate`
 

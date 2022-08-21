@@ -59,14 +59,14 @@ Type: `() => Promise<void>`, optional
 
 Playback start callback, use for preloading available data.
 
-#### `onUpdate`
-
-Type: `({datetime: string}) => void`, optional
-
-Update callback, use for updating displayed data.
-
 #### `onStop`
 
 Type: `() => void`, optional
 
 Playback stop callback
+
+#### `onUpdate`
+
+Type: `({datetime: string}) => void`, optional
+
+Update callback, use for updating displayed data.

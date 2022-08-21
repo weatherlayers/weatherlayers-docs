@@ -31,7 +31,7 @@ const timelineControl = new WeatherLayers.TimelineControl({
 
 Type: number, optional
 
-Default: 250
+Default: 280
 
 Width of the control.
 
@@ -53,20 +53,14 @@ Type: string (ISO 8601 datetime), required
 
 Current datetime selected in the timeline.
 
-#### `onStart`
+#### `onPreload`
 
-Type: `() => Promise<void>`, optional
+Type: `(datetimes: string[]) => Promise<void>`, optional
 
-Playback start callback, use for preloading available data.
-
-#### `onStop`
-
-Type: `() => void`, optional
-
-Playback stop callback
+Preload callback, use for preloading available data.
 
 #### `onUpdate`
 
-Type: `({datetime: string}) => void`, optional
+Type: `(datetime: string) => void`, optional
 
 Update callback, use for updating displayed data.

@@ -11,7 +11,7 @@ import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const legendControl = new WeatherLayers.LegendControl({
   title: 'Wind',
-  unit: {
+  unitFormat: {
     unit: 'm/s',
   },
   palette: [

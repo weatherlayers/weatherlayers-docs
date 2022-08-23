@@ -92,20 +92,10 @@ Formats:
 
 ### Picking Info
 
+Type: `RasterPickingInfo = { value: number, direction?: number }`
+
 If `pickable: true`, the picking info passed to callbacks (`onHover`, `onClick`, etc.) provides information on which pixel was picked. It contains an additional `raster` field.
 
 Float32 data are recommended for the best precision.
 
-See [BitmapLayer Pixel Picking](https://deck.gl/docs/api-reference/layers/bitmap-layer#pixel-picking).
-
-#### `value`
-
-Type: number, required
-
-Value at the pixel.
-
-#### `direction`
-
-Type: number, optional
-
-Direction at the pixel. Supported for vector data.
+See [Tooltip control](../controls/tooltip-control.md) and [BitmapLayer Pixel Picking](https://deck.gl/docs/api-reference/layers/bitmap-layer#pixel-picking).

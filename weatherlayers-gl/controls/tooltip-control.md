@@ -16,6 +16,7 @@ const tooltipControl = new WeatherLayers.TooltipControl({
   },
 });
 tooltipControl.addTo(document.getElementById('controls'));
+deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 ```
 
 ### Constructor
@@ -32,10 +33,16 @@ deck.gl instance to register the control events to.
 
 #### `unit`
 
-Type: `{ unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `StacRasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
 
 ### Methods
 
 See [Control methods](control-methods.md) common for all controls.
+
+#### `update(event: TooltipHoverEvent | undefined)`
+
+Type: `TooltipHoverEvent = { value: number, direction?: number }`
+
+Updates or removes the tooltip displayed.

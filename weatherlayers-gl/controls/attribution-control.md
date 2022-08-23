@@ -12,7 +12,6 @@ import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 const attributionControl = new WeatherLayers.AttributionControl({
   attribution: 'Data by NOAA / GFS',
 });
-attributionControl.addTo(document.getElementById('controls'));
 ```
 
 ### Constructor

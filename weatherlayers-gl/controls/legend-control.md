@@ -23,7 +23,6 @@ const legendControl = new WeatherLayers.LegendControl({
     [25, [127, 0, 0]],
   ],
 });
-legendControl.addTo(document.getElementById('controls'));
 ```
 
 ### Constructor

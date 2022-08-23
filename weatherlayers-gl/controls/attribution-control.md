@@ -12,13 +12,22 @@ import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 const attributionControl = new WeatherLayers.AttributionControl({
   attribution: 'Data by NOAA / GFS',
 });
+attributionControl.addTo(document.getElementById('controls'));
 ```
 
-### Properties
+### Constructor
+
+#### `LegendControl(config: LegendConfig = {})`
+
+### Config Properties
 
 #### `attribution`
 
 Type: string, required
 
 Attribution to be displayed.
+
+### Methods
+
+See [Control methods](control-methods.md) common for all controls.
 

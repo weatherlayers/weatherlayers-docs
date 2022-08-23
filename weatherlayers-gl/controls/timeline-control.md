@@ -23,9 +23,14 @@ const timelineControl = new WeatherLayers.TimelineControl({
     // update displayed data
   },
 });
+timelineControl.addTo(document.getElementById('controls'));
 ```
 
-### Properties
+### Constructor
+
+#### `TimelineControl(config: TimelineConfig = {})`
+
+### Config Properties
 
 #### `width`
 
@@ -64,3 +69,7 @@ Preload callback, use for preloading requested data.
 Type: `(datetime: string) => void`, optional
 
 Update callback, use for updating displayed data.
+
+### Methods
+
+See [Control methods](control-methods.md) common for all controls.

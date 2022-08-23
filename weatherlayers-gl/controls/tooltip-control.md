@@ -15,9 +15,14 @@ const tooltipControl = new WeatherLayers.TooltipControl({
     unit: 'm/s',
   },
 });
+tooltipControl.addTo(document.getElementById('controls'));
 ```
 
-### Properties
+### Constructor
+
+#### `TooltipControl(config: TooltipConfig = {})`
+
+### Config Properties
 
 #### `deckgl`
 
@@ -30,3 +35,7 @@ deck.gl instance to register the control events to.
 Type: `{ unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
+
+### Methods
+
+See [Control methods](control-methods.md) common for all controls.

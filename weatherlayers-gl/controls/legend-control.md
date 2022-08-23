@@ -23,9 +23,14 @@ const legendControl = new WeatherLayers.LegendControl({
     [25, [127, 0, 0]],
   ],
 });
+legendControl.addTo(document.getElementById('controls'));
 ```
 
-### Properties
+### Constructor
+
+#### `LegendControl(config: LegendConfig = {})`
+
+### Config Properties
 
 #### `width`
 
@@ -64,4 +69,8 @@ Palette used to interpolate values to colors.
 Formats:
 
 * text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
-* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)~~~~
+* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
+
+### Methods
+
+See [Control methods](control-methods.md) common for all controls.

@@ -38,4 +38,4 @@ See [Control methods](control-methods.md) common for all controls.
 
 Type: `RasterValue = { value: number, direction?: number }`
 
-Updates the tooltip displayed or hides it.
+Updates the tooltip displayed with the given `rasterValue` or hides the tooltip.

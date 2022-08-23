@@ -8,11 +8,11 @@ Constructor
 
 #### `addTo(target: HTMLElement)`
 
-Appends the control to the DOM as a child of the specified `target`.
+Appends the control to the DOM as a child of the given `target`.
 
 #### `prependTo(target: HTMLElement)`
 
-Prepends the control to the DOM as a child of the specified `target`.
+Prepends the control to the DOM as a child of the given `target`.
 
 #### `remove()`
 

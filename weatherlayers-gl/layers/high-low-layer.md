@@ -41,7 +41,7 @@ Type: number, required
 
 Radius in km to filter nearby values. The greater radius, the less values are detected.
 
-#### `textFunction`
+#### `textFormatFunction`
 
 Type: function `(value: number) => string`, optional
 

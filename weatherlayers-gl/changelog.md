@@ -8,6 +8,7 @@ New features:
 
 Minor changes:
 
+* Rename HighLow and Grid layer `textFunction` style property to `textFormatFunction`
 * Update deck.gl dependency to 8.8.4
 
 ### 2022.6.0
@@ -23,7 +24,7 @@ Bug fixes:
 
 Minor changes:
 
-* Remove deprecated raster layer `colormapBreaks` style property, use `palette` instead
+* Remove deprecated Raster layer `colormapBreaks` style property, use `palette` instead
 * Update deck.gl dependency to 8.8.2
 * [Demo](https://demo.weatherlayers.com/) - separate overlaid and interleaved demos
 

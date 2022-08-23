@@ -97,7 +97,7 @@ Style of the grid points, values or symbols.
 
 If `style: ARROW` or `style: WIND_BARB`, `imageType` must be `VECTOR`.
 
-#### `textFunction`
+#### `textFormatFunction`
 
 Type: function `(value: number) => string`, optional
 

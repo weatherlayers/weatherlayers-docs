@@ -10,7 +10,6 @@ Tooltip control shows the value (and the direction for vector datasets) at curre
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const tooltipControl = new WeatherLayers.TooltipControl({
-  deckgl: ...,
   unit: {
     unit: 'm/s',
   },

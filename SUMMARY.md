@@ -16,6 +16,7 @@
     * [Timeline Control](weatherlayers-gl/controls/timeline-control.md)
     * [Tooltip Control](weatherlayers-gl/controls/tooltip-control.md)
     * [Attribution Control](weatherlayers-gl/controls/attribution-control.md)
+    * [Control Methods](weatherlayers-gl/controls/control-methods.md)
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)

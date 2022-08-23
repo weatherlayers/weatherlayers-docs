@@ -54,9 +54,9 @@ Type: string, required
 
 Title to be displayed.
 
-#### `unit`
+#### `unitFormat`
 
-Type: `RasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
 

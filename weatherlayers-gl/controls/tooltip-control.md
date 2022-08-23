@@ -24,9 +24,9 @@ deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 
 ### Config Properties
 
-#### `unit`
+#### `unitFormat`
 
-Type: `RasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
 

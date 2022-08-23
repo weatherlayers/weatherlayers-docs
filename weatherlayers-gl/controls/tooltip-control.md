@@ -34,7 +34,7 @@ Unit definition to be used for formatting numbers.
 
 See [Control methods](control-methods.md) common for all controls.
 
-#### `update(event: RasterValue | undefined)`
+#### `update(rasterValue: RasterValue | undefined)`
 
 Type: `RasterValue = { value: number, direction?: number }`
 

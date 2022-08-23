@@ -24,12 +24,6 @@ deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 
 ### Config Properties
 
-#### `deckgl`
-
-Type: deck.gl instance, required
-
-deck.gl instance to register the control events to.
-
 #### `unit`
 
 Type: `StacRasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
@@ -44,4 +38,4 @@ See [Control methods](control-methods.md) common for all controls.
 
 Type: `TooltipHoverEvent = { value: number, direction?: number }`
 
-Updates or removes the tooltip displayed.
+Updates the tooltip displayed or hides it.

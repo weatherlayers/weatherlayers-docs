@@ -56,7 +56,7 @@ Title to be displayed.
 
 #### `unit`
 
-Type: `StacRasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `RasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
 

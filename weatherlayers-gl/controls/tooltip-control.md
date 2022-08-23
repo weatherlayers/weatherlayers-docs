@@ -26,7 +26,7 @@ deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 
 #### `unit`
 
-Type: `StacRasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `RasterUnit = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
 
 Unit definition to be used for formatting numbers.
 
@@ -34,8 +34,8 @@ Unit definition to be used for formatting numbers.
 
 See [Control methods](control-methods.md) common for all controls.
 
-#### `update(event: TooltipHoverEvent | undefined)`
+#### `update(event: RasterValue | undefined)`
 
-Type: `TooltipHoverEvent = { value: number, direction?: number }`
+Type: `RasterValue = { value: number, direction?: number }`
 
 Updates the tooltip displayed or hides it.

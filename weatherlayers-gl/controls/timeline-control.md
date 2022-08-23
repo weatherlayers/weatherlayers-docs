@@ -23,6 +23,7 @@ const timelineControl = new WeatherLayers.TimelineControl({
     // update displayed data
   },
 });
+timelineControl.addTo(document.getElementById('controls'));
 ```
 
 ### Constructor

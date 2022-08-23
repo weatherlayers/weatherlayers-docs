@@ -18,6 +18,6 @@ Prepends the control to the DOM as a child of the specified `target`.
 
 Removes the control from the DOM.
 
-#### `update(config: ControlConfig)`
+#### `setConfig(config: ControlConfig)`
 
 Updates the control config.

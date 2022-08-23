@@ -15,6 +15,7 @@ const tooltipControl = new WeatherLayers.TooltipControl({
     unit: 'm/s',
   },
 });
+tooltipControl.addTo(document.getElementById('controls'));
 ```
 
 ### Constructor

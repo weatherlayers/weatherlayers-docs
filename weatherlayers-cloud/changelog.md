@@ -4,7 +4,7 @@
 
 New features:
 
-* RasterLayer palette published as a separate asset with role `palette`\
+* Raster layer palette published as a separate asset with role `palette`\
   [https://github.com/weatherlayers/cpt2js](https://github.com/weatherlayers/cpt2js)[\
   https://github.com/stac-extensions/raster/issues/17](https://github.com/stac-extensions/raster/issues/17)\
   [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)

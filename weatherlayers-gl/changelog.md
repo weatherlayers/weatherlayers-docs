@@ -1,10 +1,14 @@
 # Changelog
 
-### 2022.8.0 (upcoming)
+### Upcoming
 
 New features:
 
 * [Controls](controls/)
+
+Bug fixes:
+
+* Fix particle layer to drop particles out of bounds, to support regional vector data
 
 Minor changes:
 

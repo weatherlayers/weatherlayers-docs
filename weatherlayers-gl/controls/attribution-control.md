@@ -29,5 +29,5 @@ Attribution to be displayed.
 
 ### Methods
 
-See [Control methods](control-methods.md) common for all controls.
+See [Control](control.md) for common Control methods.
 

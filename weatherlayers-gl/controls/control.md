@@ -1,23 +1,25 @@
-# Control Methods
+# Control
 
-Methods common for all controls.
+Parent control
+
+### Constructor
 
 #### `Control(config: ControlConfig = {})`
 
-Constructor
+### Methods
 
-#### `addTo(target: HTMLElement)`
+#### `addTo(target: HTMLElement): void`
 
 Appends the control to the DOM as a child of the given `target`.
 
-#### `prependTo(target: HTMLElement)`
+#### `prependTo(target: HTMLElement): void`
 
 Prepends the control to the DOM as a child of the given `target`.
 
-#### `remove()`
+#### `remove(): void`
 
 Removes the control from the DOM.
 
-#### `setConfig(config: ControlConfig)`
+#### `setConfig(config: ControlConfig): void`
 
 Updates the control config.

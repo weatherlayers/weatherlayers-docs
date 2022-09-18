@@ -43,6 +43,8 @@ Type: string, optional
 
 Default: `byte.png`
 
+``
+
 ### Methods
 
 #### `loadCatalog(): Promise<string[]>`

@@ -1,16 +1,16 @@
 # Client
 
-Client providing access to WeatherLayers Cloud data
+Client providing access to weather data from WeatherLayers Catalog
 
 ### Example
 
 Configure WeatherLayers Cloud client with your access token created in [WeatherLayers Account](https://account.weatherlayers.com/).
 
 ```javascript
-import * as WeatherLayersCloud from '@weatherlayers/weatherlayers-cloud';
+import * as WeatherLayersCatalog from '@weatherlayers/weatherlayers-catalog';
 
-// configure WeatherLayers Cloud client
-const client = new WeatherLayersCloud.Client({
+// configure WeatherLayers Catalog client
+const client = new WeatherLayersCatalog.Client({
   accessToken: 'xxx',
 });
 
@@ -19,21 +19,33 @@ const client = new WeatherLayersCloud.Client({
 
 ### Constructor
 
-#### `Client(config: ClientConfig = {})`
+#### `Client(config: CatalogConfig = {})`
 
 ### Config properties
 
 #### `url`
 
-string
+Type: string, optional
+
+Default: `https://catalog.weatherlayers.com` (WeatherLayers Cloud)
+
+Catalog url
+
+
 
 #### `accessToken`
 
-string
+Type: string, optional
+
+Default: none (but required for WeatherLayers Cloud)
+
+Catalog access token
 
 #### `dataFormat`
 
-string
+Type: string, optional
+
+Default: `byte.png`
 
 ### Methods
 

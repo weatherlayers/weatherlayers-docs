@@ -43,19 +43,46 @@ Type: string, optional
 
 Default: `byte.png`
 
-``
-
 ### Methods
 
 #### `loadCatalog(): Promise<string[]>`
 
 Loads dataset ids from the catalog.
 
-#### `loadDataset(dataset: string, options: { attributionLinkClass?: string }): Promise<Dataset>`
+#### `loadDataset(dataset: string, options: LoadDatasetOptions): Promise<Dataset>`
 
 Loads dataset from the catalog.
 
-#### `loadDatasetData(dataset: string, datetime: string, options: { datetimeInterpolate?: boolean }): Promise<DatasetData>`
+```typescript
+interface LoadDatasetOptions {
+  attributionLinkClass?: string;
+}
+
+interface Dataset {
+  title: string;
+  unitFormat: UnitFormat;
+  attribution: string;
+  datetimes: string[];
+  palette: Palette;
+}
+```
+
+#### `loadDatasetData(dataset: string, datetime: string, options: LoadDatasetDataOptions): Promise<DatasetData>`
 
 Loads dataset data at datetime from the catalog.
+
+```typescript
+interface LoadDatasetDataOptions {
+  datetimeInterpolate?: boolean;
+}
+
+interface DatasetData {
+  image: TextureData;
+  image2: TextureData | null;
+  imageWeight: number;
+  imageType: ImageType;
+  imageUnscale: [number, number] | null;
+  bounds: [number, number, number, number];
+}
+```
 

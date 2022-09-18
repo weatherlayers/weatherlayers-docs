@@ -20,7 +20,7 @@
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
-  * [Catalog Client](weatherlayers-cloud/client.md)
+  * [Client](weatherlayers-cloud/client.md)
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Pricing](weatherlayers-cloud/pricing.md)
 * [Knowledge Base](knowledge-base/README.md)

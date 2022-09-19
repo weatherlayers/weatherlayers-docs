@@ -18,7 +18,7 @@ Project License allows hosting your project from a single production domain and 
 
 The bundle is bound to a single production domain.
 
-8000 EUR one-time payment, 3000 EUR / year optional support subscription
+8800 EUR one-time payment, 3300 EUR / year optional support subscription
 
 #### OEM License
 

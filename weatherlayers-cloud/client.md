@@ -78,10 +78,10 @@ interface LoadDatasetDataOptions {
 
 interface DatasetData {
   image: TextureData;
-  image2: TextureData | null; // applicable only if datetimeInterpolate is enabled
-  imageWeight: number; // applicable only if datetimeInterpolate is enabled
+  image2: TextureData | null; // applicable if datetimeInterpolate is enabled
+  imageWeight: number; // applicable if datetimeInterpolate is enabled
   imageType: ImageType;
-  imageUnscale: [number, number] | null;
+  imageUnscale: [number, number] | null; // applicable if original data was scaled to fit image data format and needs to be unscaled back
   bounds: [number, number, number, number];
 }
 ```

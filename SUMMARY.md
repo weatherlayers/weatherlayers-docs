@@ -19,7 +19,7 @@
     * [Control](weatherlayers-gl/controls/control.md)
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
-  * [Roadmap](weatherlayers-gl/roadmap.md)
+  * [Roadmap](roadmap.md)
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
   * [Client](weatherlayers-cloud/client.md)
   * [Datasets](weatherlayers-cloud/datasets.md)

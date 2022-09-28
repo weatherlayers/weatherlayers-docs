@@ -26,4 +26,4 @@ OEM License allows distribution or hosting your project from unknown/changing do
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
-[Contact sales](https://weatherlayers.com/)
+[Contact sales](mailto:info@weatherlayers.com)

@@ -22,4 +22,4 @@ All available datasets and forecast ranges.
 
 Integrate with a commercial application
 
-[Contact sales](https://weatherlayers.com/)
+[Contact sales](mailto:info@weatherlayers.com)

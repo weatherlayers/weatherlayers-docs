@@ -14,16 +14,16 @@ Free
 
 #### Project License
 
-Project License allows hosting your project from a single production domain and all corresponding subdomains.
+Project License allows hosting your project from a single production domain and all corresponding subdomains. The bundle is bound to a single production domain.
 
-The bundle is bound to a single production domain.
+Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
-8800 EUR one-time payment, 5500 EUR / year optional support subscription
+Eligible for an academic or non-profit discount.
 
 #### OEM License
 
-OEM License allows distribution or hosting your project from unknown/changing domains or IP addresses.
+OEM License allows distribution or hosting your project from unknown/changing domains or IP addresses. The bundle is without a domain restriction.
 
-The bundle is without a domain restriction.
+Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
 [Contact sales](https://weatherlayers.com/)

@@ -12,12 +12,14 @@ Free
 
 #### Basic Subscription
 
-Integrate with a non-commercial application
+Limited available datasets and forecast ranges.
 
-25 EUR / month
+Integrate with a non-commercial application.
 
 #### Pro Subscription
 
+All available datasets and forecast ranges.
+
 Integrate with a commercial application
 
-125 EUR / month
+[Contact sales](https://weatherlayers.com/)

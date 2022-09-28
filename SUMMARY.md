@@ -27,5 +27,7 @@
   * [Data Types](knowledge-base/data-types.md)
   * [Data Formats](knowledge-base/formats.md)
 * [Demo](https://demo.weatherlayers.com/)
+* [STAC Catalog](https://browser.weatherlayers.com/)
+* [Status](https://status.weatherlayers.com/)
 * [Roadmap](roadmap.md)
 * [Contact](contact.md)

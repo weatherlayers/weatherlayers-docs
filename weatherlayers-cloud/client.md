@@ -77,7 +77,7 @@ The data returned are:
 
 * `image` - the closest available datetime <= the given datetime
 * `image2` - the closest available datetime >= the given datetime
-* `imageWeight` - datetime interpolation ratio between `image` and `image2`
+* `imageWeight` - datetime interpolation weight between `image` and `image2`
 
 ```typescript
 interface LoadDatasetDataOptions {

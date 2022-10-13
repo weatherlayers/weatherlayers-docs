@@ -4,7 +4,7 @@
 
 New features:
 
-* [Controls](controls/)
+* Add [Controls](controls/)
 
 Bug fixes:
 

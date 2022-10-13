@@ -69,7 +69,15 @@ interface Dataset {
 
 #### `loadDatasetData(dataset: string, datetime: string, options: LoadDatasetDataOptions): Promise<DatasetData>`
 
-Loads dataset data at datetime from the catalog.
+Loads dataset data at the datetime from the catalog.
+
+The current conditions can be loaded by providing `datetime = new Date().toISOString()`.
+
+The data returned are:
+
+* `image` - the closest available datetime <= the given datetime
+* `image2` - the closest available datetime >= the given datetime
+  * applicable if `datetimeInterpolate` is enabled
 
 ```typescript
 interface LoadDatasetDataOptions {

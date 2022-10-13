@@ -8,7 +8,8 @@ New features:
 
 Bug fixes:
 
-* Fix particle layer to drop particles out of bounds, to support regional vector data
+* Fix particle layer to drop particles out of bounds, to support regional vector data\
+  [https://github.com/weatherlayers/deck.gl-particle/issues/10](https://github.com/weatherlayers/deck.gl-particle/issues/10)
 
 Minor changes:
 

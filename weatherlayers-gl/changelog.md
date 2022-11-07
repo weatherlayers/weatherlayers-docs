@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+Minor changes:
+
+* For consistent value formatting, add `unitFormat` to Grid and HighLow layer, add `textFormatFunction` to Tooltip control
+
 ### 2022.10.0
 
 New features:

@@ -41,11 +41,19 @@ Type: number, required
 
 Radius in km to filter nearby values. The greater radius, the less values are detected.
 
+#### `unitFormat`
+
+Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, optional
+
+Default: `null`
+
+Unit definition to be used for formatting numbers.
+
 #### `textFormatFunction`
 
-Type: function `(value: number) => string`, optional
+Type: function `(value: number, unitFormat: UnitFormat) => string`, optional
 
-Default: `(value) => Math.round(value).toString()`
+Default: `(value, unitFormat) => unitFormat ? formatValue(value, unitFormat) : Math.round(value).toString()`
 
 Function to format the value.
 

@@ -9,11 +9,7 @@ Tooltip control shows the value (and the direction for vector datasets) at curre
 ```javascript
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-const tooltipControl = new WeatherLayers.TooltipControl({
-  unitFormat: {
-    unit: 'm/s',
-  },
-});
+const tooltipControl = new WeatherLayers.TooltipControl();
 tooltipControl.addTo(document.getElementById('controls'));
 deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 ```
@@ -26,9 +22,19 @@ deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 
 #### `unitFormat`
 
-Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, required
+Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, optional
+
+Default: `null`
 
 Unit definition to be used for formatting numbers.
+
+#### `textFormatFunction`
+
+Type: function `(value: number, unitFormat: UnitFormat) => string`, optional
+
+Default: `(value, unitFormat) => unitFormat ? formatValue(value, unitFormat) : Math.round(value).toString()`
+
+Function to format the value.
 
 ### Methods
 

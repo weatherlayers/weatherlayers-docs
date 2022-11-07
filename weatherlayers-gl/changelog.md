@@ -4,7 +4,7 @@
 
 Minor changes:
 
-* For consistent value formatting, add `unitFormat` to Grid and HighLow layer, add `textFormatFunction` to Tooltip control
+* For consistent value formatting, add `unitFormat` to Grid and HighLow layer
 
 ### 2022.10.0
 

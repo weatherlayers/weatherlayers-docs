@@ -20,16 +20,34 @@ Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
 
 #### `loadTextureData(url: String): Promise<TextureData>`
 
-Loads the url (PNG or GeoTIFF) to TextureData.
+Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
 Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
 
-```typescript
-type TextureDataArray = Uint8Array | Uint8ClampedArray | Float32Array;
+#### `loadTextureDataCached(url: String): Promise<TextureData>`
 
-interface TextureData {
-  data: TextureDataArray;
-  width: number;
-  height: number;
-}
-```
+Loads the url as texture data. The response should be a PNG or GeoTIFF image.
+
+Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
+
+The response promise and the response are cached to the given cache, or to the default cache.
+
+#### `loadJson(url: String): Promise<string>`
+
+Loads the url as JSON. The response should be a JSON file.
+
+#### `loadJsonCached(url: String, cache?: Map<string, any> = defaultCache): Promise<string>`
+
+Loads the url as JSON. The response should be a JSON file.
+
+The response promise and the response are cached to the given cache, or to the default cache.
+
+#### `loadText(url: String): Promise<string>`
+
+Loads the url as text. The response should be a plain text file.
+
+#### `loadTextCached(url: String, cache?: Map<string, any> = defaultCache): Promise<string>`
+
+Loads the url as text. The response should be a plain text file.
+
+The response promise and the response are cached to the given cache, or to the default cache.

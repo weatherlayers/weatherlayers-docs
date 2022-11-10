@@ -1,10 +1,10 @@
-# Data properties
+# Data Properties
 
 Data properties common for all layers.
 
 #### `image`
 
-Type: object `{ data: TypedArray, width: number, height: number }`, required
+Type: `TextureData = { data: TypedArray, width: number, height: number }`, required
 
 Data type can be either Uint8 (`Uint8Array`, `Uint8ClampedArray`) or Float32 (`Float32Array`).
 
@@ -18,7 +18,7 @@ For multi-band data, the expected format is that the band values are interleaved
 
 #### `image2`
 
-Type: object `{ data: TypedArray, width: number, height: number }`, optional
+Type: `TextureData = { data: TypedArray, width: number, height: number }`, optional
 
 The subsequent data image. Used if `imageWeight > 0`.
 

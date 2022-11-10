@@ -32,9 +32,9 @@ Use in `image`/`image2` property.
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
-Use in `image`/`image2` property.
-
 The response is cached to the given cache, or to the default global cache.
+
+Use in `image`/`image2` property.
 
 #### `loadJson(url: String): Promise<string>`
 

@@ -1,5 +1,7 @@
 # Functions
 
+### Datetime Functions
+
 #### `getClosestStartDatetime(datetimes: String[], datetime: String): String`
 
 Gets the closest start datetime (i.e. lower or equal) for the given datetime from the given datetimes.
@@ -17,6 +19,8 @@ Use to find the correct end image to load, to be used in `image2` property. Appl
 Gets the datetime weight between the given start and end datetime for the given datetime. The returned value is a number `0-1`.
 
 Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
+
+### Load Functions
 
 #### `loadTextureData(url: String): Promise<TextureData>`
 

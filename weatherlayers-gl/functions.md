@@ -2,21 +2,21 @@
 
 #### `getClosestStartDatetime(datetimes: String[], datetime: String): String`
 
-Gets the closest start (i.e. lower or equal) datetime for the given datetime from the given datetimes.
+Gets the closest start datetime (i.e. lower or equal) for the given datetime from the given datetimes.
 
-Use to find the correct start image to load, to be used in `image` property if `imageInterpolate` is enabled in [Data Properties](layers/data-properties.md).
+Use to find the correct start image to load, to be used in `image` property.
 
 #### `getClosestEndDatetime(datetimes: String[], datetime: String): String`
 
-Gets the closest end (i.e. greater or equal) datetime for the given datetime from the given datetimes.
+Gets the closest end datetime (i.e. greater or equal) for the given datetime from the given datetimes.
 
-Use to find the correct end image to load, to be used in `image2` property if `imageInterpolate` is enabled in [Data Properties](layers/data-properties.md).
+Use to find the correct end image to load, to be used in `image2` property. Applicable only if `imageInterpolate` is enabled.
 
 #### `getDatetimeWeight(startDatetime: String, endDatetime: String, datetime: String): number`
 
 Gets the datetime weight between the given start and end datetime for the given datetime. The returned value is a number `0-1`.
 
-Use in `imageWeight` property if `imageInterpolate` is enabled in [Data Properties](layers/data-properties.md).
+Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
 
 #### `loadTextureData(url: String): Promise<TextureData>`
 

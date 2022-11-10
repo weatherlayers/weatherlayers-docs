@@ -24,30 +24,30 @@ Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
 Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
 
-#### `loadTextureDataCached(url: String): Promise<TextureData>`
+#### `loadTextureDataCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<TextureData>`
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
 Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
 
-The response promise and the response are cached to the given cache, or to the default cache.
+The response is cached to the given cache, or to the default global cache.
 
 #### `loadJson(url: String): Promise<string>`
 
 Loads the url as JSON. The response should be a JSON file.
 
-#### `loadJsonCached(url: String, cache?: Map<string, any> = defaultCache): Promise<string>`
+#### `loadJsonCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<string>`
 
 Loads the url as JSON. The response should be a JSON file.
 
-The response promise and the response are cached to the given cache, or to the default cache.
+The response is cached to the given cache, or to the default global cache.
 
 #### `loadText(url: String): Promise<string>`
 
 Loads the url as text. The response should be a plain text file.
 
-#### `loadTextCached(url: String, cache?: Map<string, any> = defaultCache): Promise<string>`
+#### `loadTextCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<string>`
 
 Loads the url as text. The response should be a plain text file.
 
-The response promise and the response are cached to the given cache, or to the default cache.
+The response is cached to the given cache, or to the default global cache.

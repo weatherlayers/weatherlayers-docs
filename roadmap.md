@@ -1,5 +1,6 @@
 # Roadmap
 
-* HighLow layer with animation support (currently in R\&D)
+* HighLow layer with animation support
 * map library integration improvements
 * high-resolution tiled data
+* private npm registry

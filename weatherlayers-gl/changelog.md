@@ -4,7 +4,8 @@
 
 Minor changes:
 
-* For consistent value formatting, add `unitFormat` to Grid and HighLow layer
+* Add `unitFormat` to Grid and HighLow layer for consistent value formatting
+* Add [Load Functions](functions.md#load-functions) to help with loading custom data
 
 ### 2022.10.0
 

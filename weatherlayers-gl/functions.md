@@ -26,13 +26,13 @@ Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
-Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
+Use in `image`/`image2` property.
 
 #### `loadTextureDataCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<TextureData>`
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
-Use in `image`/`image2` property in [Data Properties](layers/data-properties.md).
+Use in `image`/`image2` property.
 
 The response is cached to the given cache, or to the default global cache.
 

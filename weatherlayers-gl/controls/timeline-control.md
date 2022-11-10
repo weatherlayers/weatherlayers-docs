@@ -9,21 +9,30 @@ Timeline control allows playing datetimes as animation with linear interpolation
 ```javascript
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
+const files = [
+  {datetime:'2021-09-01T20:00:00Z', },
+  {datetime:'2021-09-01T21:00:00Z', },
+  {datetime:'2021-09-01T22:00:00Z', },
+];
+let currentDatetime = datetimes[0];
 const timelineControl = new WeatherLayers.TimelineControl({
-  datetimes: [
-    '2021-09-01T20:00:00Z',
-    '2021-09-01T21:00:00Z',
-    '2021-09-01T22:00:00Z',
-  ],
-  datetime: '2021-09-01T21:00:00Z',
+  datetimes: datetimes,
+  datetime: datetime,
   onPreload: datetimes => {
     // preload requested data
+    return Promise.all(datetimes.map(datetime))
   },,
   onUpdate: datetime => {
     // update displayed data
+    currentDatetime = datetime;
+    update();
   },
 });
 timelineControl.addTo(document.getElementById('controls'));
+
+async function update() {
+  
+}
 ```
 
 ### Constructor

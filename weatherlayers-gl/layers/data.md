@@ -3,12 +3,11 @@
 ### Example
 
 ```javascript
-import { Deck, COORDINATE_SYSTEM } from '@deck.gl/core';
-import { ClipExtension } from '@deck.gl/extensions';
+import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data manually
-const image = { data: new Float32Array(...), width: ..., height: ... };
+// load custom self-hosted data using load function
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [
@@ -26,8 +25,8 @@ const deckgl = new Deck({
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data using load function
-const image = await WeatherLayers.loadTextureDataCached(url);
+// load custom self-hosted data manually
+const image = { data: new Float32Array(...), width: ..., height: ... };
 
 const deckgl = new Deck({
   layers: [

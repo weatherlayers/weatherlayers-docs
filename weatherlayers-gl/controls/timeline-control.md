@@ -6,22 +6,22 @@ Timeline control allows playing datetimes as animation with linear interpolation
 
 ![Timeline Control](../../.gitbook/assets/timeline-control.png)
 
-```javascript
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+<pre class="language-javascript"><code class="lang-javascript">import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 const files = [
   { datetime: '2021-09-01T20:00:00Z',  url: '...' },
   { datetime: '2021-09-01T21:00:00Z',  url: '...' },
   { datetime: '2021-09-01T22:00:00Z',  url: '...' },
 ];
+const datetimes = files.map(file => file.datetime);
 let currentDatetime = datetimes[0];
 const timelineControl = new WeatherLayers.TimelineControl({
   datetimes: datetimes,
-  datetime: datetime,
+  datetime: currentDatetime,
   onPreload: datetimes => {
     // preload requested data
     return Promise.all(datetimes.map(datetime => {
-      return WeatherLayers.loadTextureData(files.find(file => file.datetime === datetime).url));
+      return WeatherLayers.loadTextureData(files.find(file => file.datetime === datetime).url);
     });
   },,
   onUpdate: datetime => {
@@ -33,9 +33,26 @@ const timelineControl = new WeatherLayers.TimelineControl({
 timelineControl.addTo(document.getElementById('controls'));
 
 async function update() {
+  const startDatetime = WeatherLayers.getClosestStartDatetime(datetimes, currentDatetime);
+  const endDatetime = WeatherLayers.getClosestEndDatetime(datetimes, currentDatetime);
+  const imageWeight = WeatherLayers.getDatetimeWeight(startDatetime, endDatetime, currentDatetime);
+<strong>  const image = await WeatherLayers.loadTextureData(files.find(file => file.datetime === startDatetime).url);
+</strong>  const image2 = await WeatherLayers.loadTextureData(files.find(file => file.datetime === endDatetime).url);
   
+  // update layers
+  deckgl.setProps({
+    layers: [
+      new WeatherLayers.RasterLayer({
+        image: image,
+        image2: image2,
+        imageWeight: imageWeight,
+        // ...
+      }),
+      // ...
+    ],
+  });
 }
-```
+update();</code></pre>
 
 ### Constructor
 

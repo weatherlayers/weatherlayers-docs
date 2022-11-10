@@ -20,7 +20,9 @@ const timelineControl = new WeatherLayers.TimelineControl({
   datetime: datetime,
   onPreload: datetimes => {
     // preload requested data
-    return Promise.all(datetimes.map(datetime => files.find(file => file.datetime === datetime).url)
+    return Promise.all(datetimes.map(datetime => {
+      return WeatherLayers.loadTextureData(files.find(file => file.datetime === datetime).url));
+    });
   },,
   onUpdate: datetime => {
     // update displayed data

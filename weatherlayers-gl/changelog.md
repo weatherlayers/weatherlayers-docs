@@ -5,7 +5,7 @@
 Minor changes:
 
 * Add `unitFormat` to Grid and HighLow layer for consistent value formatting across layers and controls
-* Add [Load Functions](functions.md#load-functions) for loading custom data
+* Add [Load Functions](functions.md#load-functions) for loading custom data with cache
 
 ### 2022.10.0
 

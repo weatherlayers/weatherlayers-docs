@@ -17,6 +17,7 @@
     * [Tooltip Control](weatherlayers-gl/controls/tooltip-control.md)
     * [Attribution Control](weatherlayers-gl/controls/attribution-control.md)
     * [Control](weatherlayers-gl/controls/control.md)
+  * [Functions](weatherlayers-gl/functions.md)
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
   * [Roadmap](roadmap.md)

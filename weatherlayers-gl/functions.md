@@ -26,11 +26,15 @@ Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
+GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
+
 Use in `image`/`image2` property.
 
 #### `loadTextureDataCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<TextureData>`
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
+
+GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
 
 The response is cached to the given cache, or to the default global cache.
 

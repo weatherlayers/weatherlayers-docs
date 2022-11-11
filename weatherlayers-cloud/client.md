@@ -43,6 +43,8 @@ Type: string, optional
 
 Default: `byte.png`
 
+GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
+
 ### Methods
 
 #### `loadCatalog(): Promise<string[]>`

@@ -12,7 +12,7 @@ import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load data
-const image = { data: new Float32Array(...), width: ..., height: ... };
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [
@@ -44,8 +44,8 @@ import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data
-const image = { data: new Float32Array(...), width: ..., height: ... };
+// load data
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [

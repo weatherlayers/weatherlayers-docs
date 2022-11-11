@@ -11,7 +11,7 @@ import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load data
-const image = { data: new Float32Array(...), width: ..., height: ... };
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [
@@ -33,8 +33,8 @@ const deckgl = new Deck({
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data
-const image = { data: new Float32Array(...), width: ..., height: ... };
+// load data
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [
@@ -60,8 +60,8 @@ const deckgl = new Deck({
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data
-const image = { data: new Float32Array(...), width: ..., height: ... };
+// load data
+const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [

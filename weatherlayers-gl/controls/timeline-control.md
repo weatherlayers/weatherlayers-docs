@@ -42,13 +42,11 @@ async function update() {
   // update layers
   deckgl.setProps({
     layers: [
-      new WeatherLayers.RasterLayer({
+      new WeatherLayers.XxxLayer({
         image: image,
         image2: image2,
         imageWeight: imageWeight,
-        // ...
       }),
-      // ...
     ],
   });
 }

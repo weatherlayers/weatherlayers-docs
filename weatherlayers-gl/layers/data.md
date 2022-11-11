@@ -6,14 +6,13 @@
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data using load function
+// load data
 const image = await WeatherLayers.loadTextureDataCached(url);
 
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.XxxLayer({
       image: image,
-      bounds: [-180, -90, 180, 90],
     }),
   ],
 });
@@ -25,14 +24,13 @@ const deckgl = new Deck({
 import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
-// load custom self-hosted data manually
+// load data
 const image = { data: new Float32Array(...), width: ..., height: ... };
 
 const deckgl = new Deck({
   layers: [
     new WeatherLayers.XxxLayer({
       image: image,
-      bounds: [-180, -90, 180, 90],
     }),
   ],
 });

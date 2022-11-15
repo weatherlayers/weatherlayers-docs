@@ -21,7 +21,7 @@ const timelineControl = new WeatherLayers.TimelineControl({
   onPreload: datetimes => {
     // preload requested data
     return Promise.all(datetimes.map(datetime => {
-      return WeatherLayers.loadTextureDataCached(files.find(file => file.datetime === datetime).url);
+      return WeatherLayers.loadTextureData(files.find(file => file.datetime === datetime).url);
     });
   },
   onUpdate: datetime => {
@@ -36,8 +36,8 @@ async function update() {
   const startDatetime = WeatherLayers.getClosestStartDatetime(datetimes, currentDatetime);
   const endDatetime = WeatherLayers.getClosestEndDatetime(datetimes, currentDatetime);
   const imageWeight = WeatherLayers.getDatetimeWeight(startDatetime, endDatetime, currentDatetime);
-<strong>  const image = await WeatherLayers.loadTextureDataCached(files.find(file => file.datetime === startDatetime).url);
-</strong>  const image2 = await WeatherLayers.loadTextureDataCached(files.find(file => file.datetime === endDatetime).url);
+<strong>  const image = await WeatherLayers.loadTextureData(files.find(file => file.datetime === startDatetime).url);
+</strong>  const image2 = await WeatherLayers.loadTextureData(files.find(file => file.datetime === endDatetime).url);
   
   // update layers
   deckgl.setProps({

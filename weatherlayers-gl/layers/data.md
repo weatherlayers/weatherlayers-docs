@@ -7,7 +7,7 @@ import { Deck } from '@deck.gl/core';
 import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
 
 // load data
-const image = await WeatherLayers.loadTextureDataCached(url);
+const image = await WeatherLayers.loadTextureData(url);
 
 const deckgl = new Deck({
   layers: [

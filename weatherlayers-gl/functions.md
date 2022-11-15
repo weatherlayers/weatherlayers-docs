@@ -22,40 +22,25 @@ Use in `imageWeight` property. Applicable only if `imageInterpolate` is enabled.
 
 ### Load Functions
 
-#### `loadTextureData(url: String): Promise<TextureData>`
+#### `loadTextureData(url: String, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<TextureData>`
 
 Loads the url as texture data. The response should be a PNG or GeoTIFF image.
 
 GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
 
-Use in `image`/`image2` property.
-
-#### `loadTextureDataCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<TextureData>`
-
-Loads the url as texture data. The response should be a PNG or GeoTIFF image.
-
-GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
-
-The response is cached to the given cache, or to the default global cache.
+The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 
 Use in `image`/`image2` property.
 
-#### `loadJson(url: String): Promise<string>`
+#### `loadJson(url: String, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<string>`
 
 Loads the url as JSON. The response should be a JSON file.
 
-#### `loadJsonCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<string>`
+The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 
-Loads the url as JSON. The response should be a JSON file.
-
-The response is cached to the given cache, or to the default global cache.
-
-#### `loadText(url: String): Promise<string>`
+#### `loadText(url: String, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<string>`
 
 Loads the url as text. The response should be a plain text file.
 
-#### `loadTextCached(url: String, cache?: Map<string, any> = DEFAULT_CACHE): Promise<string>`
+The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 
-Loads the url as text. The response should be a plain text file.
-
-The response is cached to the given cache, or to the default global cache.

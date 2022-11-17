@@ -1,6 +1,6 @@
 # Changelog
 
-### Upcoming
+### 2022.11.0
 
 Minor changes:
 

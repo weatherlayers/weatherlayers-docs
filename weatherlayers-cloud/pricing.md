@@ -12,7 +12,7 @@ Free
 
 #### Single Domain Subscription
 
-The service is bound to a single production domain, includes all corresponding subdomains.
+Single Domain Subscription is bound to a single production domain, includes all corresponding subdomains.
 
 Monthly or yearly subscription.
 

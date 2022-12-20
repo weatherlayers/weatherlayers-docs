@@ -14,7 +14,7 @@ Free
 
 #### Single Domain License
 
-The license is bound to a single production domain, includes all corresponding subdomains.
+Single Domain License is bound to a single production domain, includes all corresponding subdomains.
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
@@ -22,7 +22,7 @@ Eligible for a non-commercial discount.
 
 #### Multiple Domain License
 
-The license is without a domain restriction, allowing distribution or hosting your project from unknown/changing domains or IP addresses.
+Multiple Domain License is without a domain restriction, allowing distribution or hosting your project from unknown/changing domains or IP addresses.
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 

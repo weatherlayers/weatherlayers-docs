@@ -1,8 +1,8 @@
 # Pricing
 
-Perpetual license for a one-time fee. No recurring fees for the development and distribution of your project. Includes the first year of support subscription.
+Perpetually valid license for a one-time payment. No recurring fees for the development and distribution of your application. Includes the first year of support subscription.
 
-Optional support subscription offers technical support as well as free upgrades. The subscription must be renewed before the end of the current active subscription period.
+Optional yearly support subscription offers technical support as well as free upgrades. The support subscription must be renewed before the end of the current active subscription period.
 
 ### Licenses
 
@@ -22,7 +22,7 @@ Eligible for a non-commercial discount.
 
 #### Multiple Domain License
 
-Multiple Domain License is without a domain restriction, allowing distribution or hosting your project from unknown/changing domains or IP addresses.
+Multiple Domain License is without a domain restriction, allowing distribution or hosting your application from unknown/changing domains or IP addresses.
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 

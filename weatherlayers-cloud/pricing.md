@@ -1,8 +1,8 @@
 # Pricing
 
-Monthly subscription plans.
+Monthly or yearly subscription.
 
-### Subscriptions
+### Subscription
 
 #### Trial Subscription
 
@@ -13,7 +13,5 @@ Free
 #### Single Domain Subscription
 
 Single Domain Subscription is bound to a single production domain, includes all corresponding subdomains.
-
-Monthly or yearly subscription.
 
 [Contact sales](mailto:info@weatherlayers.com)

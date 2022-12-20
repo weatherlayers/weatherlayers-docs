@@ -6,20 +6,14 @@ Monthly subscription plans.
 
 #### Trial Subscription
 
-Testing purpose only, may not be used in production
+Trial Subscription allows evaluating the service for a limited time of 30 days.
 
 Free
 
-#### Basic Subscription
+#### Single Domain Subscription
 
-Limited available datasets and forecast ranges.
+The service is bound to a single production domain, includes all corresponding subdomains.
 
-Integrate with a non-commercial application.
-
-#### Pro Subscription
-
-All available datasets and forecast ranges.
-
-Integrate with a commercial application
+Monthly or yearly subscription.
 
 [Contact sales](mailto:info@weatherlayers.com)

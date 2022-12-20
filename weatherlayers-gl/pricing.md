@@ -8,21 +8,21 @@ Optional support subscription offers technical support as well as free upgrades.
 
 #### Trial License
 
-Trial license allows evaluating the library for a limited time.
+Trial License allows evaluating the library for a limited time of 30 days.
 
 Free
 
-#### Project License
+#### Single Domain License
 
-Project License allows hosting your project from a single production domain and all corresponding subdomains. The bundle is bound to a single production domain.
+The license is bound to a single production domain, includes all corresponding subdomains.
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
-Eligible for an academic or non-profit discount.
+Eligible for a non-commercial discount.
 
-#### OEM License
+#### Multiple Domain License
 
-OEM License allows distribution or hosting your project from unknown/changing domains or IP addresses. The bundle is without a domain restriction.
+The license is without a domain restriction, allowing distribution or hosting your project from unknown/changing domains or IP addresses.
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 

@@ -1,5 +1,12 @@
 # Changelog
 
+### Upcoming
+
+Bug fixes:
+
+* Fix parsing palettes with values in scientific notation\
+  [https://github.com/weatherlayers/cpt2js/issues/2](https://github.com/weatherlayers/cpt2js/issues/2)
+
 ### 2022.11.0
 
 Minor changes:

@@ -2,6 +2,12 @@
 
 ### Upcoming
 
+New features:
+
+* Add cubic interpolation for smoother visualization\
+  Replaced `imageInterpolate` (boolean) with `imageInterpolation` (enum)\
+  Enables Contour layer with byte data format
+
 Bug fixes:
 
 * Fix parsing palettes with values in scientific notation\

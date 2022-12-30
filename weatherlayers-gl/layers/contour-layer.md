@@ -34,8 +34,6 @@ const deckgl = new Deck({
 
 See [Data properties](data.md#data-properties) common for all layers.
 
-Float32 data are recommended for the best precision.
-
 ### Style Properties
 
 See [Style properties](style-properties.md) common for all layers.

@@ -24,15 +24,17 @@ The subsequent data image. Used if `imageWeight > 0`.
 
 See `image` for details.
 
-#### `imageInterpolate`
+#### `imageInterpolation`
 
-Type: boolean, optional
+Type: enum `WeatherLayers.ImageInterpolation`, values: `NEAREST`, `LINEAR`, `CUBIC`, optional
 
-Default: `true`
+Default: `CUBIC`
 
-If on, the data for a particular lng/lat location are computed from the four nearest available pixels using bilinear interpolation.
+`NEAREST` disables any interpolation, renders the data for a particular lng/lat location from the nearest available pixel. Raster layer is pixelizated.
 
-If off, the data for a particular lng/lat location are read from the nearest available pixel.
+`LINEAR` interpolates the data for a particular lng/lat location from four pixels using a linear interpolation. Provides a balance between smoothness and performance.
+
+`CUBIC` interpolates the data for a particular lng/lat location from sixteen pixels using a cubic interpolation. Provides the best smoothness. Required for Contour layer with byte data format.
 
 #### `imageWeight`
 

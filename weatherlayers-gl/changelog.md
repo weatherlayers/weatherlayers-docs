@@ -6,7 +6,6 @@ New features:
 
 * Add cubic interpolation for smoother visualization\
   Replace `imageInterpolate` (boolean) with `imageInterpolation` (enum)
-* Interpolate boundary lines between data and nodata values
 
 Bug fixes:
 

@@ -5,8 +5,8 @@
 New features:
 
 * Add cubic interpolation for smoother visualization\
-  Replaced `imageInterpolate` (boolean) with `imageInterpolation` (enum)\
-  Enables Contour layer with byte data format
+  Replace `imageInterpolate` (boolean) with `imageInterpolation` (enum)
+* Interpolate boundary lines between data and nodata values
 
 Bug fixes:
 

@@ -5,8 +5,8 @@
 New features:
 
 * Add cubic interpolation for smoother visualization\
-  Replace `imageInterpolate` (boolean) with `imageInterpolation` (enum)
-* Add `imageSmoothing`
+  Change `imageInterpolate` data property type from boolean to enum\
+  Add `imageSmoothing` data property
 
 Bug fixes:
 

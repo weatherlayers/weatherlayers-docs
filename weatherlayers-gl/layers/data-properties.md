@@ -24,14 +24,6 @@ The subsequent data image. Used if `imageWeight > 0`.
 
 See `image` for details.
 
-#### `imageSmoothing`
-
-Type: number, optional
-
-Default: `0` (no smoothing)
-
-Smoothing applied to the data. Increasing the smoothing is useful in case of rendering artifacts with low resolution data or if high detail is undesired. Maximal smoothing is unlimited.
-
 #### `imageInterpolation`
 
 Type: enum `WeatherLayers.ImageInterpolation`, values: `NEAREST`, `LINEAR`, `CUBIC`, optional

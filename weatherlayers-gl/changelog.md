@@ -6,6 +6,7 @@ New features:
 
 * Add cubic interpolation for smoother visualization\
   Replace `imageInterpolate` (boolean) with `imageInterpolation` (enum)
+* Add `imageSmoothing`
 
 Bug fixes:
 

@@ -12,7 +12,7 @@ Bug fixes:
 
 * Fix parsing palettes with values in scientific notation\
   [https://github.com/weatherlayers/cpt2js/issues/2](https://github.com/weatherlayers/cpt2js/issues/2)
-* Clamp to edge data on poles with globe view
+* Clamp to edge data on poles
 
 ### 2022.11.0
 

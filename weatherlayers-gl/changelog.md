@@ -1,5 +1,12 @@
 # Changelog
 
+### Upcoming
+
+Minor changes:
+
+* Update deck.gl dependency to 8.9.0
+* Update HighLow layer to use deck.gl CollisionFilterExtension
+
 ### 2023.2.0
 
 New features:

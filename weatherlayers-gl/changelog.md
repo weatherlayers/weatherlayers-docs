@@ -4,8 +4,9 @@
 
 Minor changes:
 
-* Update deck.gl dependency to 8.9.0
 * Update HighLow layer to use deck.gl CollisionFilterExtension
+* Update deck.gl dependency to 8.9.1
+* Migrate to TypeScript
 
 ### 2023.2.0
 

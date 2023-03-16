@@ -2,11 +2,14 @@
 
 ### Upcoming
 
+New features:
+
+* Migrate to TypeScript
+
 Minor changes:
 
-* Update HighLow layer performance when zooming in/out
+* Improve HighLow layer performance when zooming in/out
 * Update deck.gl dependency to 8.9.2
-* Migrate to TypeScript
 
 ### 2023.2.0
 

@@ -4,7 +4,7 @@
 
 Minor changes:
 
-* Update HighLow layer to use deck.gl CollisionFilterExtension
+* Update HighLow layer performance when zooming in/out
 * Update deck.gl dependency to 8.9.2
 * Migrate to TypeScript
 

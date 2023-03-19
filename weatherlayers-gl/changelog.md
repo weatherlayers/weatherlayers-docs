@@ -10,6 +10,7 @@ Minor changes:
 
 * Improve HighLow layer performance when zooming in/out
 * Update deck.gl dependency to 8.9.2
+* Remove references to worker\_threads Node dependency
 
 ### 2023.2.0
 

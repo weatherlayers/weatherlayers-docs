@@ -13,13 +13,14 @@ Minor changes:
 
 Bug fixes:
 
-* Remove references to worker\_threads Node dependency
+* Fallback grafeculy to `imageSmoothing` default value
+* Remove references to `worker_threads` Node dependency
 
 ### 2023.2.1
 
 Bug fixes:
 
-* Remove references to worker\_threads Node dependency
+* Remove references to `worker_threads` Node dependency
 
 ### 2023.2.0
 

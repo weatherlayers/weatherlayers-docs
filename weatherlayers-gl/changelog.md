@@ -9,7 +9,7 @@ New features:
 Minor changes:
 
 * Improve HighLow layer performance when zooming in/out
-* Update deck.gl dependency to 8.9.2
+* Update deck.gl dependency to 8.9.4
 
 Bug fixes:
 

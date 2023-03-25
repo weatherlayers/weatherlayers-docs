@@ -4,7 +4,7 @@
 
 New features:
 
-* Add `imageSmoothing` and `imageInterpolate` to HighLow layer
+* Add `image2`, `imageSmoothing`, `imageInterpolate` and `imageWeight` to HighLow layer
 * Migrate to TypeScript
 
 Minor changes:

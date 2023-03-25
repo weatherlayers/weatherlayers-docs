@@ -50,7 +50,8 @@ async function update() {
     ],
   });
 }
-update();</code></pre>
+update();
+</code></pre>
 
 ### Constructor
 
@@ -99,3 +100,31 @@ Update callback, use for updating displayed data.
 ### Methods
 
 See [Control](control.md) for common Control methods.
+
+#### `toggle(): Promise<void>`
+
+Toggles the timeline animation.
+
+Before starting, it calls and awaits `onPreload` with all datetimes.
+
+#### `start(): Promise<void>`
+
+Starts the timeline animation.
+
+Before starting, it calls and awaits `onPreload` with all datetimes.
+
+#### `stop(): Promise<void>`
+
+Stops the timeline animation.
+
+#### `stepBackward(): Promise<void>`
+
+Steps backward in the timeline animation.
+
+Before steping, it calls and awaits `onPreload` with datetimes required to display the requested step.
+
+#### `stepForward(): Promise<void>`
+
+Steps forward in the timeline animation.
+
+Before steping, it calls and awaits `onPreload` with datetimes required to display the requested step.

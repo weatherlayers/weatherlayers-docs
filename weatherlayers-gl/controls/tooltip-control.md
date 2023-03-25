@@ -34,7 +34,7 @@ Unit definition to be used for formatting numbers.
 
 See [Control](control.md) for common Control methods.
 
-#### `update(rasterValue: RasterPickingInfo | undefined)`
+#### `update(rasterValue: RasterPickingInfo | undefined): void`
 
 Type: `RasterPickingInfo = { value: number, direction?: number }`
 

@@ -10,6 +10,7 @@ New features:
 Minor changes:
 
 * Improve HighLow layer performance when zooming in/out
+* Add methods to control the animation to Timeline control
 * Update deck.gl dependency to 8.9.4
 
 Bug fixes:
@@ -52,7 +53,7 @@ New features:
 
 Bug fixes:
 
-* Fix particle layer to drop particles out of bounds, to support regional vector data\
+* Fix Particle layer to drop particles out of bounds, to support regional vector data\
   [https://github.com/weatherlayers/deck.gl-particle/issues/10](https://github.com/weatherlayers/deck.gl-particle/issues/10)
 
 Minor changes:

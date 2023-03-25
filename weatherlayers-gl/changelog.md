@@ -14,7 +14,7 @@ Minor changes:
 
 Bug fixes:
 
-* Fallback grafeculy to `imageSmoothing` default value
+* Ensure `defaultProps` if `undefined` is passed from outside
 * Remove references to `worker_threads` Node dependency
 
 ### 2023.2.1

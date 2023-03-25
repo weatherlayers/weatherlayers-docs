@@ -14,7 +14,7 @@ Minor changes:
 
 Bug fixes:
 
-* Ensure `defaultProps` if `undefined` is passed from outside
+* Prefer default values over provided `undefined` values
 * Remove references to `worker_threads` Node dependency
 
 ### 2023.2.1

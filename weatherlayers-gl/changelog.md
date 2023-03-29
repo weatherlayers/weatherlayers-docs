@@ -4,10 +4,11 @@
 
 New features:
 
-* Update licensing approach to a separate `license.json` file
-  * Provide it to the library with `WeatherLayers.setLicense(license)`
 * Publish as npm package
-  * [https://www.npmjs.com/package/weatherlayers-gl](https://www.npmjs.com/package/weatherlayers-gl)
+  * Install the library with `npm install weatherlayers-gl`
+* Update licensing approach to a separate `license.json` file
+  * [Contact us](mailto:support@weatherlayers.com) to receive your license file
+  * Provide the license file to the library with `WeatherLayers.setLicense(license)`
 * Migrate to TypeScript
   * `*.d.ts` files are provided as part of the distribution package
 * Rename distribution files to follow ESM conventions

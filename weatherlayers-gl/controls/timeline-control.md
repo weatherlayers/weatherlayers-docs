@@ -6,7 +6,7 @@ Timeline control allows playing datetimes as animation with linear interpolation
 
 ![Timeline Control](../../.gitbook/assets/timeline-control.png)
 
-<pre class="language-javascript"><code class="lang-javascript">import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+<pre class="language-javascript"><code class="lang-javascript">import WeatherLayers from 'weatherlayers-gl';
 
 const files = [
   { datetime: '2021-09-01T20:00:00Z',  url: '...' },

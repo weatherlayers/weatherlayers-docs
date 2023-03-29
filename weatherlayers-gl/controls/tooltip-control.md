@@ -7,7 +7,7 @@ Tooltip control shows the value (and the direction for vector datasets) at curre
 ![Tooltip Control](../../.gitbook/assets/tooltip-control.png)
 
 ```javascript
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 const tooltipControl = new WeatherLayers.TooltipControl({
   unitFormat: {

@@ -1,7 +1,14 @@
 # Usage
 
-```
+```javascript
 import WeatherLayersClient from 'weatherlayers-gl/client';
+
+// use your WeatherLayers Cloud access token
+const client = new WeatherLayersClient.Client({
+  accessToken: 'xxx',
+});
 ```
 
-For detailed API, see typing files provided as part of the distribution package.
+[Contact us](mailto:support@weatherlayers.com) to get your access token.
+
+There are typing files provided as part of the distribution package.

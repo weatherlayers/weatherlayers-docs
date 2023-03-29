@@ -9,7 +9,7 @@ Configure client with your WeatherLayers Cloud access token created in [WeatherL
 ```javascript
 import WeatherLayersClient from 'weatherlayers-gl/client';
 
-// configure client with your WeatherLayers Cloud access token
+// use your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({
   accessToken: 'xxx',
 });

@@ -6,6 +6,7 @@
     * [Raster Layer](weatherlayers-gl/layers/raster-layer.md)
     * [Contour Layer](weatherlayers-gl/layers/contour-layer.md)
     * [HighLow Layer](weatherlayers-gl/layers/high-low-layer.md)
+    * [Front Layer](weatherlayers-gl/layers/front-layer.md)
     * [Grid Layer](weatherlayers-gl/layers/grid-layer.md)
     * [Particle Layer](weatherlayers-gl/layers/particle-layer.md)
     * [Data Loading](weatherlayers-gl/layers/data.md)

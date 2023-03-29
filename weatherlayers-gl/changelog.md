@@ -13,6 +13,7 @@ New features:
 * Rename distribution files to follow ESM conventions
   * `*.cjs` - CommonJS
   * `*.js` - ESM
+* Add [Front layer](layers/front-layer.md)
 
 Minor changes:
 

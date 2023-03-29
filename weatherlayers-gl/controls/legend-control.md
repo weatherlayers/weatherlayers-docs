@@ -7,7 +7,7 @@ Legend control shows the color legend for the raster layer
 ![Legend Control](../../.gitbook/assets/legend-control.png)
 
 ```javascript
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 const legendControl = new WeatherLayers.LegendControl({
   title: 'Wind',

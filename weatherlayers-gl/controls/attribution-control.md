@@ -7,7 +7,7 @@ Attribution control shows the attribution for the data producer
 ![Attribution Control](../../.gitbook/assets/attribution-control.png)
 
 ```javascript
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 const attributionControl = new WeatherLayers.AttributionControl({
   attribution: 'Data by NOAA / GFS',

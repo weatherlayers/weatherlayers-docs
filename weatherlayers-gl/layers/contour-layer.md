@@ -9,7 +9,7 @@ Variable rendered as contours
 ```javascript
 import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);

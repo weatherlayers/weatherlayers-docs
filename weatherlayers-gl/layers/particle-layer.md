@@ -8,7 +8,7 @@ Vector variable rendered as animated particle simulation layer
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);

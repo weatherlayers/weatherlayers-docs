@@ -12,7 +12,7 @@ Front data rendered as front lines with icons
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const frontData = [

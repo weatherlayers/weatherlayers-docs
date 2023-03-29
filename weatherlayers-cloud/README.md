@@ -2,7 +2,7 @@
 
 WeatherLayers Cloud is a cloud service providing visualization-ready weather data from global public weather data sources.
 
-Access token is required to access the data. Create your access token in [WeatherLayers Account](https://account.weatherlayers.com/).
+Valid access token is required to use the library. Create your access token in [WeatherLayers Account](https://account.weatherlayers.com/).
 
 Peer dependencies:
 

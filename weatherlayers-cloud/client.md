@@ -7,7 +7,7 @@ Client providing access to weather data from WeatherLayers Cloud or a compatible
 Configure client with your WeatherLayers Cloud access token created in [WeatherLayers Account](https://account.weatherlayers.com/).
 
 ```javascript
-import * as WeatherLayersClient from '@weatherlayers/weatherlayers-client';
+import WeatherLayersClient from 'weatherlayers-gl/client';
 
 // configure client with your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({

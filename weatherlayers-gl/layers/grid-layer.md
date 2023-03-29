@@ -8,7 +8,7 @@ Variable rendered as grid of values or symbols (arrows, wind barbs)
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);

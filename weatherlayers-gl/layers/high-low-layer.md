@@ -8,7 +8,7 @@ Variable rendered as highs/lows
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);

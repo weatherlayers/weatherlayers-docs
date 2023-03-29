@@ -9,7 +9,7 @@ Variable rendered as a color overlay
 ```javascript
 import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);
@@ -42,7 +42,7 @@ const deckgl = new Deck({
 ```javascript
 import { Deck } from '@deck.gl/core';
 import { ClipExtension } from '@deck.gl/extensions';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureDataCached(url);

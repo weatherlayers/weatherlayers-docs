@@ -4,7 +4,7 @@
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = await WeatherLayers.loadTextureData(url);
@@ -22,7 +22,7 @@ const deckgl = new Deck({
 
 ```javascript
 import { Deck } from '@deck.gl/core';
-import * as WeatherLayers from '@weatherlayers/weatherlayers-gl';
+import WeatherLayers from 'weatherlayers-gl';
 
 // load data
 const image = { data: new Float32Array(...), width: ..., height: ... };

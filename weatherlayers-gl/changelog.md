@@ -6,14 +6,12 @@ New features:
 
 * Publish as npm package
   * Install the library with `npm install weatherlayers-gl`
+  * Use the library with `import WeatherLayers from 'weatherlayers-gl'`
 * Update licensing approach to a separate `license.json` file
   * [Contact us](mailto:support@weatherlayers.com) to receive your license file
   * Provide the license file to the library with `WeatherLayers.setLicense(license)`
 * Migrate to TypeScript
-  * `*.d.ts` files are provided as part of the distribution package
-* Rename distribution files to follow ESM conventions
-  * `*.cjs` - CommonJS
-  * `*.js` - ESM
+  * Typing files are provided as part of the distribution package
 * Add [Front layer](layers/front-layer.md)
 
 Minor changes:

@@ -6,5 +6,5 @@ Access token is required to access the data. Create your access token in [Weathe
 
 Peer dependencies:
 
-* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.5 (if loading texture data from GeoTIFF)
+* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.7 (if loading texture data from GeoTIFF)
 

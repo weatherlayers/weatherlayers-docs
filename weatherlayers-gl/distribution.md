@@ -1,5 +1,6 @@
 # Distribution
 
-The source code is provided by [support e-mail](https://weatherlayers.com/) as CJS, ESM and UMD minified bundle.
+Install from npm: [https://www.npmjs.com/package/weatherlayers-gl](https://www.npmjs.com/package/weatherlayers-gl)
 
-There is no npm package yet.
+Valid license file is required to use the library. See [License File](license-file.md) for details.
+

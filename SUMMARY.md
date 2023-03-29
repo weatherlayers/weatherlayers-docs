@@ -20,6 +20,7 @@
     * [Control](weatherlayers-gl/controls/control.md)
   * [Functions](weatherlayers-gl/functions.md)
   * [Distribution](weatherlayers-gl/distribution.md)
+  * [License File](weatherlayers-gl/license-file.md)
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)
   * [Roadmap](roadmap.md)

@@ -1,14 +1,22 @@
 # Changelog
 
-### Upcoming
+### 2023.3.0
 
 New features:
 
-* Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
+* Update licensing approach to a separate `license.json` file
+  * Provide it to the library with `WeatherLayers.setLicense(license)`
+* Publish as npm package
+  * [https://www.npmjs.com/package/weatherlayers-gl](https://www.npmjs.com/package/weatherlayers-gl)
 * Migrate to TypeScript
+  * `*.d.ts` files are provided as part of the distribution package
+* Rename distribution files to follow ESM conventions
+  * `*.cjs` - CommonJS
+  * `*.js` - ESM
 
 Minor changes:
 
+* Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
 * Improve HighLow layer performance when zooming in/out
 * Add methods to control the animation to Timeline control
 * Update deck.gl dependency to 8.9.4

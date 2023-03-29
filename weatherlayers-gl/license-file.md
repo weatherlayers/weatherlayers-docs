@@ -1,7 +1,7 @@
 # Usage
 
 ```javascript
-import WeatherLayers from 'weatherlayers-gl';
+import * as WeatherLayers from 'weatherlayers-gl';
 
 // use your WeatherLayers GL license file
 import license from './license.json';

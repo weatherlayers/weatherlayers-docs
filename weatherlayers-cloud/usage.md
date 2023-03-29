@@ -1,7 +1,7 @@
 # Usage
 
 ```javascript
-import WeatherLayersClient from 'weatherlayers-gl/client';
+import * as WeatherLayersClient from 'weatherlayers-gl/client';
 
 // use your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({

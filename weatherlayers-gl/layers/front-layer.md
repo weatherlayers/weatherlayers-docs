@@ -4,8 +4,6 @@ Front data rendered as front lines with icons
 
 ### Example
 
-![Front Layer](../../.gitbook/assets/front-layer.png)
-
 ![Front Layer - cold/warm/occluded weather fronts](../../.gitbook/assets/front-layer-cold-warm-occluded.png)
 
 ![Front Layer - stationary front](../../.gitbook/assets/front-layer-stationary.png)

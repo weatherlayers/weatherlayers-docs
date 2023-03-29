@@ -1,6 +1,12 @@
-# Distribution
+# Installation
 
-Install from npm: [https://www.npmjs.com/package/weatherlayers-gl](https://www.npmjs.com/package/weatherlayers-gl)
+```
+npm install weatherlayers-gl
+```
 
-Valid license file is required to use the library. See [License File](license-file.md) for details.
+or
+
+```
+<script src="https://unpkg.com/browse/weatherlayers-gl/dist/weatherlayers-deck.umd.min.js"></script>
+```
 

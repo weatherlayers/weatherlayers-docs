@@ -1,5 +1,11 @@
-# Distribution
+# Installation
 
-The source code is provided by [support e-mail](https://weatherlayers.com/) as CJS, ESM and UMD minified bundle.
+```
+npm install weatherlayers-gl
+```
 
-There is no npm package yet.
+or
+
+```
+<script src="https://unpkg.com/browse/weatherlayers-gl/dist/weatherlayers-deck.umd.min.js"></script>
+```

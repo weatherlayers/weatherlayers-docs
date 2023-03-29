@@ -1,5 +1,11 @@
 # Functions
 
+### License Functions
+
+#### `setLicense(license: License): void`
+
+Sets the license to authorize library usage.
+
 ### Datetime Functions
 
 #### `getClosestStartDatetime(datetimes: String[], datetime: String): String`

@@ -9,7 +9,7 @@ Minor changes:
 Bug fixes:
 
 * Update package exports to expose a default export for TS moduleResolution = node and unpkg.com
-* Fix TS typings to enable layer extension props
+* Fix TS typings to enable arbitrary layer props such as layer extensions
 
 ### 2023.3.0
 

@@ -1,5 +1,16 @@
 # Changelog
 
+### 2023.3.1
+
+Minor changes:
+
+* Optimize bundle size
+
+Bug fixes:
+
+* Fix TS typings to support moduleResolution = node
+* Fix TS typings to enable layer extension props
+
 ### 2023.3.0
 
 New features:

@@ -64,7 +64,7 @@ interface Dataset {
   title: string;
   unitFormat: UnitFormat;
   attribution: string;
-  datetimes: string[];
+  datetimes: DatetimeISOString[];
   palette: Palette;
 }
 ```

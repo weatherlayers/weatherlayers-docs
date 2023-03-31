@@ -17,6 +17,6 @@ const client = new WeatherLayersClient.Client({
 });
 ```
 
-A valid access token is required to use the library. [Contact us](mailto:support@weatherlayers.com) for details.
+A valid access token is required to use the library. [Contact support](mailto:support@weatherlayers.com) for details.
 
 TypeScript `d.ts` typing files are provided as part of the distribution package.

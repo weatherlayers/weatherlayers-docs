@@ -16,7 +16,7 @@ import license from './license.json';
 WeatherLayers.setLicense(license);
 ```
 
-A valid license file is required to use the library in production. [Contact us](mailto:support@weatherlayers.com) for details.
+A valid license file is required to use the library in production. [Contact support](mailto:support@weatherlayers.com) for details.
 
 TypeScript `d.ts` typing files are provided as part of the distribution package.
 

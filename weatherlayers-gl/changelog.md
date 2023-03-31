@@ -5,7 +5,7 @@
 Minor changes:
 
 * Update selected datetime in Timeline control when updating the datetime from outside
-* Add `pause` method to Timeline control in addition to the original `stop` method
+* Add `pause` method to Timeline control
 * Add `datetimeFormatFunction` to Timeline control
 * Add `DatetimeISOString` type
 
@@ -38,7 +38,7 @@ Minor changes:
 
 * Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
 * Improve HighLow layer performance when zooming in/out
-* Add methods to control the animation to Timeline control
+* Add `start`, `stop`, `stepBackward` and `stepForward` methods to Timeline control
 * Update deck.gl dependency to 8.9.4
 
 Bug fixes:

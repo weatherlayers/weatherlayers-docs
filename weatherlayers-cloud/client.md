@@ -69,7 +69,7 @@ interface Dataset {
 }
 ```
 
-#### `loadDatasetData(dataset: string, datetime: string, options: LoadDatasetDataOptions): Promise<DatasetData>`
+#### `loadDatasetData(dataset: string, datetime: DatetimeISOString, options: LoadDatasetDataOptions): Promise<DatasetData>`
 
 Loads dataset data at the datetime from the catalog.
 

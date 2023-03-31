@@ -99,7 +99,7 @@ If `style: ARROW` or `style: WIND_BARB`, `imageType` must be `VECTOR`.
 
 #### `unitFormat`
 
-Type: `UnitFormat = { unit: string; scale?: number; offset?: number; decimals?: number }`, optional
+Type: `UnitFormat`, optional
 
 Default: `null`
 

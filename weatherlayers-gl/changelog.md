@@ -38,7 +38,7 @@ Minor changes:
 
 * Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
 * Improve HighLow layer performance when zooming in/out
-* Add `start`, `stop`, `stepBackward` and `stepForward` methods to Timeline control
+* Add `toggle`, `start`, `stop`, `stepBackward` and `stepForward` methods to Timeline control
 * Update deck.gl dependency to 8.9.4
 
 Bug fixes:

@@ -113,7 +113,11 @@ Starts the timeline animation.
 
 Before starting, it calls and awaits `onPreload` with all datetimes.
 
-#### `stop(): Promise<void>`
+#### `pause(): void`
+
+Pauses the timeline animation.
+
+#### `stop(): void`
 
 Stops the timeline animation.
 

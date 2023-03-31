@@ -101,9 +101,9 @@ Update callback, use for updating displayed data.
 
 See [Control](control.md) for common Control methods.
 
-#### `toggle(): Promise<void>`
+#### `toggle(running?: boolean): Promise<void>`
 
-Toggles the timeline animation.
+Toggles (starts or pauses) the timeline animation.
 
 Before starting, it calls and awaits `onPreload` with all datetimes.
 
@@ -119,16 +119,20 @@ Pauses the timeline animation.
 
 #### `stop(): void`
 
-Stops the timeline animation.
+Stops (pauses and resets) the timeline animation.
+
+#### `reset(): void`
+
+Resets the timeline animation.
 
 #### `stepBackward(): Promise<void>`
 
 Steps backward in the timeline animation.
 
-Before steping, it calls and awaits `onPreload` with datetimes required to display the requested step.
+Before stepping, it calls and awaits `onPreload` with datetimes required to display the requested step.
 
 #### `stepForward(): Promise<void>`
 
 Steps forward in the timeline animation.
 
-Before steping, it calls and awaits `onPreload` with datetimes required to display the requested step.
+Before stepping, it calls and awaits `onPreload` with datetimes required to display the requested step.

@@ -18,6 +18,7 @@
     * [Tooltip Control](weatherlayers-gl/controls/tooltip-control.md)
     * [Attribution Control](weatherlayers-gl/controls/attribution-control.md)
     * [Control](weatherlayers-gl/controls/control.md)
+  * [Types](weatherlayers-gl/types.md)
   * [Functions](weatherlayers-gl/functions.md)
   * [Installation](weatherlayers-gl/distribution.md)
   * [Usage](weatherlayers-gl/license-file.md)

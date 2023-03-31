@@ -1,5 +1,13 @@
 # Changelog
 
+### Upcoming
+
+Minor changes:
+
+* Update selected datetime in Timeline control when updating the datetime from outside
+* Add `datetimeFormatFunction` to Timeline control
+* Add `DatetimeISOString` type
+
 ### 2023.3.1
 
 Minor changes:

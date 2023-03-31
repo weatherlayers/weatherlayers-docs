@@ -8,19 +8,19 @@ Sets the license to authorize library usage.
 
 ### Datetime Functions
 
-#### `getClosestStartDatetime(datetimes: String[], datetime: String): String`
+#### `getClosestStartDatetime(datetimes: DatetimeISOString[], datetime: DatetimeISOString): DatetimeISOString | undefined`
 
 Gets the closest start datetime (i.e. lower or equal) for the given datetime from the given datetimes.
 
 Use to find the correct start image to load, to be used in `image` property.
 
-#### `getClosestEndDatetime(datetimes: String[], datetime: String): String`
+#### `getClosestEndDatetime(datetimes: DatetimeISOString[], datetime: DatetimeISOString): DatetimeISOString | undefined`
 
 Gets the closest end datetime (i.e. greater or equal) for the given datetime from the given datetimes.
 
 Use to find the correct end image to load, to be used in `image2` property. Applicable only if `imageInterpolate` is enabled.
 
-#### `getDatetimeWeight(startDatetime: String, endDatetime: String, datetime: String): number`
+#### `getDatetimeWeight(startDatetime: DatetimeISOString, endDatetime: DatetimeISOString, datetime: DatetimeISOString): number`
 
 Gets the datetime weight between the given start and end datetime for the given datetime. The returned value is a number `0-1`.
 

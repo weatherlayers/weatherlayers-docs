@@ -5,7 +5,7 @@
 Minor changes:
 
 * Update selected datetime in Timeline control when updating the datetime from outside
-* Add `pause` method to Timeline control
+* Add `pause` and `reset` methods to Timeline control
 * Add `datetimeFormatFunction` to Timeline control
 * Add `DatetimeISOString` type
 

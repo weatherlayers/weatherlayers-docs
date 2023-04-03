@@ -1,5 +1,15 @@
 # Changelog
 
+### 2023.3.3
+
+Minor changes:
+
+* Update deck.gl dependency to 8.9.6
+
+Bug fixes:
+
+* Fix browser crash when ESM build is used with Vite
+
 ### 2023.3.2
 
 Minor changes:

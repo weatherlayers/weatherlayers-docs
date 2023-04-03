@@ -6,7 +6,7 @@ A valid license file is required to use the library. [Contact us](mailto:support
 
 Peer dependencies:
 
-* [deck.gl](https://deck.gl) >= 8.9.4
+* [deck.gl](https://deck.gl) >= 8.9.6
 * [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.7 (if loading texture data from GeoTIFF)
 
 ### Versioning

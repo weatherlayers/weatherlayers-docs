@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.3.5
+
+Bug fixes:
+
+* Verify that the library is deployed on a secure origin
+
 ### 2023.3.4
 
 Minor changes:

@@ -4,6 +4,8 @@ WeatherLayers GL is a library of high-performance interactive weather visualizat
 
 A valid license file is required to use the library. [Contact us](mailto:support@weatherlayers.com) for details.
 
+The library requires to be deployed to a secure origin.
+
 Peer dependencies:
 
 * [deck.gl](https://deck.gl) >= 8.9.6

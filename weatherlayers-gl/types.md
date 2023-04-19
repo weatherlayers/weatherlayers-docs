@@ -52,7 +52,7 @@ Image type.
 type ImageUnscale = readonly [min: number, max: number] | null;
 ```
 
-Value bounds to unscale image data to original data.
+Value bounds to unscale image data to original data, or null if image contains original data already and no unscaling is needed.
 
 #### `TextureData`
 

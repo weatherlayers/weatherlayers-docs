@@ -89,6 +89,6 @@ Loads dataset data at the given datetime from a dataset slice defined by the giv
 
 Use when requesting a dynamic datetime from a larger datetime range.
 
-Supports datetime interpolation.
+Supports datetime interpolation, needs to be enabled with `config = { datetimeInterpolate: true }`.
 
 The current conditions can be loaded by providing `datetime = new Date().toISOString()`.

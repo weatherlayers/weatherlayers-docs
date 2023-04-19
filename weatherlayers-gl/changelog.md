@@ -4,7 +4,8 @@
 
 New features:
 
-* Loading historical data from WeatherLayers Cloud
+* Add `getRasterPoints` function
+* Support loading historical data from WeatherLayers Cloud
 
 Bug fixes:
 

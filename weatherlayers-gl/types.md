@@ -1,20 +1,6 @@
 # Types
 
-#### `DatetimeISOString`
-
-```typescript
-type DatetimeISOString = string;
-```
-
-Valid ISO 8601 datetime.
-
-#### `DatetimeISOStringRange`
-
-```typescript
-type DatetimeISOStringRange = [start: DatetimeISOString, end: DatetimeISOString] | DatetimeISOString
-```
-
-Valid ISO 8601 datetime range. Single datetime means an exact datetime instead of a range.
+### Image Types
 
 #### `ImageInterpolation`
 
@@ -54,6 +40,8 @@ type ImageUnscale = readonly [min: number, max: number] | null;
 
 Value bounds to unscale image data to original data, or null if image contains original data already and no unscaling is needed.
 
+### Load Types
+
 #### `TextureData`
 
 ```typescript
@@ -89,3 +77,21 @@ interface RasterPointProperties {
 ```
 
 Raster point properties for a particular position.
+
+### Datetime Types
+
+#### `DatetimeISOString`
+
+```typescript
+type DatetimeISOString = string;
+```
+
+Valid ISO 8601 datetime.
+
+#### `DatetimeISOStringRange`
+
+```typescript
+type DatetimeISOStringRange = [start: DatetimeISOString, end: DatetimeISOString] | DatetimeISOString
+```
+
+Valid ISO 8601 datetime range. Single datetime means an exact datetime instead of a range.

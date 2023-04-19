@@ -11,7 +11,7 @@ Valid ISO 8601 datetime.
 #### `DatetimeISOStringRange`
 
 ```typescript
-type DatetimeISOStringRange = [DatetimeISOString, DatetimeISOString] | DatetimeISOString;ty
+type DatetimeISOStringRange = readonly [start: DatetimeISOString, end: DatetimeISOString] | DatetimeISOString
 ```
 
 Valid ISO 8601 datetime range. Single datetime means an exact datetime instead of a range.

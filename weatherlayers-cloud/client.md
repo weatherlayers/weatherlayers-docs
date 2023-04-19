@@ -67,15 +67,17 @@ Loads dataset ids from the catalog.
 
 #### `loadDataset(dataset: string, config: ClientConfig = {}): Promise<Dataset>`
 
-Loads dataset from the catalog.
+Loads dataset metadata from the catalog.
 
 #### `loadDatasetSlice(dataset: string, datetimeRange: DatetimeISOStringRange, config: ClientConfig = {}): Promise<DatasetSlice>`
 
-Loads dataset slice at the given datetime range from the catalog.
+Loads dataset slice with available datetimes in the given datetime range from the catalog.
 
 #### `loadDatasetData(dataset: string, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
 Loads dataset data at the given datetime from the catalog.
+
+Use when requesting a static datetime.
 
 Doesn't support datetime interpolation.
 
@@ -84,6 +86,8 @@ The current conditions can be loaded by providing `datetime = new Date().toISOSt
 #### `loadDatasetSliceData(dataset: string, datetimeRange: DatetimeISOStringRange, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
 Loads dataset data at the given datetime from a dataset slice defined by the given datetime range. from the catalog.
+
+Use when requesting a dynamic datetime from a larger datetime range.
 
 Supports datetime interpolation.
 

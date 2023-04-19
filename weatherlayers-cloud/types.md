@@ -65,7 +65,7 @@ interface DatasetSlice {
 }
 ```
 
-Dataset slice with datetimes in the requested datetime range.
+Dataset slice with available datetimes in the requested datetime range.
 
 #### `DatasetData`
 

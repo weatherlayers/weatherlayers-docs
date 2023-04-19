@@ -55,7 +55,9 @@ Attribution link class, used in `Dataset`, `attribution` field
 
 Type: boolean, optional
 
+Enable datetime interpolation.
 
+For example, if a datetime 6:30 is requested, but 6:00 and 7:00 exist, `{ image: 6:00, image2: 7:00, imageWeight: 0.5 }` is returned by `loadDatasetSliceData`.
 
 ### Methods
 
@@ -75,10 +77,14 @@ Loads dataset slice at the given datetime range from the catalog.
 
 Loads dataset data at the given datetime from the catalog.
 
+Doesn't support datetime interpolation.
+
 The current conditions can be loaded by providing `datetime = new Date().toISOString()`.
 
 #### `loadDatasetSliceData(dataset: string, datetimeRange: DatetimeISOStringRange, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
 Loads dataset data at the given datetime from a dataset slice defined by the given datetime range. from the catalog.
+
+Supports datetime interpolation.
 
 The current conditions can be loaded by providing `datetime = new Date().toISOString()`.

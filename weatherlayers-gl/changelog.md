@@ -1,6 +1,10 @@
 # Changelog
 
-### Upcoming
+### 2023.4.0
+
+New features:
+
+* Loading historical data
 
 Bug fixes:
 

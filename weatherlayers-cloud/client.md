@@ -79,16 +79,16 @@ Loads dataset data at the given datetime from the catalog.
 
 Use when requesting a static datetime.
 
-Doesn't support datetime interpolation.
+The current data can be loaded by providing `datetime = new Date().toISOString()`.
 
-The current conditions can be loaded by providing `datetime = new Date().toISOString()`.
+Doesn't support datetime interpolation.
 
 #### `loadDatasetSliceData(dataset: string, datetimeRange: DatetimeISOStringRange, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
 Loads dataset data at the given datetime from a dataset slice defined by the given datetime range. from the catalog.
 
-Use when requesting a dynamic datetime from a larger datetime range.
+Use when requesting a dynamic datetime from a larger static datetime range.
+
+The current data can be loaded by providing `datetime = new Date().toISOString()`.
 
 Supports datetime interpolation, needs to be enabled with `config = { datetimeInterpolate: true }`.
-
-The current conditions can be loaded by providing `datetime = new Date().toISOString()`.

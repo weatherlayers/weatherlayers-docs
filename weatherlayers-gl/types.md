@@ -2,18 +2,41 @@
 
 #### `DatetimeISOString`
 
-Type: string
+```typescript
+type DatetimeISOString = string;
+```
 
-Valid ISO 86001 datetime.
+Valid ISO 8601 datetime.
+
+#### `DatetimeISOStringRange`
+
+```typescript
+type DatetimeISOStringRange = [DatetimeISOString, DatetimeISOString] | DatetimeISOString;ty
+```
+
+Valid ISO 8601 datetime range. Single datetime means an exact datetime instead of a range.
 
 #### `TextureData`
 
-Type: `{ data: GeoTIFF.TypedArray | Uint8ClampedArray, width: number, height: number }`
+```typescript
+interface TextureData {
+  data: GeoTIFF.TypedArray | Uint8ClampedArray;
+  width: number;
+  height: number;
+}
+```
 
 Texture data to be used as input to raster rendering layers.
 
 #### `UnitFormat`
 
-Type: `{ unit: string; scale?: number; offset?: number; decimals?: number }`
+```typescript
+interface UnitFormat {
+  unit: string;
+  scale?: number;
+  offset?: number;
+  decimals?: number;
+}
+```
 
 Format definition to be used for formatting raw values with units.

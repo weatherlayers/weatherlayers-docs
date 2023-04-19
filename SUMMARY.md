@@ -27,6 +27,7 @@
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
   * [Quick Start](weatherlayers-cloud/quick-start.md)
   * [Client](weatherlayers-cloud/client.md)
+  * [Types](weatherlayers-cloud/types.md)
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Pricing](weatherlayers-cloud/pricing.md)
 * [Knowledge Base](knowledge-base/README.md)

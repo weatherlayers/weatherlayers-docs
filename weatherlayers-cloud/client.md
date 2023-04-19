@@ -45,54 +45,40 @@ Default: `byte.png`
 
 GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
 
+#### `attributionLinkClass`
+
+Type: string, optional
+
+Attribution link class, used in `Dataset`, `attribution` field
+
+#### `datetimeInterpolate`
+
+Type: boolean, optional
+
+
+
 ### Methods
 
 #### `loadCatalog(): Promise<string[]>`
 
 Loads dataset ids from the catalog.
 
-#### `loadDataset(dataset: string, options: LoadDatasetOptions): Promise<Dataset>`
+#### `loadDataset(dataset: string, config: ClientConfig = {}): Promise<Dataset>`
 
 Loads dataset from the catalog.
 
-```typescript
-interface LoadDatasetOptions {
-  attributionLinkClass?: string;
-}
+#### `loadDatasetSlice(dataset: string, datetimeRange: DatetimeISOStringRange, config: ClientConfig = {}): Promise<DatasetSlice>`
 
-interface Dataset {
-  title: string;
-  unitFormat: UnitFormat;
-  attribution: string;
-  datetimes: DatetimeISOString[];
-  palette: Palette;
-}
-```
+Loads dataset slice at the given datetime range from the catalog.
 
-#### `loadDatasetData(dataset: string, datetime: DatetimeISOString, options: LoadDatasetDataOptions): Promise<DatasetData>`
+#### `loadDatasetData(dataset: string, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
-Loads dataset data at the datetime from the catalog.
+Loads dataset data at the given datetime from the catalog.
 
 The current conditions can be loaded by providing `datetime = new Date().toISOString()`.
 
-The data returned are:
+#### `loadDatasetSliceData(dataset: string, datetimeRange: DatetimeISOStringRange, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
-* `image` - the closest available datetime <= the given datetime
-* `image2` - the closest available datetime >= the given datetime
-* `imageWeight` - datetime interpolation weight between `image` and `image2`
+Loads dataset data at the given datetime from a dataset slice defined by the given datetime range. from the catalog.
 
-```typescript
-interface LoadDatasetDataOptions {
-  datetimeInterpolate?: boolean;
-}
-
-interface DatasetData {
-  image: TextureData;
-  image2: TextureData | null; // applicable if datetimeInterpolate is enabled
-  imageWeight: number; // applicable if datetimeInterpolate is enabled
-  imageType: ImageType;
-  imageUnscale: [number, number] | null; // applicable if original data was scaled to fit image data format and needs to be unscaled back
-  bounds: [number, number, number, number];
-}
-```
-
+The current conditions can be loaded by providing `datetime = new Date().toISOString()`.

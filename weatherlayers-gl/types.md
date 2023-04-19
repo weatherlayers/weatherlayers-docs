@@ -16,6 +16,44 @@ type DatetimeISOStringRange = [DatetimeISOString, DatetimeISOString] | DatetimeI
 
 Valid ISO 8601 datetime range. Single datetime means an exact datetime instead of a range.
 
+#### `ImageInterpolation`
+
+```typescript
+enum ImageInterpolation {
+  NEAREST = 'NEAREST',
+  LINEAR = 'LINEAR',
+  CUBIC = 'CUBIC',
+}
+```
+
+Image interpolation method.
+
+* `NEAREST` - no interpolation, fastest
+* `LINEAR` - medium interpolation quality
+* `CUBIC` - best interpolation quality, slowest
+
+#### `ImageType`
+
+```typescript
+enum ImageType {
+  SCALAR = 'SCALAR',
+  VECTOR = 'VECTOR',
+}
+```
+
+Image type.
+
+* `SCALAR` - contains a single variable
+* `VECTOR` - contains two variables, `u` and `v` vector components
+
+#### `ImageUnscale`
+
+```typescript
+type ImageUnscale = readonly [min: number, max: number] | null;
+```
+
+Value bounds to unscale image data to original data.
+
 #### `TextureData`
 
 ```typescript

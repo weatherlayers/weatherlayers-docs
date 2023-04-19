@@ -40,3 +40,14 @@ interface UnitFormat {
 ```
 
 Format definition to be used for formatting raw values with units.
+
+#### `RasterPointProperties`
+
+```typescript
+interface RasterPointProperties {
+  value: number;
+  direction?: number;
+}
+```
+
+Raster point properties for a particular position.

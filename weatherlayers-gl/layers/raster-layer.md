@@ -88,11 +88,11 @@ Palette used to interpolate values to colors.
 Formats:
 
 * text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
-* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)~~~~
+* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
 
 ### Picking Info
 
-Type: `RasterPickingInfo = { value: number, direction?: number }`
+Type: `RasterPointProperties`
 
 If `pickable: true`, the picking info passed to callbacks (`onHover`, `onClick`, etc.) provides information on which pixel was picked. It contains an additional `raster` field.
 

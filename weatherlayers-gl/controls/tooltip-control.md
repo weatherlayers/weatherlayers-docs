@@ -34,8 +34,8 @@ Unit definition to be used for formatting numbers.
 
 See [Control](control.md) for common Control methods.
 
-#### `update(rasterValue: RasterPickingInfo | undefined): void`
+#### `update(rasterPointProperties: RasterPointProperties | undefined): void`
 
-Type: `RasterPickingInfo = { value: number, direction?: number }`
+Type: `RasterPointProperties`
 
-Updates the tooltip displayed with the given `rasterValue` or hides the tooltip.
+Updates the tooltip displayed with the given `rasterPointProperties` or hides the tooltip.

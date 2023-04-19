@@ -4,7 +4,7 @@
 
 New features:
 
-* Loading historical data
+* Loading historical data from WeatherLayers Cloud
 
 Bug fixes:
 

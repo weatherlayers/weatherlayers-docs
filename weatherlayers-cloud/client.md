@@ -12,7 +12,16 @@ import * as WeatherLayersClient from 'weatherlayers-gl/client';
 // use your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({
   accessToken: 'xxx',
+  datetimeInterpolate: true,
 });
+
+// load dataset slice from the latest reference datetime to 24-hour forecast
+const dataset = 'gfs/wind_10m_above_ground';
+const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
+const datetimeRange = [referenceDatetimeRange[1], WeatherLayers.addHoursToDatetime(referenceDatetimeRange[1], 24)];
+const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
+const datetime = datetimes[0];
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetimeRange, datetime);
 ```
 
 ### Constructor

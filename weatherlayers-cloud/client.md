@@ -21,7 +21,7 @@ const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await 
 const datetimeRange = [referenceDatetimeRange[1], WeatherLayers.addHoursToDatetime(referenceDatetimeRange[1], 24)];
 const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
 const datetime = datetimes[0];
-const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetimeRange, datetime);
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetSliceData(dataset, datetimeRange, datetime);
 ```
 
 ### Constructor

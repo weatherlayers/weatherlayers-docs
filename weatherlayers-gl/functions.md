@@ -52,7 +52,7 @@ Use in `imageWeight` property. Applicable only if `datetimeInterpolate` is enabl
 
 #### `addHoursToDatetime(datetime: DatetimeISOString, hour: number): DatetimeISOString`
 
-Adds hours to datetime.
+Adds hours to the given datetime.
 
 ### Raster functions
 

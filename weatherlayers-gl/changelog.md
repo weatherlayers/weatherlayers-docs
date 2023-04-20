@@ -4,7 +4,8 @@
 
 New features:
 
-* Add `getRasterPoints` and `addHoursToDatetime` functions
+* Add `getRasterPoints` function to get raster points for the given positions
+* Add `addHoursToDatetime` function to add hours to the given datetime
 * Support loading historical data from WeatherLayers Cloud
 
 Bug fixes:

@@ -5,7 +5,11 @@
 New features:
 
 * Add `getRasterPoints` function to get raster points for the given positions
+
+Minor changes:
+
 * Add `addHoursToDatetime` function to add hours to the given datetime
+* Remove unused `loadText` function
 
 Bug fixes:
 

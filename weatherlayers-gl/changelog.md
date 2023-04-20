@@ -10,6 +10,7 @@ New features:
 Bug fixes:
 
 * Verify that the library is deployed on a secure origin
+* Verify that the license has an expected type before verifying the signature
 
 ### 2023.3.4
 

@@ -15,7 +15,7 @@ const client = new WeatherLayersClient.Client({
   datetimeInterpolate: true,
 });
 
-// load dataset slice from the latest reference datetime to 24-hour forecast
+// load dataset slice, the most recent reference datetime with 24-hour forecast
 const dataset = 'gfs/wind_10m_above_ground';
 const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
 const datetimeRange = [referenceDatetimeRange[1], WeatherLayers.addHoursToDatetime(referenceDatetimeRange[1], 24)];

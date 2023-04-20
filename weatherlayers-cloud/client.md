@@ -66,7 +66,7 @@ Type: boolean, optional
 
 Enable datetime interpolation.
 
-For example, if a datetime 6:30 is requested, but 6:00 and 7:00 exist, `{ image: 6:00, image2: 7:00, imageWeight: 0.5 }` is returned by `loadDatasetSliceData`.
+For example, if a datetime 6:30 is requested, but 6:00 and 7:00 exist, `{ image: <6:00>, image2: <7:00>, imageWeight: 0.5 }` is returned by `loadDatasetData`.
 
 ### Methods
 
@@ -86,18 +86,4 @@ Loads dataset slice with available datetimes in the given datetime range from th
 
 Loads dataset data at the given datetime from the catalog.
 
-Use when requesting a static datetime.
-
 The current data can be loaded by providing `datetime = new Date().toISOString()`.
-
-Doesn't support datetime interpolation.
-
-#### `loadDatasetSliceData(dataset: string, datetimeRange: DatetimeISOStringRange, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
-
-Loads dataset data at the given datetime from a dataset slice defined by the given datetime range. from the catalog.
-
-Use when requesting a dynamic datetime from a larger static datetime range.
-
-The current data can be loaded by providing `datetime = new Date().toISOString()`.
-
-Supports datetime interpolation, needs to be enabled with `config = { datetimeInterpolate: true }`.

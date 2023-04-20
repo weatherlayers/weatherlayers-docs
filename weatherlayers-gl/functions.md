@@ -24,12 +24,6 @@ Loads the url as JSON. The response should be a JSON file.
 
 The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 
-#### `loadText(url: String, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<string>`
-
-Loads the url as text. The response should be a plain text file.
-
-The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
-
 ### Datetime Functions
 
 #### `getClosestStartDatetime(datetimes: DatetimeISOString[], datetime: DatetimeISOString): DatetimeISOString | undefined`

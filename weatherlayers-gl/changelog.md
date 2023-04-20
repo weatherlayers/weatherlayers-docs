@@ -6,12 +6,12 @@ New features:
 
 * Add `getRasterPoints` function to get raster points for the given positions
 * Add `addHoursToDatetime` function to add hours to the given datetime
-* Support loading historical data from WeatherLayers Cloud
 
 Bug fixes:
 
 * Verify that the library is deployed on a secure origin
 * Verify that the license has an expected type before verifying the signature
+* Log image URL if image decoding fails
 
 ### 2023.3.4
 

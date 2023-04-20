@@ -50,6 +50,10 @@ Gets the datetime weight between the given start and end datetime for the given 
 
 Use in `imageWeight` property. Applicable only if `datetimeInterpolate` is enabled.
 
+#### `addHoursToDatetime(datetime: DatetimeISOString, hour: number): DatetimeISOString`
+
+Adds hours to datetime.
+
 ### Raster functions
 
 #### `getRasterPoints(image: TextureData, image2: TextureData | null, imageSmoothing: number, imageInterpolation: ImageInterpolation, imageWeight: number, imageType: ImageType, imageUnscale: ImageUnscale, bounds: GeoJSON.BBox, positions: GeoJSON.Position[]): GeoJSON.FeatureCollection<GeoJSON.Point, RasterPointProperties>`

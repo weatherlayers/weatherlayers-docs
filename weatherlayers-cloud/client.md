@@ -82,6 +82,8 @@ Loads dataset metadata from the catalog.
 
 Loads dataset slice with available datetimes in the given datetime range from the catalog.
 
+The current data with offset can be loaded by providing `datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24)`.
+
 #### `loadDatasetData(dataset: string, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
 
 Loads dataset data at the given datetime from the catalog.

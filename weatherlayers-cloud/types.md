@@ -10,7 +10,6 @@ interface Dataset {
   unitFormat: UnitFormat;
   attribution: string;
   datetimeRange: DatetimeISOStringRange;
-  referenceDatetimeRange: DatetimeISOStringRange[];
   datetimes: DatetimeISOString[]; // deprecated, use `loadDatasetSlice` instead
   palette: Palette;
 }

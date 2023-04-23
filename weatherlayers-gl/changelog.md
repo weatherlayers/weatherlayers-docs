@@ -8,7 +8,7 @@ New features:
 
 Minor changes:
 
-* Add `addHoursToDatetime` function to add hours to the given datetime
+* Add `offsetDatetime` and `offsetDatetimeRange` functions to add hours to the given datetime
 * Remove unused `loadText` function
 * Update deck.gl dependency to 8.9.9
 

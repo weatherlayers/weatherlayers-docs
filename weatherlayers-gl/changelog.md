@@ -4,7 +4,7 @@
 
 Bug fixes:
 
-* Fix compatibility with older Microsoft Edge versions
+* Fix Timeline control compatibility with older browsers
 
 ### 2023.4.0
 

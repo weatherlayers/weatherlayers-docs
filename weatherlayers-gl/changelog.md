@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.4.2
+
+Minor changes:
+
+* Add `fps` config property to Timeline control
+
 ### 2023.4.1
 
 Bug fixes:

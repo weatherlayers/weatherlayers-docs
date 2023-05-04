@@ -97,6 +97,14 @@ Type: `(datetime: DatetimeISOString) => void`, optional
 
 Update callback, use for updating displayed data.
 
+#### `fps`
+
+Type: number, optional
+
+Default: 15
+
+Timeline animation speed, in frames per seconds. Lower number is slower animation, higher number is faster animation.
+
 ### Methods
 
 See [Control](control.md) for common Control methods.

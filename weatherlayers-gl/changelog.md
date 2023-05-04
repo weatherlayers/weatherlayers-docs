@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.4.1
+
+Bug fixes:
+
+* Fix compatibility with older Microsoft Edge versions
+
 ### 2023.4.0
 
 New features:

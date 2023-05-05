@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.4.3
+
+Bug fixes:
+
+* Fix Timeline control compatibility with older browsers
+
 ### 2023.4.2
 
 Minor changes:

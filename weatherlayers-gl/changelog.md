@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+Minor changes:
+
+* Add loader to Timeline control
+
 ### 2023.4.3
 
 Bug fixes:

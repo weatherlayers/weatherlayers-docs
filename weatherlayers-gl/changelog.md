@@ -5,6 +5,7 @@
 Minor changes:
 
 * Add loader to Timeline control
+* Add Logo control
 
 ### 2023.4.3
 

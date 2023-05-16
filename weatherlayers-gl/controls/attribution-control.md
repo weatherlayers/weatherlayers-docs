@@ -17,7 +17,7 @@ attributionControl.addTo(document.getElementById('controls'));
 
 ### Constructor
 
-#### `LegendControl(config: LegendConfig = {})`
+#### `AttributionControl(config: AttributionConfig = {})`
 
 ### Config Properties
 

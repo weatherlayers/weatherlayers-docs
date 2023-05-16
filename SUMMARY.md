@@ -18,6 +18,7 @@
     * [Timeline Control](weatherlayers-gl/controls/timeline-control.md)
     * [Tooltip Control](weatherlayers-gl/controls/tooltip-control.md)
     * [Attribution Control](weatherlayers-gl/controls/attribution-control.md)
+    * [Logo Control](weatherlayers-gl/controls/attribution-control-1.md)
     * [Control](weatherlayers-gl/controls/control.md)
   * [Types](weatherlayers-gl/types.md)
   * [Functions](weatherlayers-gl/functions.md)

@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+Big fixes:
+
+* Fix bundling with Webpack
+
 ### 2023.5.0
 
 Minor changes:

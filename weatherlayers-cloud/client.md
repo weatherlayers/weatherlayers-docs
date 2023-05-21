@@ -9,16 +9,18 @@ Configure client with your WeatherLayers Cloud access token created in [WeatherL
 ```javascript
 import * as WeatherLayersClient from 'weatherlayers-gl/client';
 
+// calculate the datetime range for visualization as 0-24 forecast
+const datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24);
+
 // use your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({
   accessToken: 'xxx',
   datetimeInterpolate: true,
 });
 
-// load dataset slice, the most recent reference datetime with 24-hour forecast
+// load dataset slice, load data in the first available datetime
 const dataset = 'gfs/wind_10m_above_ground';
 const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
-const datetimeRange = [referenceDatetimeRange[1], WeatherLayers.addHoursToDatetime(referenceDatetimeRange[1], 24)];
 const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
 const datetime = datetimes[0];
 const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetSliceData(dataset, datetimeRange, datetime);

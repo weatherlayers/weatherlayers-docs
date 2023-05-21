@@ -44,9 +44,13 @@ Gets the datetime weight between the given start and end datetime for the given 
 
 Use in `imageWeight` property. Applicable only if `datetimeInterpolate` is enabled.
 
-#### `addHoursToDatetime(datetime: DatetimeISOString, hour: number): DatetimeISOString`
+#### `offsetDatetime(datetime: DatetimeISOString, hour: number): DatetimeISOString`
 
 Adds hours to the given datetime.
+
+#### `offsetDatetimeRange(datetime: DatetimeISOString, start: number, end: number): DatetimeISOStringRange`
+
+Adds start hour and end hours to the given datetime. The returned value is a datetime range.
 
 ### Raster functions
 

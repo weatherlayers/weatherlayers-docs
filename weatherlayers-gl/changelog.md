@@ -1,8 +1,14 @@
 # Changelog
 
+### Upcoming
+
+Minor changes:
+
+* Update deck.gl dependency to 8.9.23
+
 ### 2023.5.1
 
-Big fixes:
+Bug fixes:
 
 * Fix bundling with Webpack
 

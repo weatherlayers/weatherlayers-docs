@@ -56,6 +56,14 @@ Default: `byte.png`
 
 GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
 
+#### `unitSystem`
+
+Type: UnitSystem, optional
+
+Default: `METRIC`
+
+Unit system for unit format definition.
+
 #### `attributionLinkClass`
 
 Type: string, optional

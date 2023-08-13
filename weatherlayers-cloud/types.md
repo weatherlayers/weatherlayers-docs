@@ -58,10 +58,23 @@ interface TextureData {
 
 Texture data to be used as input to raster rendering layers.
 
+#### `UnitSystem`
+
+```typescript
+enum UnitSystem {
+  METRIC = 'METRIC',
+  IMPERIAL = 'IMPERIAL',
+  NAUTICAL = 'NAUTICAL',
+}
+```
+
+Unit system for unit format definition.
+
 #### `UnitFormat`
 
 ```typescript
 interface UnitFormat {
+  system: UnitSystem;
   unit: string;
   scale?: number;
   offset?: number;

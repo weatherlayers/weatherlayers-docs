@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+New features:
+
+* Add `unitSystem` config property
+
 ### 2023.5.1
 
 Bug fixes:

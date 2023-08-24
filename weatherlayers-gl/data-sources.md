@@ -36,7 +36,7 @@ For integrating any custom data (NetCDF, GRIB), the data needs to be transformed
 * GeoTIFF Float32
   * scalar - band 1
   * vector - bands 1 and 2
-  * nodata - `NaN` in band 1 (scalar) or `NaN` in bands 1 and 2 (vector)
+  * nodata - `NaN` in band 1 (scalar) or in bands 1 and 2 (vector)
 
 ### Supported projections
 

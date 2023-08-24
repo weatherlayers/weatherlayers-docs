@@ -13,16 +13,30 @@ For integrating any custom data, the data needs to be transformed by your backen
 
 ### Supported data types
 
-* Uint8 - lower quantized precision, higher compression ratio for lower file size, recommended for visualization purposes
-  * `imageUnscale` ...
-* Float32 - better precision, lower compression ratio and larger file size, recommended for scientific purposes
+* Uint8
+  * quantized data into 256 possible values
+  * lower precision, higher compression ratio for lower file size
+  * recommended for visualization purposes
+  * original data bounds need to be provided to unscale the data into the original data, see [Data Properties imageUnscale](layers/data-properties.md#imageunscale)
+* Float32
+  * original data
+  * better precision, lower compression ratio and larger file size
+  * recommended for scientific purposes, or for use cases where exact values with no quantization errors are needed
 
 ### Supported data formats
 
-* PNG - Uint8
+* PNG Uint8
   * scalar - R channel
-  * vector - u/v in R/G channels
-* GeoTIFF - Uint8, Float32
+  * vector - RG channels
+  * nodata - A channel
+* GeoTIFF Uint8
+  * scalar - band 1
+  * vector - bands 1 and 2
+  * nodata - band 4
+* GeoTIFF Float32
+  * scalar - band 1
+  * vector - bands 1 and 2
+  * nodata - NaN in band 1 (scalar) or NaN in bands 1 and 2 (vector)
 
 ### Supported projections
 

@@ -22,6 +22,7 @@
     * [Control](weatherlayers-gl/controls/control.md)
   * [Types](weatherlayers-gl/types.md)
   * [Functions](weatherlayers-gl/functions.md)
+  * [Data Sources](weatherlayers-gl/data-sources.md)
   * [Troubleshooting](weatherlayers-gl/troubleshooting.md)
   * [Pricing](weatherlayers-gl/pricing.md)
   * [Changelog](weatherlayers-gl/changelog.md)

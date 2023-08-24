@@ -10,7 +10,7 @@ Attribution control shows the attribution for the data producer
 import * as WeatherLayers from 'weatherlayers-gl';
 
 const attributionControl = new WeatherLayers.AttributionControl({
-  attribution: 'Data by NOAA / GFS',
+  attribution: 'NOAA / GFS via WeatherLayers',
 });
 attributionControl.addTo(document.getElementById('controls'));
 ```

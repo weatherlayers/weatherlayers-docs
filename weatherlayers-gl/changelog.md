@@ -4,7 +4,7 @@
 
 Minor changes:
 
-* Update deck.gl dependency to 8.9.23
+* Update deck.gl dependency to 8.9.25
 
 ### 2023.5.1
 

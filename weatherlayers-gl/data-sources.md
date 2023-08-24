@@ -2,7 +2,7 @@
 
 WeatherLayers GL can be used either with custom self-hosted data or with WeatherLayers Cloud.
 
-For integrating any custom data, the data needs to be transformed by your backend server to a supported data type, data format and map projection.
+For integrating any custom data (NetCDF, GRIB), the data needs to be transformed by your backend server to a supported data type, data format and map projection.
 
 ### Data sources
 

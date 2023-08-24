@@ -34,7 +34,4 @@
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Pricing](weatherlayers-cloud/pricing.md)
   * [Changelog](weatherlayers-cloud/changelog.md)
-* [Knowledge Base](knowledge-base/README.md)
-  * [Data Types](knowledge-base/data-types.md)
-  * [Data Formats](knowledge-base/formats.md)
 * [Contact](contact.md)

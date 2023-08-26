@@ -8,7 +8,7 @@ Minor changes:
 
 Bug fixes:
 
-* Fix Logo Control to be clickable
+* Fix controls to be clickable when added as Mapbox/MapLibre control
 
 ### 2023.5.1
 

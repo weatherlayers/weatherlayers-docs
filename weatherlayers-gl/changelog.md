@@ -6,6 +6,10 @@ Minor changes:
 
 * Update deck.gl dependency to 8.9.25
 
+Bug fixes:
+
+* Fix Logo Control to be clickable
+
 ### 2023.5.1
 
 Bug fixes:

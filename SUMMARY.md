@@ -31,6 +31,7 @@
   * [Quick Start](weatherlayers-cloud/quick-start.md)
   * [Client](weatherlayers-cloud/client.md)
   * [Types](weatherlayers-cloud/types.md)
+  * [Troubleshooting](weatherlayers-cloud/troubleshooting.md)
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Pricing](weatherlayers-cloud/pricing.md)
   * [Changelog](weatherlayers-cloud/changelog.md)

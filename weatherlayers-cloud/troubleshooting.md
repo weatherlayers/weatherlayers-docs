@@ -4,7 +4,7 @@
 
 #### Issue
 
-WeatherLayers Client typings are exported as a separate export with `exports` syntax.
+WeatherLayers Client typings are exported as a separate named export with `exports` syntax.
 
 ```typescript
   "exports": {
@@ -25,10 +25,12 @@ WeatherLayers Client typings are exported as a separate export with `exports` sy
 
 #### Symptoms
 
-After `deck.MapboxOverlay` is added to the map with `maplibregl.Map.addControl` and removed from the map with `maplibregl.Map.removeControl`, adding it back again with `maplibregl.Map.addControl` doesn't render any layers.
+After WeatherLayers Client is imported with `import * as WeatherLayersClient from 'weatherlayers-gl/client'`, TypeScript reports that the module `weatherlayers-gl/client` can't be found and TypeScript integration doesn't work.
 
 #### Solution
 
-After removing `deck.MapboxOverlay` from the map with `maplibregl.Map.removeControl`, remove layers as well with `deck.MapboxOverlay.setProps({ layers: [] })`.
+Check your `moduleResolution` in `tsconfig.json`. Since TypeScript 5, there is a new value `bundler`, which covers exactly this case and should be compatible with modern development stacks. Since TypeScript 5.2, this value is required.
 
-After adding `deck.MapboxOverlay` to the map with `maplibregl.Map.addControl`, add layers with `deck.MapboxOverlay.setProps({ layers: [...all layers...] })`.
+See[ https://github.com/microsoft/TypeScript/pull/54567](https://github.com/microsoft/TypeScript/pull/54567) for details.
+
+<figure><img src="../.gitbook/assets/typescript-moduleresolution-bundler.png" alt=""><figcaption></figcaption></figure>

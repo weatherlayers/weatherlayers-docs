@@ -29,7 +29,11 @@ After WeatherLayers Client is imported with `import * as WeatherLayersClient fro
 
 #### Solution
 
-Check your `moduleResolution` in `tsconfig.json`. Since TypeScript 5, there is a new value `bundler`, which covers exactly this case and should be compatible with modern development stacks. Since TypeScript 5.2, this value is required.
+Check your `moduleResolution` in `tsconfig.json`.
+
+Since TypeScript 5.0, there is a new value `bundler`, which allows covers exactly this case and should be compatible with modern development stacks.
+
+Since TypeScript 5.2, this value is required.
 
 See[ https://github.com/microsoft/TypeScript/pull/54567](https://github.com/microsoft/TypeScript/pull/54567) for details.
 

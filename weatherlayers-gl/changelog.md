@@ -1,10 +1,11 @@
 # Changelog
 
-### Upcoming
+### 2023.8.0
 
 Minor changes:
 
-* Update deck.gl dependency to 8.9.25
+* Add support for license development domains
+* Update deck.gl dependency to 8.9.27
 
 Bug fixes:
 

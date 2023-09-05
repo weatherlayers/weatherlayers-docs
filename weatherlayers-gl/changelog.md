@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.8.1
+
+Bug fixes:
+
+* Fix corrupted build
+
 ### 2023.8.0
 
 Minor changes:

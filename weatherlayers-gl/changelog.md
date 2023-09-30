@@ -9,6 +9,7 @@ Minor changes:
 Bug fixes:
 
 * Fix disabling layers in MapLibre/Mapbox interleaved mode
+* Discard displaying obsolete points in HighLowLayer
 * Download GeoTIFF file in a single request
 
 ### 2023.8.1

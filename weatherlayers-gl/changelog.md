@@ -8,7 +8,7 @@ Minor changes:
 
 Bug fixes:
 
-* Fix disabling layers in MapLibre/Mapbox integration
+* Fix disabling layers in MapLibre/Mapbox
 * Download GeoTIFF file in a single request
 
 ### 2023.8.1

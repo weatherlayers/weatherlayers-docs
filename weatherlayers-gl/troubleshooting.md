@@ -20,7 +20,7 @@ After adding `deck.MapboxOverlay` to the map with `maplibregl.Map.addControl`, a
 
 #### Issue
 
-HighLowLayer uses deck.gl CollisionFilterExtension, which has an unresolved bug that it can't be used after bitmap layers (RasterLayer, ContourLayer). [https://github.com/visgl/deck.gl/issues/7864](https://github.com/visgl/deck.gl/issues/7864)
+HighLowLayer uses deck.gl CollisionFilterExtension, which has a known unresolved bug that it can't be used after bitmap layers (RasterLayer, ContourLayer). [https://github.com/visgl/deck.gl/issues/7864](https://github.com/visgl/deck.gl/issues/7864)
 
 #### Symptoms
 

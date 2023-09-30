@@ -1,5 +1,16 @@
 # Changelog
 
+### 2023.9.0
+
+Minor changes:
+
+* Update deck.gl dependency to 8.9.30
+
+Bug fixes:
+
+* Fix disabling layers in MapLibre/Mapbox integration
+* Download GeoTIFF file in a single request
+
 ### 2023.8.1
 
 Bug fixes:
@@ -15,7 +26,7 @@ Minor changes:
 
 Bug fixes:
 
-* Fix controls to be clickable when added as Mapbox/MapLibre control
+* Fix controls to be clickable when added as MapLibre/Mapbox control
 
 ### 2023.5.1
 

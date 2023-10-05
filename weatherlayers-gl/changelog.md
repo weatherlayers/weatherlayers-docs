@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.10.0
+
+Minor changes:
+
+* Add support for single-band Uint8 data format
+
 ### 2023.9.0
 
 Minor changes:

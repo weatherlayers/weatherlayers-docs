@@ -27,16 +27,19 @@ For integrating any custom data (NetCDF, GRIB), the data needs to be transformed
 
 * PNG Uint8
   * scalar - R channel
+    * nodata - `0` in A channel
   * vector - RG channels
-  * nodata - `0` in A channel
+    * nodata - `0` in A channel
 * GeoTIFF Uint8
   * scalar - band 1
+    * nodata - `0` in band 2
   * vector - bands 1 and 2
-  * nodata - `0` in band 4
+    * nodata - `0` in band 4
 * GeoTIFF Float32
   * scalar - band 1
+    * nodata - `NaN` in band 1
   * vector - bands 1 and 2
-  * nodata - `NaN` in band 1 (scalar) or in bands 1 and 2 (vector)
+    * nodata - `NaN` in bands 1 and 2
 
 ### Supported projections
 

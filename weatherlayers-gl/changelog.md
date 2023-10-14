@@ -2,26 +2,16 @@
 
 ### 2023.10.3
 
-Bug fixes:
-
-* Fix rendering incorrect nodata pixels in Safari
-* Enable picking in Mapbox/MapLibre interleaved mode, fixed by fixing flickering in 2023.10.1
-
-### 2023.10.2
-
-Bug fixes:
-
-* Use scoped CSS class names to avoid conflicts with global CSS class names
-
-### 2023.10.1
-
 Minor changes:
 
 * Update deck.gl dependency to 8.9.31
 
 Bug fixes:
 
+* Fix rendering incorrect nodata pixels in Safari
 * Fix basemap flickering due to ParticleLayer animation in MapLibre/Mapbox interleaved mode
+* Enable picking in Mapbox/MapLibre interleaved mode
+* Use scoped CSS class names to avoid conflicts with global CSS class names
 
 ### 2023.10.0
 

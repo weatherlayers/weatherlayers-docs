@@ -4,7 +4,7 @@
 
 New features:
 
-* Add `useMousePosition` to TooltipControl
+* Add `float` to TooltipControl
 
 ### 2023.10.3
 

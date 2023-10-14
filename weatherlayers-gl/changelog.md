@@ -4,7 +4,7 @@
 
 New features:
 
-* Add `float` to TooltipControl
+* Add `floating` to TooltipControl
 
 ### 2023.10.3
 

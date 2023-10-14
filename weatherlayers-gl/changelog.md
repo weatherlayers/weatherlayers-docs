@@ -1,5 +1,12 @@
 # Changelog
 
+### 2023.10.3
+
+Bug fixes:
+
+* Fix rendering incorrect nodata pixels in Safari
+* Enable picking in Mapbox/MapLibre interleaved mode, fixed by fixing flickering in 2023.10.1
+
 ### 2023.10.2
 
 Bug fixes:

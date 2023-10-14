@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+New features:
+
+* Add `useMousePosition` to TooltipControl
+
 ### 2023.10.3
 
 Minor changes:

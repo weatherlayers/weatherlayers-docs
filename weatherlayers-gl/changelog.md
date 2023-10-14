@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.10.1
+
+Bug fixes:
+
+* Fix flickering caused by ParticleLayer animation in MapLibre/Mapbox interleaved mode
+
 ### 2023.10.0
 
 Minor changes:

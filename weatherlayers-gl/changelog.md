@@ -4,7 +4,7 @@
 
 Bug fixes:
 
-* Fix flickering caused by ParticleLayer animation in MapLibre/Mapbox interleaved mode
+* Fix basemap flickering caused by ParticleLayer animation in MapLibre/Mapbox interleaved mode
 
 ### 2023.10.0
 

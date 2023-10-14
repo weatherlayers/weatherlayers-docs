@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.10.2
+
+Bug fixes:
+
+* Use scoped CSS class names to avoid conflicts with global CSS class names
+
 ### 2023.10.1
 
 Minor changes:

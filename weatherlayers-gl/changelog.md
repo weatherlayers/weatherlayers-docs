@@ -2,6 +2,10 @@
 
 ### 2023.10.1
 
+Minor changes:
+
+* Update deck.gl dependency to 8.9.31
+
 Bug fixes:
 
 * Fix basemap flickering due to ParticleLayer animation in MapLibre/Mapbox interleaved mode

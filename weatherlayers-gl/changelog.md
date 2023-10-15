@@ -4,7 +4,7 @@
 
 New features:
 
-* Add `floating` to TooltipControl
+* Add `followCursor` to TooltipControl
 
 ### 2023.10.3
 

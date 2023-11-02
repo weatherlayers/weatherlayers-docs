@@ -40,6 +40,27 @@ type ImageUnscale = [min: number, max: number] | null;
 
 Value bounds to unscale image data to original data, or null if image contains original data already and no unscaling is needed.
 
+#### `DirectionFormat`
+
+```typescript
+enum DirectionFormat {
+  VALUE = 'VALUE',
+  CARDINAL = 'CARDINAL',
+  CARDINAL2 = 'CARDINAL2',
+  CARDINAL3 = 'CARDINAL3',
+}
+```
+
+Direction format to be used for formatting.
+
+* `VALUE` - renders direction as a value in degrees
+* `CARDINAL` - renders direction as a 1-letter cardinal (4 possible values)
+  * N, E, S, W
+* `CARDINAL2` - renders direction as a 2-letter cardinal (8 possible values)
+  * N, NE, E, SE, S, SW, W, NW
+* `CARDINAL3` - renders direction as a 3-letter cardinal (16 possible values)
+  * N, NNE, NE, ENE, E, ESE, SE, SSE, S, SSW, SW, WSW, W, WNW, NW, NNW
+
 ### Load Types
 
 #### `TextureData`

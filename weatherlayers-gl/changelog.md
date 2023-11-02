@@ -1,9 +1,11 @@
 # Changelog
 
-### Upcoming
+### 2023.11.0
 
 New features:
 
+* Add direction icon to TooltipControl
+* Add `directionFormat` to TooltipControl
 * Add `followCursor` to TooltipControl
 
 ### 2023.10.3

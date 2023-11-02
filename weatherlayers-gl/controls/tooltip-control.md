@@ -12,7 +12,9 @@ import * as WeatherLayers from 'weatherlayers-gl';
 const tooltipControl = new WeatherLayers.TooltipControl({
   unitFormat: {
     unit: 'm/s',
-  }
+  },
+  directionFormat: WeatherLayers.DirectionFormat.CARDINAL3,
+  followCursor: true,
 });
 tooltipControl.addTo(document.getElementById('controls'));
 deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
@@ -28,7 +30,23 @@ deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
 
 Type: `UnitFormat`, required
 
-Unit definition to be used for formatting numbers.
+Unit definition to be used for formatting.
+
+#### `directionFormat`
+
+Type: `DirectionFormat`, optional
+
+Default value: `DirectionFormat.VALUE`
+
+Direction format to be used for formatting.
+
+#### `followCursor`
+
+Type: boolean, optional
+
+Default value: false
+
+Follow the mouse cursor position.
 
 ### Methods
 

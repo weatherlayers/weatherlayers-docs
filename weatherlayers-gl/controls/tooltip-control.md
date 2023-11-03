@@ -17,7 +17,7 @@ const tooltipControl = new WeatherLayers.TooltipControl({
   followCursor: true,
 });
 tooltipControl.addTo(document.getElementById('controls'));
-deckgl.setProps({ onHover: event => tooltipControl.update(event.raster) });
+deckgl.setProps({ onHover: event => tooltipControl.updatePickingInfo(event) });
 ```
 
 ### Constructor
@@ -57,3 +57,9 @@ See [Control](control.md) for common Control methods.
 Type: `RasterPointProperties`
 
 Updates the tooltip displayed with the given `rasterPointProperties` or hides the tooltip.
+
+#### `updatePickingInfo(pickingInfo: PickingInfo & { raster?: RasterPointProperties }): void`
+
+Type: `PickingInfo & { raster?: RasterPointProperties }`
+
+Updates the tooltip displayed with the given `pickingInfo` or hides the tooltip.

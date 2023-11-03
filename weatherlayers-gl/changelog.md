@@ -8,11 +8,12 @@ New features:
 * Add `directionFormat` to TooltipControl
 * Add `followCursor` to TooltipControl
 
+Dependencies:
+
+* Update deck.gl to 8.9.32
+* Update geotiff.js to 2.1.0
+
 ### 2023.10.3
-
-Minor changes:
-
-* Update deck.gl dependency to 8.9.31
 
 Bug fixes:
 
@@ -20,6 +21,10 @@ Bug fixes:
 * Fix basemap flickering due to ParticleLayer animation in MapLibre/Mapbox interleaved mode
 * Enable picking in Mapbox/MapLibre interleaved mode
 * Use scoped CSS class names to avoid conflicts with global CSS class names
+
+Dependencies:
+
+* Update deck.gl to 8.9.31
 
 ### 2023.10.0
 
@@ -29,15 +34,15 @@ Minor changes:
 
 ### 2023.9.0
 
-Minor changes:
-
-* Update deck.gl dependency to 8.9.30
-
 Bug fixes:
 
 * Fix disabling layers in MapLibre/Mapbox interleaved mode
 * Discard displaying obsolete points in HighLowLayer
 * Download GeoTIFF file in a single request
+
+Dependencies:
+
+* Update deck.gl to 8.9.30
 
 ### 2023.8.1
 
@@ -50,11 +55,14 @@ Bug fixes:
 Minor changes:
 
 * Add support for license development domains
-* Update deck.gl dependency to 8.9.27
 
 Bug fixes:
 
 * Fix controls to be clickable when added as MapLibre/Mapbox control
+
+Dependencies:
+
+* Update deck.gl to 8.9.27
 
 ### 2023.5.1
 
@@ -97,7 +105,6 @@ Minor changes:
 
 * Add `offsetDatetime` and `offsetDatetimeRange` functions to add hours to the given datetime
 * Remove unused `loadText` function
-* Update deck.gl dependency to 8.9.9
 
 Bug fixes:
 
@@ -105,15 +112,19 @@ Bug fixes:
 * Verify that the license has an expected type before verifying the signature
 * Log image URL if image decoding fails
 
+Dependencies:
+
+* Update deck.gl to 8.9.9
+
 ### 2023.3.4
-
-Minor changes:
-
-* Update deck.gl dependency to 8.9.6
 
 Bug fixes:
 
 * Fix browser crash when ESM build is used with Vite
+
+Dependencies:
+
+* Update deck.gl to 8.9.6
 
 ### 2023.3.2
 
@@ -154,12 +165,15 @@ Minor changes:
 * Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
 * Improve HighLow layer performance when zooming in/out
 * Add `toggle`, `start`, `stop`, `stepBackward` and `stepForward` methods to Timeline control
-* Update deck.gl dependency to 8.9.4
 
 Bug fixes:
 
 * Prefer default values over provided `undefined` values
 * Remove references to `worker_threads` Node dependency
+
+Dependencies:
+
+* Update deck.gl to 8.9.4
 
 ### 2023.2.1
 
@@ -202,7 +216,10 @@ Bug fixes:
 Minor changes:
 
 * Rename HighLow and Grid layer `textFunction` style property to `textFormatFunction`
-* Update deck.gl dependency to 8.8.4
+
+Dependencies:
+
+* Update deck.gl to 8.8.4
 
 ### 2022.6.0
 
@@ -218,8 +235,11 @@ Bug fixes:
 Minor changes:
 
 * Remove deprecated Raster layer `colormapBreaks` style property, use `palette` instead
-* Update deck.gl dependency to 8.8.2
 * [Demo](https://demo.weatherlayers.com/) - separate overlaid and interleaved demos
+
+Dependencies:
+
+* Update deck.gl to 8.8.2
 
 ### 2022.5.0
 
@@ -246,8 +266,11 @@ Bug fixes:
 
 Minor changes:
 
-* Update deck.gl dependency to 8.7.5
 * [Demo](https://demo.weatherlayers.com/) - add standalone demos without deck.gl (experimental)
+
+Dependencies:
+
+* Update deck.gl to 8.7.5
 
 ### 2022.3.0
 

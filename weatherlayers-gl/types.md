@@ -53,12 +53,12 @@ enum DirectionFormat {
 
 Direction format to be used for formatting.
 
-* `VALUE` - renders direction as a value in degrees
-* `CARDINAL` - renders direction as a 1-letter cardinal (4 possible values)
+* `VALUE` - formats direction as a value in degrees
+* `CARDINAL` - formats direction as a 1-letter cardinal (4 possible values)
   * N, E, S, W
-* `CARDINAL2` - renders direction as a 2-letter cardinal (8 possible values)
+* `CARDINAL2` - formats direction as a 2-letter cardinal (8 possible values)
   * N, NE, E, SE, S, SW, W, NW
-* `CARDINAL3` - renders direction as a 3-letter cardinal (16 possible values)
+* `CARDINAL3` - formats direction as a 3-letter cardinal (16 possible values)
   * N, NNE, NE, ENE, E, ESE, SE, SSE, S, SSW, SW, WSW, W, WNW, NW, NNW
 
 ![Compass Rose (Source: Wikipedia)](../.gitbook/assets/compass-rose.png)

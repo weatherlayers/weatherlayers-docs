@@ -4,7 +4,7 @@
 
 New features:
 
-* Add direction icon to TooltipControl
+* Add direction arrow icon to TooltipControl
 * Add `directionFormat` to TooltipControl
 * Add `followCursor` to TooltipControl
 

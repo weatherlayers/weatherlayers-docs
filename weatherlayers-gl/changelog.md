@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.11.1
+
+Bug fixes:
+
+* Drop grid points out of bounds
+
 ### 2023.11.0
 
 New features:

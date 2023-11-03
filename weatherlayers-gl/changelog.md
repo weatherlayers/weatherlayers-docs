@@ -28,7 +28,7 @@ Dependencies:
 
 ### 2023.10.0
 
-Minor changes:
+New features:
 
 * Add support for single-band Uint8 data format
 

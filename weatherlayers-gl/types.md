@@ -61,6 +61,8 @@ Direction format to be used for formatting.
 * `CARDINAL3` - renders direction as a 3-letter cardinal (16 possible values)
   * N, NNE, NE, ENE, E, ESE, SE, SSE, S, SSW, SW, WSW, W, WNW, NW, NNW
 
+![Compass Rose (Source: Wikipedia)](../.gitbook/assets/compass-rose.png)
+
 ### Load Types
 
 #### `TextureData`

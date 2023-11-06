@@ -4,7 +4,8 @@
 
 Bug fixes:
 
-* Fix tooltip control z-index for Leaflet
+* Fix TooltipControl z-index for Leaflet
+* Enable picking for OpenLayers
 
 ### 2023.11.1
 
@@ -86,26 +87,26 @@ Bug fixes:
 
 Minor changes:
 
-* Add loader to Timeline control
-* Add Logo control
+* Add loader to TimelineControl
+* Add LogoControl
 
 ### 2023.4.3
 
 Bug fixes:
 
-* Fix Timeline control compatibility with older browsers
+* Fix TimelineControl compatibility with older browsers
 
 ### 2023.4.2
 
 Minor changes:
 
-* Add `fps` config property to Timeline control
+* Add `fps` config property to TimelineControl
 
 ### 2023.4.1
 
 Bug fixes:
 
-* Fix Timeline control compatibility with older browsers
+* Fix TimelineControl compatibility with older browsers
 
 ### 2023.4.0
 
@@ -142,9 +143,9 @@ Dependencies:
 
 Minor changes:
 
-* Update selected datetime in Timeline control when updating the datetime from outside
-* Add `pause` and `reset` methods to Timeline control
-* Add `datetimeFormatFunction` to Timeline control
+* Update selected datetime in TimelineControl when updating the datetime from outside
+* Add `pause` and `reset` methods to TimelineControl
+* Add `datetimeFormatFunction` to TimelineControl
 * Add `DatetimeISOString` type
 
 ### 2023.3.1
@@ -176,7 +177,7 @@ Minor changes:
 
 * Add `image2`, `imageSmoothing` and `imageWeight` to HighLow layer
 * Improve HighLow layer performance when zooming in/out
-* Add `toggle`, `start`, `stop`, `stepBackward` and `stepForward` methods to Timeline control
+* Add `toggle`, `start`, `stop`, `stepBackward` and `stepForward` methods to TimelineControl
 
 Bug fixes:
 

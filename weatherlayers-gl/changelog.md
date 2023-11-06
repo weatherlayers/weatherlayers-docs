@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+Bug fixes:
+
+* Fix tooltip control z-index for Leaflet
+
 ### 2023.11.1
 
 Bug fixes:

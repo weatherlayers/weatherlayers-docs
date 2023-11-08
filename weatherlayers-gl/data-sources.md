@@ -6,8 +6,8 @@ For integrating any custom data (NetCDF, GRIB), the data needs to be transformed
 
 ### Data sources
 
-* [WeatherLayers Cloud](../weatherlayers-cloud/) public data sources - NOAA, Copernicus
-* other public data sources - ECMWF, ICON, ...
+* [WeatherLayers Cloud](../weatherlayers-cloud/) public data sources - NOAA (GFS, GFS Wave), Copernicus (CMEMS, CAMS)
+* other public data sources - ECMWF, ICON, Copernicus (ERA5), ...
 * commercial data sources
 * custom data sources - your own data from scientific research
 

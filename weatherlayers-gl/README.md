@@ -8,8 +8,8 @@ The library requires to be deployed to a secure origin.
 
 Peer dependencies:
 
-* [deck.gl](https://deck.gl) >= 8.9.9
-* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.7 (if loading texture data from GeoTIFF)
+* [deck.gl](https://deck.gl) >= 8.9.32
+* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.1.0 (if loading texture data from GeoTIFF)
 
 ### Versioning
 

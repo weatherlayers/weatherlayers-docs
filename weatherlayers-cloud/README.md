@@ -6,5 +6,5 @@ A valid access token is required to use the library. [Contact us](mailto:support
 
 Peer dependencies:
 
-* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.7 (if loading texture data from GeoTIFF)
+* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.1.0 (if loading texture data from GeoTIFF)
 

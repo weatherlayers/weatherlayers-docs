@@ -23,7 +23,7 @@ const dataset = 'gfs/wind_10m_above_ground';
 const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
 const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
 const datetime = datetimes[0];
-const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetSliceData(dataset, datetimeRange, datetime);
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetime);
 ```
 
 ### Constructor

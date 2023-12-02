@@ -4,6 +4,8 @@
 
 Bug fixes:
 
+* Fix parsing hex colors in RasterLayer palette\
+  [https://github.com/weatherlayers/cpt2js/issues/3](https://github.com/weatherlayers/cpt2js/issues/3)
 * Fix TooltipControl z-index for Leaflet
 * Enable picking for OpenLayers
 

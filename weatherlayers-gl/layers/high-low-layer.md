@@ -43,7 +43,7 @@ Radius in km to filter nearby values. The greater radius, the less values are de
 
 #### `unitFormat`
 
-Type: `UnitFormat`, optional
+Type: [`UnitFormat`](../types.md#unitformat), optional
 
 Default: `null`
 

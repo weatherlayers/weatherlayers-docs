@@ -56,7 +56,7 @@ Title to be displayed.
 
 #### `unitFormat`
 
-Type: `UnitFormat`, required
+Type: [`UnitFormat`](../types.md#unitformat), required
 
 Unit definition to be used for formatting numbers.
 

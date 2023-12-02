@@ -58,7 +58,7 @@ GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a pee
 
 #### `unitSystem`
 
-Type: UnitSystem, optional
+Type: [`UnitSystem`](types.md#unitsystem), optional
 
 Default: `METRIC`
 
@@ -84,17 +84,17 @@ For example, if a datetime 6:30 is requested, but 6:00 and 7:00 exist, `{ image:
 
 Loads dataset ids from the catalog.
 
-#### `loadDataset(dataset: string, config: ClientConfig = {}): Promise<Dataset>`
+#### `loadDataset(dataset: string, config: ClientConfig = {}): Promise<`[`Dataset`](types.md#dataset)`>`
 
 Loads dataset metadata from the catalog.
 
-#### `loadDatasetSlice(dataset: string, datetimeRange: DatetimeISOStringRange, config: ClientConfig = {}): Promise<DatasetSlice>`
+#### `loadDatasetSlice(dataset: string, datetimeRange:` [`DatetimeISOStringRange`](types.md#datetimeisostringrange)`, config: ClientConfig = {}): Promise<`[`DatasetSlice`](types.md#datasetslice)`>`
 
 Loads dataset slice with available datetimes in the given datetime range from the catalog.
 
 The current data with offset can be loaded by providing `datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24)`.
 
-#### `loadDatasetData(dataset: string, datetime: DatetimeISOString, config: ClientConfig = {}): Promise<DatasetData>`
+#### `loadDatasetData(dataset: string, datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
 
 Loads dataset data at the given datetime from the catalog.
 

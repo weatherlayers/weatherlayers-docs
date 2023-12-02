@@ -92,7 +92,7 @@ Formats:
 
 ### Picking Info
 
-Type: `RasterPointProperties`
+Type: [`RasterPointProperties`](../types.md#rasterpointproperties)
 
 If `pickable: true`, the picking info passed to callbacks (`onHover`, `onClick`, etc.) provides information on which pixel was picked. It contains an additional `raster` field.
 

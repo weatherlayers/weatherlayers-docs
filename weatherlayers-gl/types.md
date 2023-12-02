@@ -69,7 +69,7 @@ Direction format to be used for formatting.
 
 ```typescript
 interface TextureData {
-  data: GeoTIFF.TypedArray | Uint8ClampedArray;
+  data: Uint8Array | Uint8ClampedArray | Float32Array;
   width: number;
   height: number;
 }

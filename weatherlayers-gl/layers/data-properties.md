@@ -4,7 +4,7 @@ Data properties common for all layers.
 
 #### `image`
 
-Type: `TextureData = { data: TypedArray, width: number, height: number }`, required
+Type: [`TextureData`](../types.md#texturedata), required
 
 Data type can be either Uint8 (`Uint8Array`, `Uint8ClampedArray`) or Float32 (`Float32Array`).
 
@@ -14,13 +14,13 @@ Supported bands count is `1`, `2` or `4`. See `imageType` and [Data Sources](../
 
 For multi-band data, the expected format is that the band values are interleaved by pixel. For example, for vector data with `u`, `v` values, the expected format is `[u1, v1, u2, v2, ...]`. This is also known as [BIP format](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/bip-format-example.htm).
 
-This is the format expected by the library, after decoding the image from the original file format. Decode the original file format either with [`loadTextureData`](../functions.md#loadtexturedata-url-string-cache-map-less-than-string-any-greater-than-or-false-default\_cache-promis) (PNG, GeoTIFF) or yourself.
+This is the format expected by the library, after decoding the image from the original file format. Decode the original file format either with [`WeatherLayers.loadTextureData`](../functions.md#loadtexturedata-url-string-cache-map-less-than-string-any-greater-than-or-false-default\_cache-promis) (PNG, GeoTIFF) or yourself.
 
 ![Band interleaved by pixel (Source: ArcGIS Documentation)](../../.gitbook/assets/band-interleaved-by-pixel.gif)
 
 #### `image2`
 
-Type: `TextureData = { data: TypedArray, width: number, height: number }`, optional
+Type: [`TextureData`](../types.md#texturedata), optional
 
 The subsequent data image. Used if `imageWeight > 0`.
 
@@ -36,7 +36,7 @@ Smoothing applied to the data. Increasing the smoothing is useful in case of ren
 
 #### `imageInterpolation`
 
-Type: enum `WeatherLayers.ImageInterpolation`, values: `NEAREST`, `LINEAR`, `CUBIC`, optional
+Type: [`ImageInterpolation`](../types.md#imageinterpolation), values: `NEAREST`, `LINEAR`, `CUBIC`, optional
 
 Default: `CUBIC`
 
@@ -56,13 +56,13 @@ Interpolation weight between `image` and `image2`.
 
 #### `imageType`
 
-Type: enum `WeatherLayers.ImageType`, values: `SCALAR`, `VECTOR`, optional
+Type: [`ImageType`](../types.md#imagetype), values: `SCALAR`, `VECTOR`, optional
 
 Default: `SCALAR` (for layers that support both scalar and vector data), `VECTOR` (for layers that support vector data only)
 
 #### `imageUnscale`
 
-Type: tuple of lower and upper bound `[number, number]`, optional
+Type: [`ImageUnscale`](../types.md#imageunscale), optional
 
 Default: `null` (no unscaling)
 

@@ -1,6 +1,6 @@
 # Data Loading
 
-### Example
+### Example - supported file formats
 
 ```javascript
 import { Deck } from '@deck.gl/core';
@@ -18,7 +18,7 @@ const deckgl = new Deck({
 });
 ```
 
-### Example 2
+### Example 2 - custom file formats
 
 ```javascript
 import { Deck } from '@deck.gl/core';

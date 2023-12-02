@@ -69,7 +69,7 @@ Width of the control.
 
 #### `datetimes`
 
-Type: `DatetimeISOString[]`, required
+Type: [`DatetimeISOString`](../types.md#datetimeisostring)`[]`, required
 
 Datetimes to be displayed in the timeline.
 
@@ -81,19 +81,19 @@ Default: true
 
 #### `datetime`
 
-Type: `DatetimeISOString`, required
+Type: [`DatetimeISOString`](../types.md#datetimeisostring), required
 
 Current datetime selected in the timeline.
 
 #### `onPreload`
 
-Type: `(datetimes: DatetimeISOString[]) => Promise<void>`, optional
+Type: `(datetimes:` [`DatetimeISOString`](../types.md#datetimeisostring)`[]) => Promise<void>`, optional
 
 Preload callback, use for preloading requested data.
 
 #### `onUpdate`
 
-Type: `(datetime: DatetimeISOString) => void`, optional
+Type: `(datetime:` [`DatetimeISOString`](../types.md#datetimeisostring)`) => void`, optional
 
 Update callback, use for updating displayed data.
 

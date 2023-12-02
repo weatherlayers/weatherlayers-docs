@@ -28,15 +28,15 @@ deckgl.setProps({ onHover: event => tooltipControl.updatePickingInfo(event) });
 
 #### `unitFormat`
 
-Type: `UnitFormat`, required
+Type: [`UnitFormat`](../types.md#unitformat), required
 
 Unit definition to be used for formatting.
 
 #### `directionFormat`
 
-Type: `DirectionFormat`, optional
+Type: [`DirectionFormat`](../types.md#directionformat), optional
 
-Default value: `DirectionFormat.VALUE`
+Default value: `VALUE`
 
 Direction format to be used for formatting.
 
@@ -52,14 +52,10 @@ Follow the mouse cursor position.
 
 See [Control](control.md) for common Control methods.
 
-#### `update(rasterPointProperties: RasterPointProperties | undefined): void`
-
-Type: `RasterPointProperties`
+#### `update(rasterPointProperties:` [`RasterPointProperties`](../types.md#rasterpointproperties) `| undefined): void`
 
 Updates the tooltip displayed with the given `rasterPointProperties` or hides the tooltip.
 
-#### `updatePickingInfo(pickingInfo: PickingInfo & { raster?: RasterPointProperties }): void`
-
-Type: `PickingInfo & { raster?: RasterPointProperties }`
+#### `updatePickingInfo(pickingInfo: PickingInfo & { raster?:` [`RasterPointProperties`](../types.md#rasterpointproperties) `}): void`
 
 Updates the tooltip displayed with the given `pickingInfo` or hides the tooltip.

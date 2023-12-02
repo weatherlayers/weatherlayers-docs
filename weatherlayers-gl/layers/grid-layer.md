@@ -99,7 +99,7 @@ If `style: ARROW` or `style: WIND_BARB`, `imageType` must be `VECTOR`.
 
 #### `unitFormat`
 
-Type: `UnitFormat`, optional
+Type: [`UnitFormat`](../types.md#unitformat), optional
 
 Default: `null`
 

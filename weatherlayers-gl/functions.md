@@ -10,7 +10,7 @@ Sets the license to authorize library usage.
 
 #### `loadTextureData(url: string, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<`[`TextureData`](types.md#texturedata)`>`
 
-Loads the url as texture data. The response should be a PNG or GeoTIFF image.
+Loads the url as texture data. The url should be PNG, WebP or GeoTIFF image.
 
 GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
 

@@ -14,7 +14,7 @@ Supported bands count is `1`, `2` or `4`. See `imageType` and [Data Sources](../
 
 For multi-band data, the expected format is that the band values are interleaved by pixel. For example, for vector data with `u`, `v` values, the expected format is `[u1, v1, u2, v2, ...]`. This is also known as [BIP format](https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/bip-format-example.htm).
 
-This is the format expected by the library, after decoding the image from the original file format. Decode the original file format either with [`WeatherLayers.loadTextureData`](../functions.md#loadtexturedata-url-string-cache-map-less-than-string-any-greater-than-or-false-default\_cache-promis) (PNG, GeoTIFF) or yourself.
+This is the format expected by the library, after decoding the image from the original file format. Decode the original file format either with [`WeatherLayers.loadTextureData`](../functions.md#loadtexturedata-url-string-cache-map-less-than-string-any-greater-than-or-false-default\_cache-promis) or yourself.
 
 ![Band interleaved by pixel (Source: ArcGIS Documentation)](../../.gitbook/assets/band-interleaved-by-pixel.gif)
 

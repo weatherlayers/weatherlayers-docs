@@ -7,6 +7,7 @@ New features:
 * Add `minZoom`, `maxZoom` to all layers
   * ContourLayer has default `maxZoom = 10`. ParticleLayer has default `maxZoom = 15`. other layers have no default values.
   * It's possible to override a lower default value to a higher value, but rendering artifacts may occur in high zoom levels due to a low precision.
+* Add WebP support for custom data
 * Add picking to OpenLayers demo
 
 Bug fixes:

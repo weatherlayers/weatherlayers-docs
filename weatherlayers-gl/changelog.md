@@ -2,12 +2,18 @@
 
 ### Upcoming
 
+New features:
+
+* Add `minZoom`, `maxZoom` to all layers
+  * ContourLayer has default `maxZoom = 10`, ParticleLayer has default `maxZoom = 15`
+  * It's possible to override them to a higher value, but rendering artifacts may occur in high zoom due to low precision
+* Add picking to OpenLayers demo
+
 Bug fixes:
 
 * Fix parsing hex colors in RasterLayer palette\
   [https://github.com/weatherlayers/cpt2js/issues/3](https://github.com/weatherlayers/cpt2js/issues/3)
 * Fix TooltipControl z-index for Leaflet
-* Enable picking for OpenLayers
 
 ### 2023.11.1
 

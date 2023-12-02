@@ -8,7 +8,7 @@ New features:
   * ContourLayer has default `maxZoom = 10`. ParticleLayer has default `maxZoom = 15`. Other layers have no default values.
   * It's possible to override a lower default value to a higher value, but rendering artifacts may occur in high zoom levels due to a low precision.
 * Add WebP support for custom data
-* Add picking to OpenLayers demo
+* Enable picking in OpenLayers
 
 Bug fixes:
 
@@ -30,7 +30,7 @@ New features:
 * Add `directionFormat` to TooltipControl
 * Add `followCursor` to TooltipControl
 
-Dependencies:
+Peer dependencies:
 
 * Update deck.gl to 8.9.32
 * Update geotiff.js to 2.1.0
@@ -193,7 +193,7 @@ Bug fixes:
 * Prefer default values over provided `undefined` values
 * Remove references to `worker_threads` Node dependency
 
-Dependencies:
+Peer dependencies:
 
 * Update deck.gl to 8.9.4
 
@@ -239,7 +239,7 @@ Minor changes:
 
 * Rename HighLow and Grid layer `textFunction` style property to `textFormatFunction`
 
-Dependencies:
+Peer dependencies:
 
 * Update deck.gl to 8.8.4
 
@@ -259,7 +259,7 @@ Minor changes:
 * Remove deprecated Raster layer `colormapBreaks` style property, use `palette` instead
 * [Demo](https://demo.weatherlayers.com/) - separate overlaid and interleaved demos
 
-Dependencies:
+Peer dependencies:
 
 * Update deck.gl to 8.8.2
 
@@ -290,7 +290,7 @@ Minor changes:
 
 * [Demo](https://demo.weatherlayers.com/) - add standalone demos without deck.gl (experimental)
 
-Dependencies:
+Peer dependencies:
 
 * Update deck.gl to 8.7.5
 

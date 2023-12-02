@@ -62,6 +62,8 @@ Default: `SCALAR` (for layers that support both scalar and vector data), `VECTOR
 
 Type: tuple of lower and upper bound `[number, number]`, optional
 
+Default: `null` (no unscaling)
+
 The original data value bounds, used to unscale the data if the original data are scaled (quantized).
 
 Supported if the data type is Uint8.
@@ -71,3 +73,21 @@ Supported if the data type is Uint8.
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
 
 The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for a global image.
+
+#### `minZoom`
+
+Type: number `0-20`, optional
+
+Default: `null` (no minimal limit)
+
+Minimal zoom limit to render the layer.
+
+#### `maxZoom`
+
+Type: number `0-20`, optional
+
+Default: `10` (ContourLayer), `15` (ParticleLayer), `null` (other layers, no maximal limit)
+
+Maximal zoom limit to render the layer.
+
+It's possible to override a lower default value to a higher value, but rendering artifacts may occur in high zoom levels due to a low precision.

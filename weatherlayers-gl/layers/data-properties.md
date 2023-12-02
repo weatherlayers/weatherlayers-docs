@@ -88,7 +88,7 @@ Minimal zoom limit to render the layer.
 
 Type: number `0-20`, optional
 
-Default: `10` (ContourLayer), `15` (ParticleLayer), `null` (other layers, no maximal limit)
+Default: `10` (ContourLayer), `15` (ParticleLayer), `null` (other layers, no maximal zoom limit)
 
 Maximal zoom limit to render the layer.
 

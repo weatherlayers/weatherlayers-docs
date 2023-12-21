@@ -1,5 +1,11 @@
 # Changelog
 
+### 2023.12.1
+
+New features:
+
+* Add `density` to GridLayer
+
 ### 2023.12.0
 
 New features:

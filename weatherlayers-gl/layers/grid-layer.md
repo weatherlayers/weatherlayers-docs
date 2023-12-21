@@ -97,6 +97,14 @@ Style of the grid points, values or symbols.
 
 If `style: ARROW` or `style: WIND_BARB`, `imageType` must be `VECTOR`.
 
+#### `density`
+
+Type: number, optional
+
+Default: `0`
+
+Grid point density. Recommended values are `0` (default density), `1` or `2` (highest density). Larger values can cause performance issues.
+
 #### `unitFormat`
 
 Type: [`UnitFormat`](../types.md#unitformat), optional

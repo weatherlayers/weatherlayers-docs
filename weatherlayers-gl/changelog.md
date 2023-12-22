@@ -2,11 +2,15 @@
 
 ### 2023.12.1
 
+_December 21, 2023_
+
 New features:
 
 * Add `density` to GridLayer
 
 ### 2023.12.0
+
+_December 2, 2023_
 
 New features:
 
@@ -24,11 +28,15 @@ Bug fixes:
 
 ### 2023.11.1
 
+_November 3, 2023_
+
 Bug fixes:
 
 * Drop grid points out of bounds
 
 ### 2023.11.0
+
+_November 3, 2023_
 
 New features:
 
@@ -43,12 +51,31 @@ Peer dependencies:
 
 ### 2023.10.3
 
+_October 14, 2023_
+
+New features:
+
+* Enable picking in Mapbox/MapLibre interleaved mode
+
 Bug fixes:
 
 * Fix rendering incorrect nodata pixels in Safari
-* Fix basemap flickering due to ParticleLayer animation in MapLibre/Mapbox interleaved mode
-* Enable picking in Mapbox/MapLibre interleaved mode
+
+### 2023.10.2
+
+_October 14, 2023_
+
+Bug fixes:
+
 * Use scoped CSS class names to avoid conflicts with global CSS class names
+
+### 2023.10.1
+
+_October 14, 2023_
+
+Bug fixes:
+
+* Fix basemap flickering due to ParticleLayer animation in MapLibre/Mapbox interleaved mode
 
 Dependencies:
 
@@ -56,11 +83,15 @@ Dependencies:
 
 ### 2023.10.0
 
+_October 5, 2023_
+
 New features:
 
 * Add support for single-band Uint8 data format
 
 ### 2023.9.0
+
+_September 30, 2023_
 
 Bug fixes:
 
@@ -74,11 +105,15 @@ Dependencies:
 
 ### 2023.8.1
 
+_September 5, 2023_
+
 Bug fixes:
 
 * Fix corrupted build
 
 ### 2023.8.0
+
+_September 5, 2023_
 
 Minor changes:
 
@@ -94,11 +129,15 @@ Dependencies:
 
 ### 2023.5.1
 
+_May 21, 2023_
+
 Bug fixes:
 
 * Fix bundling with Webpack
 
 ### 2023.5.0
+
+_May 16, 2023_
 
 Minor changes:
 
@@ -107,11 +146,15 @@ Minor changes:
 
 ### 2023.4.3
 
+_May 5, 2023_
+
 Bug fixes:
 
 * Fix TimelineControl compatibility with older browsers
 
 ### 2023.4.2
+
+_May 4, 2023_
 
 Minor changes:
 
@@ -119,11 +162,15 @@ Minor changes:
 
 ### 2023.4.1
 
+_May 4, 2023_
+
 Bug fixes:
 
 * Fix TimelineControl compatibility with older browsers
 
 ### 2023.4.0
+
+_April 30, 2023_
 
 New features:
 
@@ -146,6 +193,16 @@ Dependencies:
 
 ### 2023.3.4
 
+_April 4, 2023_
+
+Bug fixes:
+
+* Fix broken build
+
+### 2023.3.3
+
+_April 4, 2023_
+
 Bug fixes:
 
 * Fix browser crash when ESM build is used with Vite
@@ -156,6 +213,8 @@ Dependencies:
 
 ### 2023.3.2
 
+_March 31, 2023_
+
 Minor changes:
 
 * Update selected datetime in TimelineControl when updating the datetime from outside
@@ -164,6 +223,8 @@ Minor changes:
 * Add `DatetimeISOString` type
 
 ### 2023.3.1
+
+_March 31, 2023_
 
 Minor changes:
 
@@ -175,6 +236,8 @@ Bug fixes:
 * Update TS typings to enable arbitrary layer props such as layer extensions
 
 ### 2023.3.0
+
+_March 29, 2023_
 
 New features:
 
@@ -205,11 +268,15 @@ Peer dependencies:
 
 ### 2023.2.1
 
+_March 20, 2023_
+
 Bug fixes:
 
 * Remove references to `worker_threads` Node dependency
 
 ### 2023.2.0
+
+_February 16, 2023_
 
 New features:
 
@@ -225,12 +292,16 @@ Bug fixes:
 
 ### 2022.11.0
 
+_November 17, 2022_
+
 Minor changes:
 
 * Add `unitFormat` to Grid and HighLow layer for consistent value formatting across layers and controls
 * Add [Load Functions](functions.md#load-functions) for loading custom data
 
 ### 2022.10.0
+
+_October 14, 2022_
 
 New features:
 
@@ -250,6 +321,8 @@ Peer dependencies:
 * Update deck.gl to 8.8.4
 
 ### 2022.6.0
+
+_July 8, 2022_
 
 New features:
 
@@ -271,6 +344,8 @@ Peer dependencies:
 
 ### 2022.5.0
 
+_June 3, 2022_
+
 New features:
 
 * Add support for color palette text format\
@@ -280,6 +355,13 @@ New features:
   [https://github.com/radiantearth/stac-spec/pull/1181](https://github.com/radiantearth/stac-spec/pull/1181)
 
 ### 2022.4.0
+
+_May 11, 2022_
+
+New features:
+
+* Use [Calendar Versioning](https://calver.org/)
+* Add [Grid layer](layers/grid-layer.md)
 
 Bug fixes:
 
@@ -299,9 +381,3 @@ Minor changes:
 Peer dependencies:
 
 * Update deck.gl to 8.7.5
-
-### 2022.3.0
-
-New features:
-
-* Add [Grid layer](layers/grid-layer.md)

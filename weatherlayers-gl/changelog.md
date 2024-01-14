@@ -1,5 +1,18 @@
 # Changelog
 
+### 2024.1.0
+
+_January 14, 2024_
+
+Minor changes:
+
+* Update TooltipControl followCursor position origin between value and direction
+* Update TooltipControl direction icon
+
+Bug fixes:
+
+* Fix interpolating nodata values at data edges
+
 ### 2023.12.1
 
 _December 21, 2023_

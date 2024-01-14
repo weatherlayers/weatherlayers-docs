@@ -13,6 +13,11 @@ Bug fixes:
 
 * Fix interpolating nodata values at data edges
 
+Peer dependencies:
+
+* Update deck.gl to 8.9.33
+* Update geotiff.js to 2.1.1
+
 ### 2023.12.1
 
 _December 21, 2023_

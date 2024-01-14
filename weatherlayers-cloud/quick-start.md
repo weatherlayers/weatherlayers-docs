@@ -6,7 +6,7 @@
 npm install weatherlayers-gl
 ```
 
-### Usage
+### Trial Usage
 
 ```javascript
 import * as WeatherLayersClient from 'weatherlayers-gl/client';
@@ -17,6 +17,8 @@ const client = new WeatherLayersClient.Client({
 });
 ```
 
-A valid access token is required to use the library. [Contact support](mailto:support@weatherlayers.com) for details.
+A valid access token is required to use the library. Sign up at [WeatherLayers Account](https://account.weatherlayers.com/) to get your access token.
 
-TypeScript `d.ts` typing files are provided as part of the distribution package.
+### Production Usage
+
+[Contact support](mailto:support@weatherlayers.com) to upgrade your access token for a production usage.

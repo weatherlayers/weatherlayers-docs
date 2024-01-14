@@ -6,8 +6,6 @@
 npm install weatherlayers-gl
 ```
 
-TypeScript `d.ts` typing files are provided as part of the distribution package.
-
 ### Trial Usage
 
 ```typescript
@@ -29,4 +27,6 @@ WeatherLayers.setLicense(license);
 ```
 
 A valid license file is required to use the library in production. [Contact support](mailto:support@weatherlayers.com) for details.
+
+The library requires to be deployed to a secure origin (HTTPS).
 

@@ -2,9 +2,9 @@
 
 WeatherLayers GL is a library of high-performance interactive weather visualization layers and controls, which can be customized in real-time and supports integration with major mapping libraries. The library can be used either with custom self-hosted data or with [WeatherLayers Cloud](../weatherlayers-cloud/).
 
-A valid license file is required to use the library. [Contact us](mailto:support@weatherlayers.com) for details.
+A valid license file is required to use the library in production. [Contact support](mailto:support@weatherlayers.com) for details.
 
-The library requires to be deployed to a secure origin.
+The library requires to be deployed to a secure origin (HTTPS).
 
 Peer dependencies:
 

@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.1.1
+
+_January 23, 2024_
+
+Bug fixes:
+
+* Fix rendering of regional data at left/right bound
+
 ### 2024.1.0
 
 _January 14, 2024_

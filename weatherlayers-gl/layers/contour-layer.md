@@ -58,8 +58,19 @@ Minor contour lines are rendered with half width.
 
 Type: color `[number, number, number, number?]`, optional
 
-Default: `[255, 255, 255, 51]`
+Default: `[255, 255, 255]`
 
 Color of the major contour line (every fifth contour). See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
 
-Minor contour lines are rendered with half alpha channel.
+Minor contour lines are rendered with half opacity.
+
+#### `palette`
+
+Type: color palette text or array, optional
+
+Palette used to interpolate values to colors.
+
+Formats:
+
+* text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
+* array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)

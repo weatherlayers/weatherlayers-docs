@@ -1,5 +1,18 @@
 # Changelog
 
+### 2024.2.0
+
+_TBD_
+
+New features:
+
+* Add palette to Particle layer
+* Add palette to Contour layer
+
+Minor changes:
+
+* Update default colors to remove opacity, prefer separate opacity
+
 ### 2024.1.1
 
 _January 23, 2024_

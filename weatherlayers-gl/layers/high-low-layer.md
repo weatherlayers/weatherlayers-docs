@@ -77,7 +77,7 @@ Size of the text. See [TextLayer getSize](https://deck.gl/docs/api-reference/lay
 
 Type: color `[number, number, number, number?]`, optional
 
-Default: `[153, 153, 153, 255]`
+Default: `[255, 255, 255]`
 
 Color of the text. See [TextLayer getColor](https://deck.gl/docs/api-reference/layers/text-layer#getcolor).
 
@@ -93,6 +93,6 @@ Width of outline around the text, relative to the font size. See [TextLayer outl
 
 Type: color `[number, number, number, number?]`, optional
 
-Default: `[13, 13, 13, 255]`
+Default: `[13, 13, 13]`
 
 Color of outline around the text. See [TextLayer outlineColor](https://deck.gl/docs/api-reference/layers/text-layer#outlinecolor).

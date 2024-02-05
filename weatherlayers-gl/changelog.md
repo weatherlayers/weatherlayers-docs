@@ -13,8 +13,8 @@ Minor changes:
 
 * Improve Particle layer performance
   * Use `ClipExtension` to hide particles outside of Mercator bounds
+* Merge `getRasterPoints` function arguments to `ImageProperties` type
 * Update default colors to remove opacity, prefer separate opacity
-* Merge getRasterPoints function arguments to ImageProperties type
 
 Peer dependencies:
 

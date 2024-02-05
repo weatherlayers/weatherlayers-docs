@@ -6,8 +6,8 @@ _TBD_
 
 New features:
 
-* Add palette to Particle, Contour, Grid, HighLow layers
-* Add imageMinValue and imageMaxValue to Particle, Raster, Contour, Grid, HighLow layers
+* Add `palette` to Particle, Contour, Grid, HighLow layers
+* Add `imageMinValue` and `imageMaxValue` to Particle, Raster, Contour, Grid, HighLow layers
 
 Minor changes:
 
@@ -28,7 +28,7 @@ _January 14, 2024_
 
 Minor changes:
 
-* Update TooltipControl followCursor position origin between value and direction
+* Update TooltipControl `followCursor` position origin between value and direction
 * Update TooltipControl direction icon
 
 Bug fixes:

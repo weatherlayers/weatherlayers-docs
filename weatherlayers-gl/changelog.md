@@ -6,8 +6,7 @@ _TBD_
 
 New features:
 
-* Add palette to Particle layer
-* Add palette to Contour layer
+* Add palette to Particle, Contour, Grid, HighLow layers
 
 Minor changes:
 

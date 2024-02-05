@@ -6,8 +6,8 @@ _TBD_
 
 New features:
 
-* Add palette to Contour, Grid, HighLow, Particle layers
-* Add imageMinValue and imageMaxValue to Raster, Contour, Grid, HighLow, Particle layers
+* Add palette to Particle, Contour, Grid, HighLow layers
+* Add imageMinValue and imageMaxValue to Particle, Raster, Contour, Grid, HighLow layers
 
 Minor changes:
 

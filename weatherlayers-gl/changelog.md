@@ -12,6 +12,7 @@ New features:
 Minor changes:
 
 * Improve Particle layer performance for regional data
+  * Use `ClipExtension` to hide particles outside of Mercator bounds
 * Update default colors to remove opacity, prefer separate opacity
 * Merge getRasterPoints function arguments to ImageProperties type
 

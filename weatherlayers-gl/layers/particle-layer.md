@@ -8,6 +8,7 @@ Vector variable rendered as animated particle simulation layer
 
 ```javascript
 import { Deck } from '@deck.gl/core';
+import { ClipExtension } from '@deck.gl/extensions';
 import * as WeatherLayers from 'weatherlayers-gl';
 
 // load data
@@ -20,6 +21,8 @@ const deckgl = new Deck({
       // data properties
       image: image,
       bounds: [-180, -90, 180, 90],
+      extensions: [new ClipExtension()],
+      clipBounds: [-181, -85.051129, 181, 85.051129],
     }),
   ],
 });

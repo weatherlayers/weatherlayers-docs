@@ -40,6 +40,24 @@ type ImageUnscale = [min: number, max: number] | null;
 
 Value bounds to unscale image data to original data, or null if image contains original data already and no unscaling is needed.
 
+#### `ImageProperties`
+
+```typescript
+interface ImageProperties {
+  image: TextureData;
+  image2: TextureData | null;
+  imageSmoothing: number;
+  imageInterpolation: ImageInterpolation;
+  imageWeight: number;
+  imageType: ImageType;
+  imageUnscale: ImageUnscale;
+  imageMinValue: number | null;
+  imageMaxValue: number | null;
+}
+```
+
+Properties to render a single image.
+
 #### `DirectionFormat`
 
 ```typescript

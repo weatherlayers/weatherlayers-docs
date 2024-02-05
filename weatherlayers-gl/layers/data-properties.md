@@ -70,6 +70,22 @@ The original data value bounds, used to unscale the data if the original data ar
 
 Supported if the data type is Uint8.
 
+#### `imageMinValue`
+
+Type: number, optional
+
+Default: `null` (no limit)
+
+Minimal value limit to render the data.
+
+#### `imageMaxValue`
+
+Type: number, optional
+
+Default: `null` (no limit)
+
+Maximal value limit to render the data.
+
 #### `bounds`
 
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
@@ -80,7 +96,7 @@ The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for 
 
 Type: number `0-20`, optional
 
-Default: `null` (no minimal limit)
+Default: `null` (no limit)
 
 Minimal zoom limit to render the layer.
 
@@ -88,7 +104,7 @@ Minimal zoom limit to render the layer.
 
 Type: number `0-20`, optional
 
-Default: `10` (ContourLayer), `15` (ParticleLayer), `null` (other layers, no maximal zoom limit)
+Default: `10` (ContourLayer), `15` (ParticleLayer), `null` (other layers, no limit)
 
 Maximal zoom limit to render the layer.
 

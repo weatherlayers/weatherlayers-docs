@@ -6,11 +6,13 @@ _TBD_
 
 New features:
 
-* Add palette to Particle, Contour, Grid, HighLow layers
+* Add palette to Contour, Grid, HighLow, Particle layers
+* Add imageMinValue and imageMaxValue to Raster, Contour, Grid, HighLow, Particle layers
 
 Minor changes:
 
 * Update default colors to remove opacity, prefer separate opacity
+* Update getRasterPoints function argument to ImageProperties type
 
 ### 2024.1.1
 

@@ -16,6 +16,11 @@ Minor changes:
 * Update default colors to remove opacity, prefer separate opacity
 * Merge getRasterPoints function arguments to ImageProperties type
 
+Peer dependencies:
+
+* Update deck.gl to 8.9.34
+* Update geotiff.js to 2.1.2
+
 ### 2024.1.1
 
 _January 23, 2024_

@@ -54,7 +54,7 @@ Adds start hour and end hours to the given datetime. The returned value is a dat
 
 ### Raster functions
 
-#### `getRasterPoints(imageProperties:` [`ImageProperties`](types.md#imageinterpolation)`, bounds: GeoJSON.BBox, positions: GeoJSON.Position[]): GeoJSON.FeatureCollection<GeoJSON.Point,` [`RasterPointProperties`](types.md#rasterpointproperties)`>`
+#### `getRasterPoints(imageProperties:` [`ImageProperties`](types.md#imageproperties)`, bounds: GeoJSON.BBox, positions: GeoJSON.Position[]): GeoJSON.FeatureCollection<GeoJSON.Point,` [`RasterPointProperties`](types.md#rasterpointproperties)`>`
 
 Gets raster points for the given positions.
 

@@ -12,7 +12,7 @@ New features:
 Minor changes:
 
 * Update default colors to remove opacity, prefer separate opacity
-* Update getRasterPoints function argument to ImageProperties type
+* Merge getRasterPoints function arguments to ImageProperties type
 
 ### 2024.1.1
 

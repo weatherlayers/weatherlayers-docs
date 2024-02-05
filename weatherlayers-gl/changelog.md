@@ -11,6 +11,7 @@ New features:
 
 Minor changes:
 
+* Improve Particle layer performance for regional data
 * Update default colors to remove opacity, prefer separate opacity
 * Merge getRasterPoints function arguments to ImageProperties type
 

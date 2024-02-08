@@ -1,5 +1,17 @@
 # Changelog
 
+### 2024.2.1
+
+_February 8, 2024_
+
+New features:
+
+* Add `majorInterval` to Contour layer
+
+Bug fixes:
+
+* Fix `imageMinValue` and `imageMaxValue` in HighLow layer
+
 ### 2024.2.0
 
 _February 6, 2024_

@@ -44,15 +44,23 @@ Type: number, required
 
 Interval between contour lines in the data units. The greater interval, the less contour lines are rendered.
 
+The value must be in the same units as the data image.
+
+#### `majorInterval`
+
+Type: number, optional
+
+Interval between major contour lines in the data units. The greater interval, the less major contour lines are rendered.
+
+The value must be in the same units as the data image.
+
 #### `width`
 
 Type: `number`, optional
 
 Default: `1`
 
-Width of the major contour line (every fifth contour). See [LineLayer getWidth](https://deck.gl/docs/api-reference/layers/line-layer#getwidth).
-
-Minor contour lines are rendered with half width.
+Width of the contour line. See [LineLayer getWidth](https://deck.gl/docs/api-reference/layers/line-layer#getwidth).
 
 #### `color`
 
@@ -60,9 +68,9 @@ Type: color `[number, number, number, number?]`, optional
 
 Default: `[255, 255, 255]`
 
-Color of the major contour line (every fifth contour). See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
+Color of the contour line. See [LineLayer getColor](https://deck.gl/docs/api-reference/layers/line-layer#getcolor).
 
-Minor contour lines are rendered with half opacity.
+Major contour lines are rendered with full opacity, minor contour lines are rendered with half opacity.
 
 #### `palette`
 

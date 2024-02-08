@@ -78,6 +78,8 @@ Default: `null` (no limit)
 
 Minimal value limit to render the data.
 
+The value must be in the same units as the data image.
+
 #### `imageMaxValue`
 
 Type: number, optional
@@ -85,6 +87,8 @@ Type: number, optional
 Default: `null` (no limit)
 
 Maximal value limit to render the data.
+
+The value must be in the same units as the data image.
 
 #### `bounds`
 

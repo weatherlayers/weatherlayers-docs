@@ -50,6 +50,8 @@ The value must be in the same units as the data image.
 
 Type: number, optional
 
+Default: `0` (every contour line is a major contour line)
+
 Interval between major contour lines in the data units. The greater interval, the less major contour lines are rendered.
 
 The value must be in the same units as the data image.
@@ -61,6 +63,8 @@ Type: `number`, optional
 Default: `1`
 
 Width of the contour line. See [LineLayer getWidth](https://deck.gl/docs/api-reference/layers/line-layer#getwidth).
+
+Major contour lines are rendered with full width, minor contour lines are rendered with half width.
 
 #### `color`
 

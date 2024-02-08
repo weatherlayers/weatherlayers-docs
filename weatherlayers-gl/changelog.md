@@ -7,6 +7,7 @@ _TBD_
 New features:
 
 * Add `majorInterval` to Contour layer
+  * ⚠️ Set `majorInterval` to `5 * interval` for the original behavior of every 5th contour line to be a major contour line
 
 ### 2024.2.0
 
@@ -20,7 +21,7 @@ New features:
 Minor changes:
 
 * Improve Particle layer performance
-  * Use `ClipExtension` to hide particles outside of Mercator bounds
+  * ⚠️ Use `ClipExtension` to hide particles outside of Mercator bounds
 * Merge `getRasterPoints` function arguments to `ImageProperties` type
 * Update default colors to remove opacity, prefer separate opacity
 

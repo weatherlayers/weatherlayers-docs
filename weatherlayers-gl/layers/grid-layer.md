@@ -177,6 +177,12 @@ Default: `12`
 
 Size of the icon. See [IconLayer getSize](https://deck.gl/docs/api-reference/layers/icon-layer#getsize).
 
+#### `iconMinSize`
+
+Type: number, optional
+
+Minimal size of the icon. Icon sizes are scaled by the values.
+
 #### `iconColor`
 
 Type: color `[number, number, number, number?]`, optional

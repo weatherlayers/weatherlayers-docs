@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.2.2
+
+_February 12, 2024_
+
+New features:
+
+* Add `iconMinSize` to Grid layer
+
 ### 2024.2.1
 
 _February 8, 2024_

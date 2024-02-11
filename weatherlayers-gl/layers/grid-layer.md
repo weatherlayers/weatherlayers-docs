@@ -181,7 +181,7 @@ Size of the icon. See [IconLayer getSize](https://deck.gl/docs/api-reference/lay
 
 Type: number, optional
 
-Minimal size of the icon. Icon sizes are scaled by the values.
+Minimal size of the icon. Icon sizes are scaled by values.
 
 #### `iconColor`
 

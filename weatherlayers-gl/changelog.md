@@ -11,7 +11,7 @@ New features:
 
 Bug fixes:
 
-* FIx refreshing Grid and HighLow layer properties
+* Fix refreshing Grid and HighLow layer properties
 
 ### 2024.2.1
 

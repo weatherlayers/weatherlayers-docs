@@ -9,6 +9,10 @@ New features:
 * Add `iconMinSize` to Grid layer, enable smooth scaled icon sizes
   * ⚠️ Set `iconMinSize` for the original behavior of scaled icon sizes by values
 
+Bug fixes:
+
+* FIx refreshing Grid and HighLow layer properties
+
 ### 2024.2.1
 
 _February 8, 2024_

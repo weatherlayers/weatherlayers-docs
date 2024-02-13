@@ -177,7 +177,7 @@ Default: `12`
 
 Size of the icon. See [IconLayer getSize](https://deck.gl/docs/api-reference/layers/icon-layer#getsize).
 
-If an array is passed in, the actual icon sizes are scaled by data values.
+If an array is passed in, it's treated as minimal and maximal icon size. The actual icon size is scaled by the data value.
 
 #### `iconColor`
 

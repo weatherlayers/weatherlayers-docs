@@ -1,5 +1,14 @@
 # Changelog
 
+### 2024.2.3
+
+_February 13, 2024_
+
+Minor changes:
+
+* Allow array in `iconSize`, merge `iconSize` and `iconMinSize` in Grid layer
+  * ⚠️ Use an array value in `iconSize` instead of `iconMinSize`
+
 ### 2024.2.2
 
 _February 12, 2024_

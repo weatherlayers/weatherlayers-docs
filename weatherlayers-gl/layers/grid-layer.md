@@ -171,17 +171,13 @@ If `style: WIND_BARB`, the upper bound must match 100 kts in the data units.
 
 #### `iconSize`
 
-Type: number, optional
+Type: `[number, number] | number`, optional
 
 Default: `12`
 
 Size of the icon. See [IconLayer getSize](https://deck.gl/docs/api-reference/layers/icon-layer#getsize).
 
-#### `iconMinSize`
-
-Type: number, optional
-
-Minimal size of the icon. Icon sizes are scaled by values.
+If an array is passed in, the actual icon sizes are scaled by data values.
 
 #### `iconColor`
 

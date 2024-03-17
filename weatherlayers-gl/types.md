@@ -81,6 +81,19 @@ Direction format to be used for formatting.
 
 ![Compass Rose (Source: Wikipedia)](../.gitbook/assets/compass-rose.png)
 
+#### `Placement`
+
+```typescript
+enum Placement {
+  BOTTOM = 'BOTTOM',
+  TOP = 'TOP',
+  RIGHT = 'RIGHT',
+  LEFT = 'LEFT',
+}
+```
+
+Tooltip control placement from the mouse cursor position.
+
 ### Load Types
 
 #### `TextureData`

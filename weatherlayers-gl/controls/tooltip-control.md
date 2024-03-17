@@ -48,6 +48,22 @@ Default value: false
 
 Follow the mouse cursor position.
 
+#### `followCursorOffset`
+
+Type: number, optional
+
+Default value: `16`
+
+Offset from the mouse cursor position.
+
+#### `followCursorPlacement`
+
+Type: [`Placement`](../types.md#placement), optional
+
+Default value: `BOTTOM`
+
+Placement from the mouse cursor position.
+
 ### Methods
 
 See [Control](control.md) for common Control methods.

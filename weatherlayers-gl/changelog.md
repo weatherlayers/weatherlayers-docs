@@ -1,5 +1,11 @@
 # Changelog
 
+### Upcoming
+
+New features:
+
+* Add `followCursorOffset` and `followCursorPlacement` to Tooltip control
+
 ### 2024.2.3
 
 _February 13, 2024_

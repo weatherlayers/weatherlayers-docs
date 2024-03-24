@@ -10,7 +10,7 @@ New features:
 
 Minor changes:
 
-* Slow down particles in higher latitudes to make the particle speed constant, generate more particles in higher latitudes to keep particle density uniform
+* Slow down particles in higher latitudes to make the particle speed constant, generate more particles in higher latitudes to keep the particle density uniform
 
 Bug fixes:
 

@@ -12,6 +12,10 @@ Minor changes:
 
 * Slow down particles in higher latitudes to make the particle speed constant
 
+Bug fixes:
+
+* Fix detecting NaN in Float data
+
 ### 2024.2.3
 
 _February 13, 2024_

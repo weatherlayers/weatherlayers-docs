@@ -1,10 +1,16 @@
 # Changelog
 
-### Upcoming
+### 2024.3.0
+
+_March 24, 2024_
 
 New features:
 
-* Add `followCursorOffset` and `followCursorPlacement` to Tooltip control
+* Add `directionOrigin`, `followCursorOffset`, `followCursorPlacement` to Tooltip control
+
+Minor changes:
+
+* Slow down particles in higher latitudes to make the particle speed constant
 
 ### 2024.2.3
 

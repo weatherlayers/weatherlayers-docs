@@ -58,6 +58,22 @@ interface ImageProperties {
 
 Properties to render a single image.
 
+#### `DirectionType`
+
+```typescript
+enum DirectionType {
+  INWARD = 'INWARD',
+  OUTWARD = 'OUTWARD',
+}
+```
+
+Direction type to be used for formatting.
+
+* `INWARD` - formats direction inwards from outside to the current point
+  * meteorological - wind, waves
+* `OUTWARD` - formats direction outwards from the current point to outside
+  * climatological data - currents
+
 #### `DirectionFormat`
 
 ```typescript

@@ -32,6 +32,14 @@ Type: [`UnitFormat`](../types.md#unitformat), required
 
 Unit definition to be used for formatting.
 
+#### `directionType`
+
+Type: [`DirectionType`](../types.md#directiontype), optional
+
+Default value: `INWARD`
+
+Direction type to be used for formatting.
+
 #### `directionFormat`
 
 Type: [`DirectionFormat`](../types.md#directionformat), optional

@@ -14,7 +14,7 @@ Minor changes:
 
 Bug fixes:
 
-* Fix detecting NaN in Float data
+* Fix detecting NaN in Float data, so that they are ignored for rendering
 
 ### 2024.2.3
 

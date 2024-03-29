@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.3.1
+
+_March 29, 2024_
+
+Bug fixes:
+
+* Fix accepting custom `iconBounds` for wind barbs in Grid layer
+
 ### 2024.3.0
 
 _March 24, 2024_

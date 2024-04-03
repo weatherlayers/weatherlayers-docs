@@ -1,5 +1,15 @@
 # Changelog
 
+### 2024.4.0
+
+_April 3, 2024_
+
+Peer dependencies:
+
+* **⚠️ Upgrade to deck.gl 9.0.4**
+  * This drops support for WebGL1 in favour of WebGL2. See [https://deck.gl/docs/whats-new](https://deck.gl/docs/whats-new) and [https://deck.gl/docs/upgrade-guide](https://deck.gl/docs/upgrade-guide) for upgrading.
+* Update geotiff.js to 2.1.3
+
 ### 2024.3.1
 
 _March 29, 2024_

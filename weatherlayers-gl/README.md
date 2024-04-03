@@ -4,8 +4,9 @@ WeatherLayers GL is a library of high-performance interactive weather visualizat
 
 Peer dependencies:
 
-* [deck.gl](https://deck.gl) >= 8.9.34
-* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.1.2 (if loading texture data from GeoTIFF)
+* [deck.gl](https://deck.gl) >= 9.0.4
+* [luma.gl](https://luma.gl/) >= 9.0.9
+* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.1.3 (if loading texture data from GeoTIFF)
 
 ### Versioning
 

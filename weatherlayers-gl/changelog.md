@@ -1,5 +1,19 @@
 # Changelog
 
+### 2024.4.1
+
+_April 14, 2024_
+
+Bug fixes:
+
+* Fix basemap flickering during basemap zoom/pan interaction due to ParticleLayer animation in MapLibre/Mapbox interleaved mode
+* Fix missing exported TS typings
+* Disable unused mipmaps
+
+Peer dependencies:
+
+* Upgrade to deck.gl 9.0.7
+
 ### 2024.4.0
 
 _April 3, 2024_

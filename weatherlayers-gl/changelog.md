@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.4.2
+
+_April 14, 2024_
+
+Bug fixes:
+
+* Fix palette rendering
+
 ### 2024.4.1
 
 _April 14, 2024_

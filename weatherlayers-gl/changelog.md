@@ -1,8 +1,20 @@
 # Changelog
 
+### 2024.4.3
+
+_April 28, 2024_
+
+Bug fixes:
+
+* Fix Particle layer in Safari
+
+Peer dependencies:
+
+* Set geotiff.js as optional
+
 ### 2024.4.2
 
-_April 14, 2024_
+_April 15, 2024_
 
 Bug fixes:
 

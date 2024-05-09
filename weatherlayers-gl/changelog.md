@@ -1,5 +1,14 @@
 # Changelog
 
+### 2024.5.0
+
+_May 9, 2024_
+
+Bug fixes:
+
+* Fix support for Angular by downgrading to ES2016 target in WebWorkers\
+  [https://github.com/angular/angular-cli/issues/22191](https://github.com/angular/angular-cli/issues/22191)
+
 ### 2024.4.3
 
 _April 28, 2024_

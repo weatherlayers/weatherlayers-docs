@@ -1,5 +1,14 @@
 # Changelog
 
+### 2024.5.1
+
+_May 11, 2024_
+
+Bug fixes:
+
+* Fix updating Front layer data
+* Remove reference to missing sourcemaps
+
 ### 2024.5.0
 
 _May 9, 2024_

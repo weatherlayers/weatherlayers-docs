@@ -60,8 +60,8 @@ Peer dependencies:
 
 * **⚠️ Upgrade to deck.gl 9.0.4**
   * This drops support for WebGL1 in favour of WebGL2. See [https://deck.gl/docs/whats-new](https://deck.gl/docs/whats-new) and [https://deck.gl/docs/upgrade-guide](https://deck.gl/docs/upgrade-guide) for upgrading.
-  * MapLibre: requires MapLibre >= 3.0.0, which enables WebGL2 by default. See [https://github.com/maplibre/maplibre-gl-js/releases/tag/v3.0.0](https://github.com/maplibre/maplibre-gl-js/releases/tag/v3.0.0)
-  * Mapbox: requires Mapbox >= 3.0.0, which enables WebGL2 by default. See [https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.0.0](https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.0.0)
+  * MapLibre: requires MapLibre >= 3.0.0 if using MapLibre with deck.gl interleaved to support WebGL2. See [https://github.com/maplibre/maplibre-gl-js/releases/tag/v3.0.0](https://github.com/maplibre/maplibre-gl-js/releases/tag/v3.0.0)
+  * Mapbox: requires Mapbox >= 3.0.0 if using Mapbox with deck.gl interleaved to support WebGL2. See [https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.0.0](https://github.com/mapbox/mapbox-gl-js/releases/tag/v3.0.0)
 * Update geotiff.js to 2.1.3
 
 ### 2024.3.1

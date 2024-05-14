@@ -14,4 +14,4 @@ Free
 
 Single Domain Subscription is bound to a single production domain, includes all corresponding subdomains.
 
-[Contact sales](mailto:info@weatherlayers.com)
+[Contact us](mailto:info@weatherlayers.com)

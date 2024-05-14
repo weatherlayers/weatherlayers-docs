@@ -8,7 +8,9 @@ Optional yearly support subscription offers technical support as well as free up
 
 #### Trial License
 
-Trial License allows evaluating the library for a limited time of 30 days.
+Trial License allows evaluating the library in a development environment.
+
+There is a watermark displayed. A valid license file is required to use the library in production to remove the watermark.
 
 Free
 
@@ -26,4 +28,4 @@ Multiple Domain License is without a domain restriction, allowing distribution o
 
 Perpetually valid license for a one-time payment. Optional yearly support subscription.
 
-[Contact sales](mailto:info@weatherlayers.com)
+[Contact us](mailto:info@weatherlayers.com)

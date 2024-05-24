@@ -1,5 +1,18 @@
 # Changelog
 
+### 2024.5.2
+
+_Upcoming_
+
+Minor features:
+
+* Support loading images as data URIs
+
+Bug fixes:
+
+* Remove required data: protocol from CSP content-src by loading iconAtlas as images
+* Fix LegendControl, TimelineControl interfaces
+
 ### 2024.5.1
 
 _May 11, 2024_

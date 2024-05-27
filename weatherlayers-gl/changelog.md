@@ -2,7 +2,7 @@
 
 ### 2024.5.2
 
-_Upcoming_
+_May 27, 2024_
 
 Minor features:
 
@@ -12,6 +12,10 @@ Bug fixes:
 
 * Remove required data: protocol from CSP content-src by loading iconAtlas as images
 * Fix LegendControl, TimelineControl interfaces
+
+Peer dependencies:
+
+* Upgrade to deck.gl 9.0.16
 
 ### 2024.5.1
 

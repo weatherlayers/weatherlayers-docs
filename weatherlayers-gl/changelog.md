@@ -1,5 +1,12 @@
 # Changelog
 
+### Upcoming
+
+Bug fixes:
+
+* Add setLibrary function to set optional dependencies environments which don't support dynamic import
+* Make geotiff dependency to be truly optional
+
 ### 2024.5.2
 
 _May 27, 2024_
@@ -10,7 +17,7 @@ Minor features:
 
 Bug fixes:
 
-* Remove required data: protocol from CSP content-src by loading iconAtlas as images
+* Remove required `data:` protocol from CSP content-src by loading iconAtlas as images
 * Fix LegendControl, TimelineControl interfaces
 
 Peer dependencies:

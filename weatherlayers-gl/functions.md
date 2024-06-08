@@ -6,13 +6,21 @@
 
 Sets the license to authorize library usage.
 
+### Library Functions
+
+#### `setLibrary<T>(name: string, library: T): void`
+
+Sets an optional dependency.
+
+By default, optional dependencies are loaded with a dynamic import. If the dynamic import is not supported by your environment, use this function to set the optional dependency explicitly.
+
 ### Load Functions
 
 #### `loadTextureData(url: string, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<`[`TextureData`](types.md#texturedata)`>`
 
 Loads the url as texture data. The url should be PNG, WebP or GeoTIFF image.
 
-GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as a peer dependency.
+GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as an optional dependency if loading GeoTIFF images.
 
 The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 

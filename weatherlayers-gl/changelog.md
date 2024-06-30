@@ -1,11 +1,17 @@
 # Changelog
 
-### Upcoming
+### 2024.6.0
+
+_June 30, 2024_
 
 Bug fixes:
 
 * Add setLibrary function to set optional dependencies environments which don't support dynamic import
-* Make geotiff dependency to be truly optional
+* Make geotiff dependency to be optional
+
+Peer dependencies:
+
+* Upgrade to deck.gl 9.0.20
 
 ### 2024.5.2
 

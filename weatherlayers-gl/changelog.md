@@ -1,5 +1,21 @@
 # Changelog
 
+### 2024.6.2
+
+July 2, 2024
+
+Bug fixes:
+
+* Import optional dependencies with a static import instead of a dynamic import, to prevent Webpack warning "Critical dependency: the request of a dependency is an expression"
+
+### 2024.6.1
+
+July 1, 2024
+
+Bug fixes:
+
+* Fix corrupted build
+
 ### 2024.6.0
 
 _June 30, 2024_
@@ -7,7 +23,7 @@ _June 30, 2024_
 Bug fixes:
 
 * Add setLibrary function to set optional dependencies environments which don't support dynamic import
-* Make geotiff dependency to be optional
+* Make geotiff dependency to be truly optional
 
 Peer dependencies:
 

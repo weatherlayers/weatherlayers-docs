@@ -14,7 +14,7 @@ July 1, 2024
 
 Bug fixes:
 
-* Fix corrupted build
+* Fix corrupted build (internal dependencies missing in the bundle by mistake)
 
 ### 2024.6.0
 
@@ -321,7 +321,7 @@ _September 5, 2023_
 
 Bug fixes:
 
-* Fix corrupted build
+* Fix corrupted build (internal dependencies missing in the bundle by mistake)
 
 ### 2023.8.0
 

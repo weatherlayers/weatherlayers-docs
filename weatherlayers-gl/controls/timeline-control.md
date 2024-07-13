@@ -87,9 +87,11 @@ Current datetime selected in the timeline.
 
 #### `onPreload`
 
-Type: `(datetimes:` [`DatetimeISOString`](../types.md#datetimeisostring)`[]) => Promise<void>`, optional
+Type: `(datetimes:` [`DatetimeISOString`](../types.md#datetimeisostring)`[]) => Promise<void>[] | Promise<void>`, optional
 
 Preload callback, use for preloading requested data.
+
+If an array of promises is returned, the progress is displayed in the loader text.
 
 #### `onUpdate`
 

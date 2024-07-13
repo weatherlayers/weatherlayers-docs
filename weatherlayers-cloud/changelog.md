@@ -1,12 +1,17 @@
 # Changelog
 
-### 2023.8.1
+### 2024.7.0
 
-Bug fixes:
+_TBD_
 
-* Fix corrupted build
+New features:
+
+* Add `datetimeStep` config property
+* Add `datetime`, `referenceDatetime`, `horizon` to `loadDatasetData` response
 
 ### 2023.8.0
+
+_September 5, 2023_
 
 New features:
 
@@ -14,11 +19,15 @@ New features:
 
 ### 2023.5.1
 
+_May 21, 2023_
+
 Bug fixes:
 
 * Fix loading historical data
 
 ### 2023.4.0
+
+_April 30, 2023_
 
 New features:
 

@@ -1,8 +1,16 @@
 # Changelog
 
+### 2024.7.0
+
+TBD
+
+New features:
+
+* Display progress in Timeline control loader text
+
 ### 2024.6.2
 
-July 2, 2024
+_July 2, 2024_
 
 Bug fixes:
 
@@ -10,7 +18,7 @@ Bug fixes:
 
 ### 2024.6.1
 
-July 1, 2024
+_July 1, 2024_
 
 Bug fixes:
 

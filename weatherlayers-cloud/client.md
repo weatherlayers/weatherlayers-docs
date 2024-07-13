@@ -70,6 +70,14 @@ Type: string, optional
 
 Attribution link class, used in `Dataset`, `attribution` field
 
+#### `datetimeStep`
+
+Type: number, optional
+
+Default: `1`
+
+Minimal step in hours between datetimes.
+
 #### `datetimeInterpolate`
 
 Type: boolean, optional

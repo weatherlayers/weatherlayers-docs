@@ -56,9 +56,9 @@ Use in `imageWeight` property. Applicable only if `datetimeInterpolate` is enabl
 
 Adds hours to the given datetime.
 
-#### `offsetDatetimeRange(datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, start: number, end: number):` [`DatetimeISOStringRange`](types.md#datetimeisostringrange)
+#### `offsetDatetimeRange(datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, startHour: number, endHour: number):` [`DatetimeISOStringRange`](types.md#datetimeisostringrange)
 
-Adds start hour and end hours to the given datetime. The returned value is a datetime range.
+Adds start hour and end hour to the given datetime. The returned value is a datetime range.
 
 ### Raster functions
 

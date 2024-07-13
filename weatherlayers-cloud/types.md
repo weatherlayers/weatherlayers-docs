@@ -31,8 +31,14 @@ Dataset slice with available datetimes in the requested datetime range.
 
 ```typescript
 interface DatasetData {
+  datetime: DatetimeISOString;
+  referenceDatetime: DatetimeISOString;
+  horizon: string;
   image: TextureData;
-  image2: TextureData | null; // applicable if `datetimeInterpolate` is enabled
+  datetime2: DatetimeISOString | null; // applicable only if `datetimeInterpolate` is enabled
+  referenceDatetime2: DatetimeISOString | null; // applicable only if `datetimeInterpolate` is enabled
+  horizon2: string | null; // applicable only if `datetimeInterpolate` is enabled
+  image2: TextureData | null; // applicable only if `datetimeInterpolate` is enabled
   imageWeight: number; // applicable if `datetimeInterpolate` is enabled
   imageType: ImageType;
   imageUnscale: [number, number] | null; // applicable if original data was scaled to fit image data format and needs to be unscaled back
@@ -42,8 +48,14 @@ interface DatasetData {
 
 Dataset data.
 
-* `image` - the closest available datetime <= the given datetime
-* `image2` - the closest available datetime >= the given datetime
+* `datetime` - the closest available datetime <= the given datetime
+* `referenceDatetime` - reference datetime for `datetime`
+* `horizon` - ISO 8601 duration for `datetime - referenceDatetime`
+* `image` - image for `datetime`
+* `datetime2` - the closest available datetime >= the given datetime
+* `referenceDatetime2` - reference datetime for `datetime2`
+* `horizon2` - ISO 8601 duration for `datetime2 - referenceDatetime2`
+* `image2` - image for `datetime2`
 * `imageWeight` - datetime interpolation weight between `image` and `image2`
 
 #### `TextureData`

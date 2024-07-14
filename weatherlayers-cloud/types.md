@@ -50,11 +50,11 @@ Dataset data.
 
 * `datetime` - closest start datetime <= the given datetime
 * `referenceDatetime` - reference datetime of `datetime`
-* `horizon` - duration between `referenceDatetime` and `datetime`
+* `horizon` - duration between `referenceDatetime` and `datetime`, e.g. `PT6H` for a 6-hour forecast
 * `image` - image at `datetime`
 * `datetime2`\* - closest end datetime >= the given datetime
 * `referenceDatetime2`\* - reference datetime of `datetime2`
-* `horizon2`\* - duration between `referenceDatetime2` and `datetime2`
+* `horizon2`\* - duration between `referenceDatetime2` and `datetime2`, e.g. `PT6H` for a 6-hour forecast
 * `image2`\* - image at `datetime2`
 * `imageWeight`\* - interpolation weight between `image` and `image2`
 * `imageType` - image type, scalar or vector

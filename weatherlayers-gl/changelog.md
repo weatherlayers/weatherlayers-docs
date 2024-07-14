@@ -8,6 +8,10 @@ New features:
 
 * Display progress in Timeline control loader text
 
+Bug fixes:
+
+* Fix HighLow and Grid layer to not calculate points when disabled
+
 ### 2024.6.2
 
 _July 2, 2024_

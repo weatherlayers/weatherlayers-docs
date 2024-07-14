@@ -48,12 +48,12 @@ interface DatasetData {
 
 Dataset data.
 
-* `datetime` - closest start datetime <= the given datetime
-* `referenceDatetime` - reference datetime of `datetime`
+* `datetime` - closest start forecast datetime <= requested datetime
+* `referenceDatetime` - reference datetime of `datetime`, i.e. datetime of model run
 * `horizon` - duration between `referenceDatetime` and `datetime`, e.g. `PT6H` for a 6-hour forecast
 * `image` - image at `datetime`
-* `datetime2`\* - closest end datetime >= the given datetime
-* `referenceDatetime2`\* - reference datetime of `datetime2`
+* `datetime2`\* - closest end forecast datetime >= requested datetime
+* `referenceDatetime2`\* - reference datetime of `datetime2`, i.e. datetime of model run
 * `horizon2`\* - duration between `referenceDatetime2` and `datetime2`, e.g. `PT6H` for a 6-hour forecast
 * `image2`\* - image at `datetime2`
 * `imageWeight`\* - interpolation weight between `image` and `image2`

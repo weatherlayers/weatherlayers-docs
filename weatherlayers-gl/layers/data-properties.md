@@ -60,13 +60,15 @@ Type: [`ImageType`](../types.md#imagetype), values: `SCALAR`, `VECTOR`, optional
 
 Default: `SCALAR` (for layers that support both scalar and vector data), `VECTOR` (for layers that support vector data only)
 
+Image type, scalar or vector.
+
 #### `imageUnscale`
 
 Type: [`ImageUnscale`](../types.md#imageunscale), optional
 
 Default: `null` (no unscaling)
 
-The original data value bounds, used to unscale the data if the original data are scaled (quantized).
+Original data value bounds, used to unscale the data if the original data are scaled (quantized).
 
 Supported if the data type is Uint8.
 
@@ -94,7 +96,9 @@ The value must be in the same units as the data image.
 
 Type: bounding box of minX, minY, maxX, maxY `[number, number, number, number]`, required
 
-The original data bounding box. Recommended value is `[-180, -90, 180, 90]` for a global image.
+Original data bounding box.
+
+Recommended value is `[-180, -90, 180, 90]` for a global image.
 
 #### `minZoom`
 

@@ -33,30 +33,35 @@ Dataset slice with available datetimes in the requested datetime range.
 interface DatasetData {
   datetime: DatetimeISOString;
   referenceDatetime: DatetimeISOString;
-  horizon: string;
+  horizon: DurationISOString;
   image: TextureData;
-  datetime2: DatetimeISOString | null; // applicable only if `datetimeInterpolate` is enabled
-  referenceDatetime2: DatetimeISOString | null; // applicable only if `datetimeInterpolate` is enabled
-  horizon2: string | null; // applicable only if `datetimeInterpolate` is enabled
-  image2: TextureData | null; // applicable only if `datetimeInterpolate` is enabled
-  imageWeight: number; // applicable if `datetimeInterpolate` is enabled
+  datetime2: DatetimeISOString | null;
+  referenceDatetime2: DatetimeISOString | null;
+  horizon2: DurationISOString | null;
+  image2: TextureData | null;
+  imageWeight: number;
   imageType: ImageType;
-  imageUnscale: [number, number] | null; // applicable if original data was scaled to fit image data format and needs to be unscaled back
+  imageUnscale: [number, number] | null;
   bounds: [number, number, number, number];
 }
 ```
 
 Dataset data.
 
-* `datetime` - the closest available datetime <= the given datetime
-* `referenceDatetime` - reference datetime for `datetime`
-* `horizon` - ISO 8601 duration for `datetime - referenceDatetime`
-* `image` - image for `datetime`
-* `datetime2` - the closest available datetime >= the given datetime
-* `referenceDatetime2` - reference datetime for `datetime2`
-* `horizon2` - ISO 8601 duration for `datetime2 - referenceDatetime2`
-* `image2` - image for `datetime2`
-* `imageWeight` - datetime interpolation weight between `image` and `image2`
+* `datetime` - closest start datetime <= the given datetime
+* `referenceDatetime` - reference datetime of `datetime`
+* `horizon` - duration between `referenceDatetime` and `datetime`
+* `image` - image at `datetime`
+* `datetime2`\* - closest end datetime >= the given datetime
+* `referenceDatetime2`\* - reference datetime of `datetime2`
+* `horizon2`\* - duration between `referenceDatetime2` and `datetime2`
+* `image2`\* - image at `datetime2`
+* `imageWeight`\* - interpolation weight between `image` and `image2`
+* `imageType` - image type, scalar or vector
+* `imageUnscale` - original data value bounds, used to unscale the data if the original data are scaled (quantized)
+* `bounds` - original data bounding box
+
+\* applicable only if `datetimeInterpolate` is enabled
 
 #### `TextureData`
 

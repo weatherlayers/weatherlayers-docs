@@ -120,3 +120,11 @@ type DatetimeISOStringRange = [DatetimeISOString, DatetimeISOString] | DatetimeI
 Valid ISO 8601 datetime range.
 
 A single datetime means an exact datetime instead of a range.
+
+#### `DurationISOString`
+
+```typescript
+type DurationISOString = string;
+```
+
+Valid ISO 8601 duration.

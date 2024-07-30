@@ -2,7 +2,7 @@
 
 ### 2024.7.0
 
-TBD
+_July 20, 2024_
 
 New features:
 

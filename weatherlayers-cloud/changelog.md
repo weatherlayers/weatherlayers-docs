@@ -1,5 +1,13 @@
 # Changelog
 
+### Upcoming
+
+_TBD_
+
+New features:
+
+* Add `UnitSystem.METRIC_KILOMETERS`
+
 ### 2024.7.0
 
 _July 20, 2024_

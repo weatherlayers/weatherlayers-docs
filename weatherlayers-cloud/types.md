@@ -80,6 +80,7 @@ Texture data to be used as input to raster rendering layers.
 ```typescript
 enum UnitSystem {
   METRIC = 'METRIC',
+  METRIC_KILOMETERS = 'METRIC_KILOMETERS',
   IMPERIAL = 'IMPERIAL',
   NAUTICAL = 'NAUTICAL',
 }

@@ -103,7 +103,7 @@ Type: number, optional
 
 Default: `0`
 
-Grid point density. Recommended values are `0` (lowest density), `1` or `2` (highest density). Larger values can cause performance issues.
+Grid point density. Recommended values are `-1`, `0`, `1`, `2` (lowest to highest density). Larger values can cause performance issues.
 
 #### `unitFormat`
 
@@ -163,7 +163,7 @@ Color of outline around the text. See [TextLayer outlineColor](https://deck.gl/d
 
 #### `iconBounds`
 
-Type: tuple of lower and upper bound `[number, number]`, required if `styl``e: ARROW`
+Type: tuple of lower and upper bound `[number, number]`, required if `style: ARROW`
 
 Default if `style: WIND_BARB`: `[0, 100 * 0.51444]` (100 knots to m/s, assumes the data units are m/s)
 

@@ -6,7 +6,7 @@ _TBD_
 
 Minor changes:
 
-* Improve `UnitFormat` interface (with `system`) by splitting `UnitSystemFormat` interface (without `system`)
+* Improve `UnitFormat` interface (without `system`) by splitting `UnitSystemFormat` interface (with `system`)
 
 ### 2024.7.0
 

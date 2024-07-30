@@ -103,7 +103,7 @@ Type: number, optional
 
 Default: `0`
 
-Grid point density. Recommended values are `-1`, `0`, `1`, `2` (lowest to highest density). Larger values can cause performance issues.
+Grid point density. Recommended values are `-2`, `-1`, `0`, `1`, `2` (lowest to highest density). Larger values can cause performance issues.
 
 #### `unitFormat`
 

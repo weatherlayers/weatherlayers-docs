@@ -92,7 +92,6 @@ Unit system for unit format definition.
 
 ```typescript
 interface UnitFormat {
-  system: UnitSystem;
   unit: string;
   scale?: number;
   offset?: number;

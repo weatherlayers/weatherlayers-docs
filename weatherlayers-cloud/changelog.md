@@ -8,6 +8,10 @@ New features:
 
 * Add `UnitSystem.METRIC_KILOMETERS`
 
+Minor changes:
+
+* Improve `UnitFormat` interface (with `system`) by splitting `UnitSystemFormat` interface (without `system`)
+
 ### 2024.7.0
 
 _July 20, 2024_

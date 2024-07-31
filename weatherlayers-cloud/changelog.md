@@ -6,7 +6,7 @@ _TBD_
 
 New features:
 
-* Add `UnitSystem.METRIC_KILOMETERS`
+* Add `UnitSystem.METRIC_KILOMETERS` to allow selecting `km/h` unit
 
 Minor changes:
 

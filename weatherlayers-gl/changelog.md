@@ -6,6 +6,7 @@ _TBD_
 
 Minor changes:
 
+* Add `pauseDuringInteraction` to Particle layer to avoid flickering in React
 * Split `UnitDefinition` interface (with `UnitSystem`) from `UnitFormat` interface (without `UnitSystem`)
 
 ### 2024.7.0

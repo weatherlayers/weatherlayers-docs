@@ -11,6 +11,7 @@ New features:
 Minor changes:
 
 * Split `UnitDefinition` interface (with `UnitSystem`) from `UnitFormat` interface (without `UnitSystem`)
+* Update `datetimeRange` in `loadDataset` response to be open-ended
 
 ### 2024.7.0
 

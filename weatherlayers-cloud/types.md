@@ -9,7 +9,7 @@ interface Dataset {
   title: string;
   unitFormat: UnitFormat;
   attribution: string;
-  datetimeRange: DatetimeISOStringRange;
+  datetimeRange: OpenDatetimeISOStringRange;
   datetimes: DatetimeISOString[]; // deprecated, use `loadDatasetSlice` instead
   palette: Palette;
 }
@@ -114,12 +114,18 @@ Valid ISO 8601 datetime.
 #### `DatetimeISOStringRange`
 
 ```typescript
-type DatetimeISOStringRange = [DatetimeISOString, DatetimeISOString] | DatetimeISOString;ty
+type DatetimeISOStringRange = [start: DatetimeISOString, end: DatetimeISOString];
 ```
 
 Valid ISO 8601 datetime range.
 
-A single datetime means an exact datetime instead of a range.
+#### `OpenDatetimeISOStringRange`
+
+```typescript
+type OpenDatetimeISOStringRange = [start: DatetimeISOString | null, end: DatetimeISOString | null];
+```
+
+Valid ISO 8601 datetime range. Null start/end represent an open end.
 
 #### `DurationISOString`
 

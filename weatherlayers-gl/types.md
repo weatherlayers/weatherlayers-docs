@@ -165,3 +165,19 @@ type DatetimeISOStringRange = [start: DatetimeISOString, end: DatetimeISOString]
 ```
 
 Valid ISO 8601 datetime range.
+
+#### `OpenDatetimeISOStringRange`
+
+```typescript
+type OpenDatetimeISOStringRange = [start: DatetimeISOString | null, end: DatetimeISOString | null];
+```
+
+Valid ISO 8601 datetime range. Null start/end represent an open end.
+
+#### `DurationISOString`
+
+```typescript
+type DurationISOString = string;
+```
+
+Valid ISO 8601 duration.

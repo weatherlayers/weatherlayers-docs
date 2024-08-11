@@ -1,6 +1,6 @@
 # Changelog
 
-### Upcoming
+### 2024.8.0
 
 _TBD_
 

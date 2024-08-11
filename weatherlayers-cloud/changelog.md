@@ -1,6 +1,6 @@
 # Changelog
 
-### Upcoming
+### 2024.8.0
 
 _TBD_
 
@@ -12,6 +12,10 @@ Minor changes:
 
 * Split `UnitDefinition` interface (with `UnitSystem`) from `UnitFormat` interface (without `UnitSystem`)
 * Update `datetimeRange` in `loadDataset` response to be open-ended
+
+Bug fixes:
+
+* Fix `referenceDatetime`, `horizon` in `loadDatasetData` response to match the returned data image
 
 ### 2024.7.0
 

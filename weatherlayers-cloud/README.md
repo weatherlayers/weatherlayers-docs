@@ -4,7 +4,7 @@ WeatherLayers Cloud is a cloud service providing visualization-ready weather dat
 
 Peer dependencies:
 
-* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.1.3 (if loading GeoTIFF images)
+* [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.0 (if loading GeoTIFF images)
 
 ### Versioning
 

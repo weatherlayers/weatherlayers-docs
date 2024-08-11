@@ -2,7 +2,7 @@
 
 ### 2024.8.0
 
-_TBD_
+_August 11th, 2024_
 
 New features:
 

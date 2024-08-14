@@ -1,5 +1,14 @@
 # Changelog
 
+### Upcoming
+
+_TBD_
+
+Minor changes:
+
+* Replace TS enums with `as const` for cross-bundle compatible enums between `weatherlayers-gl` and `weatherlayers-gl/client`
+  * [https://www.totaltypescript.com/books/total-typescript-essentials/deriving-types#using-as-const-for-javascript-style-enums](https://www.totaltypescript.com/books/total-typescript-essentials/deriving-types#using-as-const-for-javascript-style-enums)
+
 ### 2024.8.0
 
 _August 11th, 2024_

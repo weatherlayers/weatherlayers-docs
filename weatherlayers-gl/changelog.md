@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.8.2
+
+_August 23rd, 2024_
+
+Bug fixes:
+
+* Fix `The provided float value is non-finite.` error in Chrome 128
+
 ### 2024.8.1
 
 _August 20th, 2024_

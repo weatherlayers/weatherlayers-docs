@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.9.0
+
+_September 22nd, 2024_
+
+Bug fixes:
+
+* Fix nodata detection for float inaccuracy in alpha channel
+
 ### 2024.8.2
 
 _August 23rd, 2024_

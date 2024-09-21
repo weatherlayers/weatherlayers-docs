@@ -1,5 +1,13 @@
 # Changelog
 
+### 2024.9.0
+
+_September 22nd, 2024_
+
+Minor changes:
+
+* Upgrade to STAC 1.1.0
+
 ### 2024.8.2
 
 _August 23rd, 2024_

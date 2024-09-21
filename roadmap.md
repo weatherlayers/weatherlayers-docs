@@ -1,6 +1,5 @@
 # Roadmap
 
-* high-resolution tiled data (COG)
-* Particle layer with particle color based on the data
+* Contour layer with labels
+* High-resolution tiled data (COG)
 * HighLow layer with animation support
-* map library integration improvements

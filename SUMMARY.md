@@ -37,4 +37,5 @@
   * [Datasets](weatherlayers-cloud/datasets.md)
   * [Pricing](weatherlayers-cloud/pricing.md)
   * [Changelog](weatherlayers-cloud/changelog.md)
+  * [Roadmap](weatherlayers-cloud/roadmap.md)
 * [Contact](contact.md)

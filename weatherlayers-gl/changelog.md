@@ -2,7 +2,7 @@
 
 ### 2024.9.1
 
-_September 24nd, 2024_
+_Upcoming_
 
 Minor changes:
 

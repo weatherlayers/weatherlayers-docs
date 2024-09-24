@@ -1,5 +1,14 @@
 # Changelog
 
+### 2024.9.1
+
+_September 24nd, 2024_
+
+Minor changes:
+
+* Replace uniforms with Uniform Buffer Objects as preparation for deck.gl 9.1
+* Repeat the texture for global data, clamp the texture for regional data
+
 ### 2024.9.0
 
 _September 22nd, 2024_

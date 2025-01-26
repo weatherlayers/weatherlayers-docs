@@ -1,8 +1,21 @@
 # Changelog
 
+### 2025.1.0
+
+_January 26nd, 2025_
+
+New features:
+
+* Support for MapLibre Globe projection
+  * Requires MapLibre >= 5.0.0. See [https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0](https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0)
+
+Peer dependencies:
+
+* **⚠️ Upgrade to deck.gl 9.1.0**
+
 ### 2024.9.1
 
-_Upcoming_
+_September 28nd, 2024_
 
 Minor changes:
 

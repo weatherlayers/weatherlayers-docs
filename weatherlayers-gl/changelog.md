@@ -9,6 +9,10 @@ New features:
 * Support for MapLibre Globe projection
   * Requires MapLibre >= 5.0.0. See [https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0](https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0)
 
+Bug fixes:
+
+* Set correct culling and depth testing
+
 Peer dependencies:
 
 * **⚠️ Upgrade to deck.gl 9.1.0**

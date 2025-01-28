@@ -11,7 +11,8 @@ New features:
 
 Bug fixes:
 
-* Generate particles uniformly in all latitudes in globe projection
+* Uniform grid point density in all latitudes in globe projection
+* Uniform particle speed in all latitudes in globe projection
 
 Peer dependencies:
 

@@ -6,8 +6,12 @@ _January 26nd, 2025_
 
 New features:
 
-* Support for MapLibre Globe projection
+* Support for MapLibre globe projection
   * Requires MapLibre >= 5.0.0. See [https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0](https://github.com/maplibre/maplibre-gl-js/releases/tag/v5.0.0)
+
+Bug fixes:
+
+* Generate particles uniformly in all latitudes in globe projection
 
 Peer dependencies:
 

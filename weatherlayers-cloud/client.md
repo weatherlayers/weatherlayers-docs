@@ -29,7 +29,7 @@ const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await clie
 // load current data
 const dataset = 'gfs/wind_10m_above_ground';
 const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
-const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetDataNow(dataset);
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset);
 ```
 
 ### Example: Load data by datetime
@@ -122,10 +122,6 @@ Loads dataset slice with available datetimes in the given datetime range from th
 
 The current data with offset can be loaded by providing `datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24)`.
 
-#### `loadDatasetDataNow(dataset: string, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
+#### `loadDatasetData(dataset: string, datetime?:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
 
-Loads the current dataset data from the catalog.
-
-#### `loadDatasetData(dataset: string, datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
-
-Loads dataset data at the given datetime from the catalog.
+Loads dataset data at the given datetime from the catalog. If the datetime is not provided, the current data is loaded.

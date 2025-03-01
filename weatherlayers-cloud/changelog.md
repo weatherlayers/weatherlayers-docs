@@ -6,7 +6,7 @@ _March 2nd, 2025_
 
 New features:
 
-* Add `loadDatasetDataNow` function to support loading current data
+* Update `loadDatasetData` function `datetime` param to be optional to support loading current data
 
 ### 2024.9.0
 

@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.3.0
+
+_March 2nd, 2025_
+
+New features:
+
+* Add `loadDatasetDataNow` function to support loading current data
+
 ### 2024.9.0
 
 _September 22nd, 2024_

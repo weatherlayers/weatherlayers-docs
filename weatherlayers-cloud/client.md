@@ -106,4 +106,6 @@ The current data with offset can be loaded by providing `datetimeRange = Weather
 
 Loads dataset data at the given datetime from the catalog.
 
-The current data can be loaded by providing `datetime = new Date().toISOString()`.
+#### `loadDatasetDataNow(dataset: string, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
+
+Loads the current dataset data from the catalog.

@@ -9,9 +9,6 @@ Configure client with your WeatherLayers Cloud access token created in [WeatherL
 ```javascript
 import * as WeatherLayersClient from 'weatherlayers-gl/client';
 
-// calculate the datetime range for visualization as 0-24 forecast
-const datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24);
-
 // use your WeatherLayers Cloud access token
 const client = new WeatherLayersClient.Client({
   accessToken: 'xxx',
@@ -25,6 +22,31 @@ const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
 const datetime = datetimes[0];
 const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetime);
 ```
+
+### Example: Load current data
+
+```javascript
+// load current data
+const dataset = 'gfs/wind_10m_above_ground';
+const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetDataNow(dataset);
+```
+
+### Example: Load data by datetime
+
+```javascript
+// calculate the datetime range for visualization as 0-24 forecast
+const datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24);
+
+// load dataset slice, load data in the first available datetime
+const dataset = 'gfs/wind_10m_above_ground';
+const {title, unitFormat, attribution, referenceDatetimeRange, palette} = await client.loadDataset(dataset);
+const {datetimes} = await client.loadDatasetSlice(dataset, datetimeRange);
+const datetime = datetimes[0];
+const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetime);
+```
+
+###
 
 ### Constructor
 
@@ -102,10 +124,10 @@ Loads dataset slice with available datetimes in the given datetime range from th
 
 The current data with offset can be loaded by providing `datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24)`.
 
-#### `loadDatasetData(dataset: string, datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
-
-Loads dataset data at the given datetime from the catalog.
-
 #### `loadDatasetDataNow(dataset: string, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
 
 Loads the current dataset data from the catalog.
+
+#### `loadDatasetData(dataset: string, datetime:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
+
+Loads dataset data at the given datetime from the catalog.

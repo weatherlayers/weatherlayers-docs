@@ -46,8 +46,6 @@ const datetime = datetimes[0];
 const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await client.loadDatasetData(dataset, datetime);
 ```
 
-###
-
 ### Constructor
 
 #### `Client(config: ClientConfig = {})`

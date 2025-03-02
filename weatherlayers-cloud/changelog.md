@@ -2,7 +2,7 @@
 
 ### 2025.3.0
 
-Upcoming
+_Upcoming_
 
 New features:
 

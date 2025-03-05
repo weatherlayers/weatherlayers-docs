@@ -1,5 +1,21 @@
 # Changelog
 
+### 2025.3.0
+
+_March 3rd, 2025_
+
+New features:
+
+* **⚠️ Open-source, dual-license with MPL, remove license file check**
+
+Minor changes:
+
+* Stop bundling dependencies
+
+Bug fixes:
+
+* Reorder exports by priority, fixes warning with Vite 6
+
 ### 2025.1.0
 
 _January 26nd, 2025_

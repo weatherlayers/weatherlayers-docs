@@ -14,4 +14,4 @@ Free
 
 Single Domain Subscription is bound to a single production domain, includes all corresponding subdomains.
 
-[Contact us](mailto:info@weatherlayers.com)
+300 EUR/year

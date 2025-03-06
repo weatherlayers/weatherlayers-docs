@@ -7,11 +7,11 @@ _March 3rd, 2025_
 New features:
 
 * **⚠️ Open-source, dual-license with MPL**
-* Remove license file check and watermark
-* Remove `setLicense` function
 
 Minor changes:
 
+* Remove license file check and watermark
+* Remove `setLicense` function
 * Stop bundling dependencies
 
 Bug fixes:

@@ -1,11 +1,5 @@
 # Functions
 
-### License Functions
-
-#### `setLicense(license: License): void`
-
-Sets the license to authorize library usage.
-
 ### Library Functions
 
 #### `setLibrary<T>(name: string, library: T): void`

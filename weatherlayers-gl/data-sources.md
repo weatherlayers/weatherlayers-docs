@@ -57,9 +57,7 @@ See [gdal\_calc](https://gdal.org/en/stable/programs/gdal_calc.html) for calcula
 
 ### Example – Temperature from GRIB to PNG
 
-Scale from \[213.15, 325.15] to \[0, 255]
-
-Disable GDAL unit normalization from K to C
+Scale from \[213.15, 325.15] to \[0, 255], disable GDAL unit normalization from K to C:
 
 {% code overflow="wrap" %}
 ```sh
@@ -67,9 +65,14 @@ gdal_translate -ot Byte -scale 213.15 325.15 0 255 --config GRIB_NORMALIZE_UNITS
 ```
 {% endcode %}
 
+WeatherLayers GL configuration:
+
+* `imageType: WeatherLayers.ImageType.SCALAR`
+* `imageUnscale: [213.15, 325.15]`
+
 ### Example – Wind from GRIB to PNG
 
-Calculate vector magnitude
+Calculate vector magnitude:
 
 {% code overflow="wrap" %}
 ```sh
@@ -77,7 +80,7 @@ gdal_calc --calc='sqrt(A * A + B * B)' -A wind_u.grib --A_band=1 -B wind_v.grib 
 ```
 {% endcode %}
 
-Merge files
+Merge files:
 
 {% code overflow="wrap" %}
 ```sh
@@ -85,10 +88,15 @@ gdalbuildvrt -separate wind.vrt wind_magnitude.tif wind_u.grib wind_v.grib
 ```
 {% endcode %}
 
-Scale from \[-128, 127] to \[0, 255]
+Scale from \[-128, 127] to \[0, 255]:
 
 {% code overflow="wrap" %}
 ```sh
 gdal_translate -ot Byte -scale -128 127 0 255 wind.vrt wind.png
 ```
 {% endcode %}
+
+WeatherLayers GL configuration:
+
+* `imageType: WeatherLayers.ImageType.VECTOR`
+* `imageUnscale: [-128, 127]`

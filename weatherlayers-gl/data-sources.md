@@ -49,6 +49,46 @@ For integrating any custom data (NetCDF, GRIB), the data needs to be transformed
 
 Data transformation into a supported format can be done on your servers with GDAL.
 
-See [gdal\_translate](https://gdal.org/programs/gdal\_translate.html) for transformations between data types and data formats.
+See [gdal\_translate](https://gdal.org/programs/gdal_translate.html) for transformations between data types and data formats.
 
 See [gdalwarp](https://gdal.org/programs/gdalwarp.html) for transformations between map projections.
+
+See [gdal\_calc](https://gdal.org/en/stable/programs/gdal_calc.html) for calculations and [gdalbuildvrt](https://gdal.org/en/stable/programs/gdalbuildvrt.html) for merging files.
+
+### Example – Temperature from GRIB to PNG
+
+Scale from \[213.15, 325.15] to \[0, 255]
+
+Disable GDAL unit normalization from K to C
+
+{% code overflow="wrap" %}
+```sh
+gdal_translate -ot Byte -scale 213.15 325.15 0 255 --config GRIB_NORMALIZE_UNITS=NO temperature.grib temperature.png
+```
+{% endcode %}
+
+### Example – Wind from GRIB to PNG
+
+Calculate vector magnitude
+
+{% code overflow="wrap" %}
+```sh
+gdal_calc --calc='sqrt(A * A + B * B)' -A wind_u.grib --A_band=1 -B wind_v.grib --B_band=1 --outfile wind_magnitude.tif
+```
+{% endcode %}
+
+Merge files
+
+{% code overflow="wrap" %}
+```sh
+gdalbuildvrt -separate wind.vrt wind_magnitude.tif wind_u.grib wind_v.grib
+```
+{% endcode %}
+
+Scale from \[-128, 127] to \[0, 255]
+
+{% code overflow="wrap" %}
+```sh
+gdal_translate -ot Byte -b 1 -b 2 -b 3 -scale_1 -128 127 0 255 -scale_2 -128 127 0 255 -scale_3 -128 127 0 255 wind.vrt wind.png
+```
+{% endcode %}

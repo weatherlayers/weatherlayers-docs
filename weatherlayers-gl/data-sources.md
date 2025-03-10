@@ -89,6 +89,6 @@ Scale from \[-128, 127] to \[0, 255]
 
 {% code overflow="wrap" %}
 ```sh
-gdal_translate -ot Byte -b 1 -b 2 -b 3 -scale_1 -128 127 0 255 -scale_2 -128 127 0 255 -scale_3 -128 127 0 255 wind.vrt wind.png
+gdal_translate -ot Byte -scale -128 127 0 255 wind.vrt wind.png
 ```
 {% endcode %}

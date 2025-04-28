@@ -6,6 +6,8 @@
 npm install weatherlayers-gl
 ```
 
+GitHub: [https://github.com/weatherlayers/weatherlayers-gl](https://github.com/weatherlayers/weatherlayers-gl)
+
 ### Production Usage
 
 ```typescript

@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.5.0
+
+_May 4th, 2025_
+
+Bug fixes:
+
+* Drop particles by position instead of color, fixes drop detection on Android
+
 ### 2025.3.0
 
 _March 3rd, 2025_

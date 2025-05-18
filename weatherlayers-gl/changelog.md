@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.5.1
+
+_May 18th, 2025_
+
+Bug fixes:
+
+* Add rollup-plugin-worker-factory to dependencies to avoid a strict bundler error
+
 ### 2025.5.0
 
 _May 4th, 2025_

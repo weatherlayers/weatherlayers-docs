@@ -72,19 +72,15 @@ WeatherLayers GL configuration:
 
 ### Example – Wind from GRIB to PNG
 
-Calculate vector magnitude:
+Merge U and V files:
+
+* R channel: U variable
+* G channel: V variable
+* B channel: anything, it's ignored, duplicating V variable is the easiest with GDAL, otherwise it would need a new separately created dataset with zeroes
 
 {% code overflow="wrap" %}
 ```sh
-gdal_calc --calc='sqrt(A * A + B * B)' -A wind_u.grib --A_band=1 -B wind_v.grib --B_band=1 --outfile wind_magnitude.tif
-```
-{% endcode %}
-
-Merge files:
-
-{% code overflow="wrap" %}
-```sh
-gdalbuildvrt -separate wind.vrt wind_magnitude.tif wind_u.grib wind_v.grib
+gdalbuildvrt -separate wind.vrt wind_u.grib wind_v.grib wind_v.grib
 ```
 {% endcode %}
 

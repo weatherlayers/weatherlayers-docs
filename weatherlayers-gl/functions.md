@@ -31,6 +31,8 @@ interface CachedLoadOptions<T> {
 }
 ```
 
+Custom HTTP headers can be provided by `headers`.
+
 The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 
 ### Datetime Functions

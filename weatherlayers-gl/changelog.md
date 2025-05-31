@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.5.2
+
+_May 31st, 2025_
+
+Bug fixes:
+
+* Add support for loading data with custom HTTP headers
+
 ### 2025.5.1
 
 _May 18th, 2025_

@@ -90,6 +90,14 @@ Formats:
 * text (`string`) - see [Text format](https://github.com/weatherlayers/cpt2js#text-format) for details
 * array (`[number, PaletteColor][]`) - `PaletteColor` is any object accepted by [Chroma.js constructor](https://vis4.net/chromajs/#chroma)
 
+#### `gridEnabled`
+
+Type: boolean, optional
+
+Default: `false`
+
+Displays a grid of points to allow for verification how the rendered data aligns to the grid.
+
 ### Picking Info
 
 Type: [`RasterPointProperties`](../types.md#rasterpointproperties)

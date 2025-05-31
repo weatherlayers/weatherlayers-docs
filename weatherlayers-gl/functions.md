@@ -10,19 +10,26 @@ By default, optional dependencies are loaded with a dynamic import. If the dynam
 
 ### Load Functions
 
-#### `loadTextureData(url: string, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<`[`TextureData`](types.md#texturedata)`>`
+#### `loadTextureData(url: string, options?: CachedLoadOptions<TextureData>): Promise<`[`TextureData`](types.md#texturedata)`>`
 
 Loads the url as texture data. The url should be PNG, WebP or GeoTIFF image.
 
 GeoTIFF requires [geotiff.js ](https://github.com/geotiffjs/geotiff.js/)as an optional dependency if loading GeoTIFF images.
 
-The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
-
 Use in `image`/`image2` property.
 
-#### `loadJson(url: string, cache?: Map<string, any> | false = DEFAULT_CACHE): Promise<string>`
+#### `loadJson(url: string, options?: CachedLoadOptions<any>): Promise<any>`
 
 Loads the url as JSON. The response should be a JSON file.
+
+#### `CachedLoadOptions`
+
+```typescript
+interface CachedLoadOptions<T> {
+  headers?: Record<string, string>;
+  cache?: Map<string, T | Promise<T>> | false;
+}
+```
 
 The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 

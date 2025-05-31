@@ -1,12 +1,18 @@
 # Changelog
 
-### 2025.5.2
+### 2025.6.0
 
-_May 31st, 2025_
+_June 1st, 2025_
+
+New features:
+
+* Add `gridEnabled` to Raster layer
+* Add support for loading data with custom HTTP headers
+  * ⚠️ Use an options object as the second argument in `loadTextureData`
 
 Bug fixes:
 
-* Add support for loading data with custom HTTP headers
+* Fix grid offset for local images
 
 ### 2025.5.1
 

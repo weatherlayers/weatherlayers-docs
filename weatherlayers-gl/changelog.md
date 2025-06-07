@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.6.1
+
+_June 7th, 2025_
+
+Bug fixes:
+
+* Wait for image to be loaded before decoding
+
 ### 2025.6.0
 
 _June 1st, 2025_

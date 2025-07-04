@@ -1,5 +1,15 @@
 # Changelog
 
+### 2025.7.0
+
+_July 4th, 2025_
+
+Bug fixes:
+
+* Fix error "TypeError: Cannot read private member from an object whose class did not declare it" by improving compatibility with HMR proxies by using TS private fields instead of ESM private fields
+* Fix Node.js error "Module not found: Error: Default condition should be last one" by adding a default package export
+* Fix Particle layer warning "Ignoring buffer for unknown attribute"
+
 ### 2025.6.1
 
 _June 7th, 2025_

@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.7.1
+
+_July 6th, 2025_
+
+Bug fixes:
+
+* Fix Grid layer occasionally not displaying interpolated points due to floating-point calculation precision loss
+
 ### 2025.7.0
 
 _July 4th, 2025_

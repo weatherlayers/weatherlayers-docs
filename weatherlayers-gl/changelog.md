@@ -1,5 +1,15 @@
 # Changelog
 
+### 2025.7.2
+
+_July 13th, 2025_
+
+Bug fixes:
+
+* Fix "Image can't be decoded" error by avoiding multiple parallel decodes to hit a memory limit
+  * [https://issues.chromium.org/issues/40676514](https://issues.chromium.org/issues/40676514)
+* Fix loading GridLayer icons in an insecure context by using the loaded URL as a cache key directly instead of hashing it
+
 ### 2025.7.1
 
 _July 6th, 2025_

@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.8.0
+
+_August 8th, 2025_
+
+Bug fixes:
+
+* Fix CJS bundler error by updating transitive dependencies (cpt2js, geodesy-fn) to export dist files with .cjs file extension while keeping ESM default
+
 ### 2025.7.2
 
 _July 13th, 2025_

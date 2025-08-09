@@ -1,5 +1,21 @@
 # Troubleshooting
 
+### deck.gl shader hooks are not resolved
+
+#### Issue
+
+deck.gl must be used from a single bundle, otherwise it fails to resolve its shader hooks `DECKGL_FILTER_SIZE`, `DECKGL_FILTER_GL_POSITION`, `DECKGL_FILTER_COLOR`.
+
+The shader source code calls these hooks but it's missing their declaration.
+
+#### Symptoms
+
+No layer displays. "Vertex shader is not compiled" error is logged in the browser console.
+
+#### Solution
+
+Check for duplicate deck.gl bundles used (versions or ESM vs CJS). Ensure that a single deck.gl bundle is used.
+
 ### Layers can't be enabled after disabling in MapLibre/Mapbox interleaved mode
 
 #### Issue

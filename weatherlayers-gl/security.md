@@ -14,4 +14,4 @@
 
 `data:` - used by Legend Control and Grid Layer / Front Layer
 
-`blob:` - used by loadTextureData with custom headers
+`blob:` - used by loadTextureData with custom headers or abort signal

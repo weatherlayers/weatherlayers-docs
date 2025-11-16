@@ -2,6 +2,34 @@
 
 ### Load Types
 
+#### `ClientConfig`
+
+```typescript
+interface ClientConfig {
+  url?: string;
+  accessToken?: string;
+  dataFormat?: string;
+  unitSystem?: UnitSystem;
+  attributionLinkClass?: string;
+  datetimeStep?: number;
+  datetimeInterpolate?: boolean;
+}
+```
+
+#### `LoadConfig`
+
+```typescript
+export interface LoadConfig extends ClientConfig {
+  tile?: { z: number; x: number; y: number };
+  signal?: AbortSignal;
+}
+```
+
+Data request load config.
+
+* `tile` - tile XYZ coordinates for loading tiled data
+* `signal` - abort signal for cancelling the request
+
 #### `Dataset`
 
 ```typescript
@@ -9,13 +37,12 @@ interface Dataset {
   title: string;
   unitFormat: UnitFormat;
   attribution: string;
+  bounds: [number, number, number, number];
   datetimeRange: OpenDatetimeISOStringRange;
   datetimes: DatetimeISOString[]; // deprecated, use `loadDatasetSlice` instead
   palette: Palette;
 }
 ```
-
-Dataset metadata.
 
 #### `DatasetSlice`
 

@@ -48,7 +48,7 @@ const {image, image2, imageWeight, imageType, imageUnscale, bounds} = await clie
 
 ### Constructor
 
-#### `Client(config: ClientConfig = {})`
+#### `Client(config:` [`ClientConfig`](types.md#clientconfig) `= {})`
 
 ### Config properties
 
@@ -112,16 +112,16 @@ For example, if a datetime 6:30 is requested, but 6:00 and 7:00 exist, `{ image:
 
 Loads dataset ids from the catalog.
 
-#### `loadDataset(dataset: string, config: ClientConfig = {}): Promise<`[`Dataset`](types.md#dataset)`>`
+#### `loadDataset(dataset: string, config:` [`ClientConfig`](types.md#clientconfig) `= {}): Promise<`[`Dataset`](types.md#dataset)`>`
 
 Loads dataset metadata from the catalog.
 
-#### `loadDatasetSlice(dataset: string, datetimeRange:` [`DatetimeISOStringRange`](types.md#datetimeisostringrange)`, config: ClientConfig = {}): Promise<`[`DatasetSlice`](types.md#datasetslice)`>`
+#### `loadDatasetSlice(dataset: string, datetimeRange:` [`DatetimeISOStringRange`](types.md#datetimeisostringrange)`, config:` [`ClientConfig`](types.md#clientconfig) `= {}): Promise<`[`DatasetSlice`](types.md#datasetslice)`>`
 
 Loads dataset slice with available datetimes in the given datetime range from the catalog.
 
 The current data with offset can be loaded by providing `datetimeRange = WeatherLayers.offsetDatetimeRange(new Date().toISOString(), 0, 24)`.
 
-#### `loadDatasetData(dataset: string, datetime?:` [`DatetimeISOString`](types.md#datetimeisostring)`, config: ClientConfig = {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
+#### `loadDatasetData(dataset: string, datetime?:` [`DatetimeISOString`](types.md#datetimeisostring)`, config:` [`LoadConfig`](types.md#loadconfig) `= {}): Promise<`[`DatasetData`](types.md#datasetdata)`>`
 
 Loads dataset data at the given datetime from the catalog. If the datetime is not provided, the current data is loaded.

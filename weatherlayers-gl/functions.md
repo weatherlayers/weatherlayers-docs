@@ -22,16 +22,27 @@ Use in `image`/`image2` property.
 
 Loads the url as JSON. The response should be a JSON file.
 
-#### `CachedLoadOptions`
+#### `LoadOptions`
 
 ```typescript
-interface CachedLoadOptions<T> {
+interface LoadOptions {
   headers?: Record<string, string>;
-  cache?: Map<string, T | Promise<T>> | false;
+  signal?: AbortSignal;
 }
 ```
 
-Custom HTTP headers can be provided by `headers`.
+Data request load options.
+
+* `headers` - custom HTTP headers
+* `signal` - abort signal for cancelling the request
+
+#### `CachedLoadOptions`
+
+```typescript
+interface CachedLoadOptions<T> extends LoadOptions {
+  cache?: Map<string, T | Promise<T>> | false;
+}
+```
 
 The response is cached to the given cache, or to the default global cache, or caching can be disabled by `false`.
 

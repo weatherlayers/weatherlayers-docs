@@ -1,5 +1,19 @@
 # Changelog
 
+### 2025.11.0
+
+_November 16th, 2025_
+
+New features:
+
+* Add support for loading data with abort signal
+  * This loads data with `fetch` as a blob instead of as an image
+* Add `borderEnabled`, `borderWidth`, `borderColor`, `gridEnabled`, `gridSize`, `gridColor` to Raster layer
+
+Peer dependencies:
+
+* **⚠️ Upgrade to deck.gl 9.2.0**
+
 ### 2025.8.0
 
 _August 8th, 2025_
@@ -53,6 +67,7 @@ New features:
 * Add `gridEnabled` to Raster layer
 * Add support for loading data with custom HTTP headers
   * ⚠️ Use an options object as the second argument in `loadTextureData`
+  * This loads data with `fetch` as a blob instead of as an image
 
 Bug fixes:
 

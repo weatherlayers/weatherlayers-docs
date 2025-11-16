@@ -1,5 +1,16 @@
 # Changelog
 
+### 2025.11.0
+
+_November 16th, 2025_
+
+New features:
+
+* Add support for loading data with abort signal
+  * This loads data with `fetch` as a blob instead of as an image
+* Add `bounds` to `loadDataset` response
+* Set default data format to WebP
+
 ### 2025.3.0
 
 _March 3rd, 2025_

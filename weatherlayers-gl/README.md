@@ -4,8 +4,8 @@ WeatherLayers GL is a library of high-performance interactive weather visualizat
 
 Peer dependencies:
 
-* [deck.gl](https://deck.gl) >= 9.1.0
-* [luma.gl](https://luma.gl/) >= 9.1.0
+* [deck.gl](https://deck.gl) >= 9.2.0
+* [luma.gl](https://luma.gl/) >= 9.2.0
 * [geotiff.js](https://github.com/geotiffjs/geotiff.js/) >= 2.0.0 (if loading GeoTIFF images)
 * [maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js) >= 5.0.0 or (if using MapLibre Globe projection) or >= 3.0.0 (if using MapLibre with deck.gl interleaved to support WebGL2)
 * [mapbox-gl-js](https://github.com/mapbox/mapbox-gl-js) >= 3.0.0 (if using Mapbox with deck.gl interleaved to support WebGL2)
@@ -13,3 +13,9 @@ Peer dependencies:
 ### Versioning
 
 WeatherLayers GL uses [Calendar Versioning](https://calver.org/) schema `YYYY.MM.MICRO`, e.g. `2022.4.0`.
+
+### Compatibility
+
+* deck.gl 9.2 - WeatherLayers GL 2025.11.0-latest
+* deck.gl 9.1 - WeatherLayers GL 2025.1.0-2025.8.0
+* deck.gl 9.0 - WeatherLayers GL 2024.4.0-2024.9.1

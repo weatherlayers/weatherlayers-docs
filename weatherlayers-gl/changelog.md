@@ -1,5 +1,13 @@
 # Changelog
 
+### 2025.12.0
+
+_December 11th, 2025_
+
+Peer dependencies:
+
+* Upgrade to deck.gl 9.2.5
+
 ### 2025.11.0
 
 _November 16th, 2025_

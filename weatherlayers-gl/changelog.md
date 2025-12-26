@@ -7,6 +7,7 @@ _December 11th, 2025_
 Peer dependencies:
 
 * Upgrade to deck.gl 9.2.5
+  * [https://github.com/weatherlayers/weatherlayers-gl/issues/24](https://github.com/weatherlayers/weatherlayers-gl/issues/24)
 
 ### 2025.11.0
 

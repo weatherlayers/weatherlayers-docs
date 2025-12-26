@@ -4,10 +4,14 @@
 
 _December 11th, 2025_
 
+Bug fixes:
+
+* Fix "bytesPerRow must be a multiple of bytesPerPixel for rgba8unorm" error
+  * [https://github.com/weatherlayers/weatherlayers-gl/issues/24](https://github.com/weatherlayers/weatherlayers-gl/issues/24)
+
 Peer dependencies:
 
 * Upgrade to deck.gl 9.2.5
-  * [https://github.com/weatherlayers/weatherlayers-gl/issues/24](https://github.com/weatherlayers/weatherlayers-gl/issues/24)
 
 ### 2025.11.0
 

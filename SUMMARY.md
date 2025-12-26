@@ -30,6 +30,7 @@
   * [Roadmap](roadmap.md)
 * [WeatherLayers Cloud](weatherlayers-cloud/README.md)
   * [Quick Start](weatherlayers-cloud/quick-start.md)
+  * [Architecture](weatherlayers-cloud/architecture.md)
   * [Client](weatherlayers-cloud/client.md)
   * [Types](weatherlayers-cloud/types.md)
   * [Security](weatherlayers-cloud/security.md)

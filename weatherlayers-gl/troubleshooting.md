@@ -36,7 +36,7 @@ After adding `deck.MapboxOverlay` to the map with `maplibregl.Map.addControl`, a
 
 #### Issue
 
-HighLowLayer uses deck.gl CollisionFilterExtension, which has a known unresolved bug that it can't be used after bitmap layers (RasterLayer, ContourLayer). [https://github.com/visgl/deck.gl/issues/7864](https://github.com/visgl/deck.gl/issues/7864)
+HighLowLayer uses deck.gl CollisionFilterExtension, which can't be used after bitmap layers (RasterLayer, ContourLayer) in deck.gl <9.2.6. [https://github.com/visgl/deck.gl/issues/7864](https://github.com/visgl/deck.gl/issues/7864)
 
 #### Symptoms
 
@@ -44,6 +44,6 @@ HighLowLayer doesn't display.
 
 #### Solution
 
-Move HighLowLayer to be before bitmap layers (RasterLayer, ContourLayer), and offset it with `getPolygonOffset: () => [0, -1000]`.
+Upgrade to deck.gl 9.2.6+ and set `_renderLayersInGroups: true` in `MapboxOverlay` .
 
-Or upgrade to deck.gl 9.2.6 and set `_renderLayersInGroups: true` in `MapboxOverlay` .
+Previous workaround: Move HighLowLayer to be before bitmap layers (RasterLayer, ContourLayer), and offset it with `getPolygonOffset: () => [0, -1000]`.

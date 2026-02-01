@@ -45,3 +45,5 @@ HighLowLayer doesn't display.
 #### Solution
 
 Move HighLowLayer to be before bitmap layers (RasterLayer, ContourLayer), and offset it with `getPolygonOffset: () => [0, -1000]`.
+
+Or upgrade to deck.gl 9.2.6 and set `_renderLayersInGroups: true` in `MapboxOverlay` .

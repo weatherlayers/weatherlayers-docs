@@ -1,5 +1,20 @@
 # Changelog
 
+### 2026.2.0
+
+_February 1st, 2026_
+
+Minor changes:
+
+* Use \_renderLayersInGroups for Maplibre/Mapbox interleaved demo
+* Improve HighLow layer performance
+  * Use filterSubLayer for minZoom/maxZoom, to avoid using shouldUpdateState with changeFlags.viewportChanged
+
+Peer dependencies:
+
+* Upgrade to deck.gl 9.2.6
+* Upgrade to geotiff.js 3.0.0
+
 ### 2025.12.0
 
 _December 11th, 2025_

@@ -16,6 +16,7 @@ WeatherLayers GL uses [Calendar Versioning](https://calver.org/) schema `YYYY.MM
 
 ### Compatibility
 
-* deck.gl 9.2 - WeatherLayers GL 2025.11.0-latest
+* deck.gl 9.3 - WeatherLayers GL 2026.5.0-latest
+* deck.gl 9.2 - WeatherLayers GL 2025.11.0-2026.2.0
 * deck.gl 9.1 - WeatherLayers GL 2025.1.0-2025.8.0
 * deck.gl 9.0 - WeatherLayers GL 2024.4.0-2024.9.1

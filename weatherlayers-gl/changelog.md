@@ -1,5 +1,13 @@
 # Changelog
 
+### 2026.5.0
+
+_May 10th, 2026_
+
+Peer dependencies:
+
+* **⚠️ Upgrade to deck.gl 9.3.2**
+
 ### 2026.2.0
 
 _February 1st, 2026_

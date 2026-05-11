@@ -1,5 +1,13 @@
 # Changelog
 
+### 2026.5.1
+
+_May 11th, 2026_
+
+Bug fixes:
+
+* Fix "Binding bitmapTexture not set: Not found in shader layout" warning
+
 ### 2026.5.0
 
 _May 10th, 2026_

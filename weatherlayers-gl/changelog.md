@@ -1,5 +1,13 @@
 # Changelog
 
+### 2026.5.2
+
+_May 24th, 2026_
+
+Bug fixes:
+
+* Round numParticles to a multiple of 4, to improve compatibility with strict GPUs
+
 ### 2026.5.1
 
 _May 11th, 2026_

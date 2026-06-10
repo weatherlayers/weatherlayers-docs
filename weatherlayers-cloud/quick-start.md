@@ -21,4 +21,4 @@ A valid access token is required to use the library. Sign up at [WeatherLayers A
 
 ### Production Usage
 
-[Contact support](mailto:support@weatherlayers.com) to upgrade your access token for a production usage.
+The trial access token is valid for 30 days. After the trial period, the pricing is pricing is a flat fee of 300 EUR or 360 USD / year for one application. The application is defined by the production domain, includes unlimited amount of development or test domains.

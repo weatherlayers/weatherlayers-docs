@@ -4,6 +4,10 @@
 
 _Upcoming_
 
+New features:
+
+* Add FPS to Particle layer
+
 Bug fixes:
 
 * Swap aging and updating particles, to improve compatibility with strict GPUs

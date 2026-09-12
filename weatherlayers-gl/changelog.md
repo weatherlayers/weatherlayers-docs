@@ -1,5 +1,18 @@
 # Changelog
 
+### 2026.9.0
+
+_Upcoming_
+
+Bug fixes:
+
+* Swap aging and updating particles, to improve compatibility with strict GPUs
+* Fix orphaned promises by deleting failed promises from cache
+
+Peer dependencies:
+
+* **⚠️ Upgrade to deck.gl 9.4.0**
+
 ### 2026.5.2
 
 _May 24th, 2026_

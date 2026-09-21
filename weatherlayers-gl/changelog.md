@@ -2,7 +2,7 @@
 
 ### 2026.9.0
 
-_Upcoming_
+_Sep 21st, 2026_
 
 New features:
 

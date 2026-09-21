@@ -60,6 +60,14 @@ Default: `1`
 
 Speed factor of the particles. The greater speed factor, the longer particle trails.
 
+#### `fps`
+
+Type: number `1-120`, optional
+
+Default: 30
+
+Animation frame rate per second. The greater rate, the faster the animation.
+
 #### `width`
 
 Type: `number`, optional
